@@ -1,0 +1,4417 @@
+# Translations template for Wiki.
+# Copyright (C) 2026 Frappe
+# This file is distributed under the same license as the Wiki project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Wiki VERSION\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2026-10-11 03:45+0000\n"
+"PO-Revision-Date: 2026-10-11 03:45+0000\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: developers@frappe.io\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Label of a Code field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "&lt;head&gt; HTML"
+msgstr "HTML de &lt;head&gt;"
+
+#: frontend/src/pages/Contributions.vue:278
+msgid "1 change request"
+msgstr "1 solicitação de alteração"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:177
+msgid "1 page"
+msgstr "1 página"
+
+#: frontend/src/components/PageMetaLine.vue:73
+msgid "1 view in last 30 days"
+msgstr "1 visualização nos últimos 30 dias"
+
+#: frontend/src/pages/Overview.vue:196
+msgid "30 days"
+msgstr "30 dias"
+
+#: frontend/src/pages/Overview.vue:195
+msgid "7 days"
+msgstr "7 dias"
+
+#: frontend/src/pages/Overview.vue:197
+msgid "90 days"
+msgstr "90 dias"
+
+#. Content of the 'Compare' (HTML) field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid ""
+"<div class=\"mt-6\">\n"
+"\t<div class=\"wiki-diff like-disabled-input\">\n"
+"\t</div>\n"
+"</div>"
+msgstr ""
+
+#: frontend/src/components/WikiSettings/CodePanel.vue:5
+msgid "<head> HTML"
+msgstr "HTML de <head>"
+
+#. Content of the 'github_app_intro' (HTML) field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "<p class=\"text-muted\">Configure a <a href=\"https://docs.github.com/en/apps/creating-github-apps\" target=\"_blank\">GitHub App</a> to let Wiki Spaces sync from GitHub repositories (including private ones). Installation access tokens are minted on demand from the App private key &mdash; no per-space secrets are stored.</p>"
+msgstr "<p class=\"text-muted\">Configure um <a href=\"https://docs.github.com/en/apps/creating-github-apps\" target=\"_blank\">GitHub App</a> para permitir que os espaços Wiki sejam sincronizados a partir de repositórios GitHub (inclusive privados). Os tokens de acesso de instalação são gerados sob demanda a partir da chave privada do aplicativo &mdash; nenhum segredo por espaço é armazenado.</p>"
+
+#. Header text in the Wiki Workspace
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "<span class=\"h4\"><b>Reports</b></span>"
+msgstr "<span class=\"h4\"><b>Relatórios</b></span>"
+
+#. Header text in the Wiki Workspace
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "<span class=\"h4\">Wiki</span>"
+msgstr "<span class=\"h4\">Wiki</span>"
+
+#. Description of the 'Space Icon' (Data) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "A lucide class name from the curated picker list, e.g. lucide-book-open-text."
+msgstr "Um nome de classe Lucide da lista de seleção predefinida, por exemplo, lucide-book-open-text."
+
+#: frontend/src/components/PageSettingsPanel.vue:97
+msgid "A short summary shown in search results and link previews"
+msgstr "Um breve resumo exibido nos resultados de pesquisa e nas prévias de links"
+
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:100
+msgid "A space is connected to GitHub when it is created. A connected space is read-only in the editor — its pages come from the repository."
+msgstr "Um espaço é conectado ao GitHub quando é criado. Um espaço conectado é somente leitura no editor — suas páginas vêm do repositório."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:481
+msgid "A tab must stay at the top level. Remove the tab flag first to move it."
+msgstr "Uma aba deve permanecer no nível superior. Remova primeiro a marcação de aba para movê-la."
+
+#. Label of a Check field in DocType 'Wiki Space'
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:94
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Accept Contributions"
+msgstr "Aceitar contribuições"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:32
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:46
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:169
+msgid "Access"
+msgstr "Acesso"
+
+#. Label of a Tab Break field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Access Control"
+msgstr "Controle de acesso"
+
+#: frontend/src/layouts/MainLayout.vue:85
+msgid "Access Denied"
+msgstr "Acesso negado"
+
+#. Label of a Password field in DocType 'Wiki GitHub Connection'
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "Access Token"
+msgstr "Token de acesso"
+
+#. Label of a Datetime field in DocType 'Wiki GitHub Connection'
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "Access Token Expires At"
+msgstr "O token de acesso expira em"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:345
+msgid "Access control updated"
+msgstr "Controle de acesso atualizado"
+
+#: frontend/src/components/CommandPalette.vue:398
+#: wiki/templates/wiki/includes/search_modal.html:60
+msgid "Actions"
+msgstr "Ações"
+
+#: frontend/src/components/NewSpaceDialog.vue:124
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:22
+msgid "Add"
+msgstr "Adicionar"
+
+#: frontend/src/components/WikiDocumentList.vue:200
+msgid "Add External Link"
+msgstr "Adicionar link externo"
+
+#: frontend/src/components/WikiDocumentList.vue:96
+msgid "Add a group or link"
+msgstr "Adicionar um grupo ou link"
+
+#. Name of a role
+#: frontend/src/pages/AllSpaces.vue:349
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "All"
+msgstr "Todos"
+
+#: frontend/src/components/CommandPalette.vue:224
+#: frontend/src/components/LibrarySidebar.vue:273
+#: frontend/src/pages/AllSpaces.vue:3 frontend/src/pages/AllSpaces.vue:21
+#: frontend/src/pages/AllSpaces.vue:402
+msgid "All Spaces"
+msgstr "Todos os espaços"
+
+#: frontend/src/pages/Contributions.vue:200
+msgid "All in review"
+msgstr "Todas em revisão"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:176
+msgid "All its pages"
+msgstr "Todas as suas páginas"
+
+#: frontend/src/pages/Overview.vue:257
+msgid "All spaces"
+msgstr "Todos os espaços"
+
+#. Label of a Check field in DocType 'Wiki Page'
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Allow Guest"
+msgstr "Permitir convidado"
+
+#. Description of the 'Accept Contributions' (Check) field in DocType 'Wiki
+#. Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Allow readers to propose edits via Change Requests. Users with write/merge access can always edit, even when this is off."
+msgstr "Permitir que leitores proponham edições por meio de solicitações de alteração. Usuários com acesso de escrita ou mesclagem sempre podem editar, mesmo com esta opção desabilitada."
+
+#. Label of a Link field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Amended From"
+msgstr "Retificado de"
+
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:66
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:170
+msgid "Analytics"
+msgstr "Análise de dados"
+
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:215
+msgid "Another page with the route '{0}' already exists: {1}"
+msgstr "Já existe outra página com a rota '{0}': {1}"
+
+#: wiki/templates/wiki/includes/feedback_widget.html:44
+msgid "Anything you'd like to add?"
+msgstr "Gostaria de acrescentar algo?"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:19
+msgid "App ID"
+msgstr "ID do aplicativo"
+
+#. Label of a Data field in DocType 'Migrate To Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "App Name"
+msgstr "Nome do aplicativo"
+
+#. Label of a Data field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:28
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "App Public Link"
+msgstr "Link público do aplicativo"
+
+#. Label of a Attach Image field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "App Switcher Logo"
+msgstr "Logo no seletor de aplicativos"
+
+#. Label of a Data field in DocType 'Wiki App Switcher List Table'
+#: wiki/wiki/doctype/wiki_app_switcher_list_table/wiki_app_switcher_list_table.json
+msgid "App Title"
+msgstr "Título do aplicativo"
+
+#: frontend/src/pages/ContributionReview.vue:57
+msgid "Approve"
+msgstr "Aprovar"
+
+#: frontend/src/pages/ContributionReview.vue:321
+#: frontend/src/pages/ContributionReview.vue:336
+#: frontend/src/pages/ContributionReview.vue:603
+msgid "Approve & Merge"
+msgstr "Aprovar e mesclar"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Change Request'
+#. Option for the 'Status' (Select) field in DocType 'Wiki Page Patch'
+#: frontend/src/components/SpaceModeStrip.vue:453
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Approved"
+msgstr "Aprovado"
+
+#. Label of a Link field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Approved By"
+msgstr "Aprovado por"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1443
+msgid "Approved this change request."
+msgstr "Aprovou esta solicitação de alteração."
+
+#: frontend/src/components/SpaceModeStrip.vue:148
+msgid "Approved! Ready to merge."
+msgstr "Aprovado! Pronto para mesclar."
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Archived"
+msgstr "Arquivada"
+
+#. Label of a Datetime field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Archived At"
+msgstr "Arquivada em"
+
+#: frontend/src/components/WikiDocumentList.vue:141
+msgid "Are you sure you want to delete this"
+msgstr "Tem certeza de que deseja excluir este item"
+
+#: wiki/templates/wiki/document.html:57 wiki/templates/wiki/document.html:71
+msgid "Ask ChatGPT about this page"
+msgstr "Perguntar ao ChatGPT sobre esta página"
+
+#: wiki/templates/wiki/document.html:58 wiki/templates/wiki/document.html:72
+msgid "Ask Claude about this page"
+msgstr "Perguntar ao Claude sobre esta página"
+
+#: frontend/src/components/Analytics/TrackingNotice.vue:9
+msgid "Ask a Wiki Manager to turn on page view tracking."
+msgstr "Peça a um gerente do Wiki para ativar o rastreamento de visualizações de páginas."
+
+#. Label of a Check field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Ask for contact details"
+msgstr "Solicitar dados de contato"
+
+#. Label of a Data field in DocType 'Migrate To Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "Assets Directory"
+msgstr "Diretório de recursos"
+
+#. Label of a Data field in DocType 'Migrate To Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "Assets Prepend"
+msgstr "Prefixo dos recursos"
+
+#: frontend/src/components/AssignDialog.vue:27
+#: frontend/src/components/ContributionsPanel.vue:142
+msgid "Assign"
+msgstr "Atribuir"
+
+#: frontend/src/components/AssignDialog.vue:4
+msgid "Assign Reviewer"
+msgstr "Atribuir revisor"
+
+#: frontend/src/pages/ContributionReview.vue:626
+msgid "Assign reviewer"
+msgstr "Atribuir revisor"
+
+#: frontend/src/components/AssignDialog.vue:9
+msgid "Assign this change request to a reviewer. They will be notified and it will appear in their \"Assigned to me\" list."
+msgstr "Atribua esta solicitação de alteração a um revisor. Ele será notificado e a solicitação aparecerá na lista \"Atribuídas a mim\" dele."
+
+#: frontend/src/components/ContributionsPanel.vue:204
+msgid "Assigned to"
+msgstr "Atribuído a"
+
+#: frontend/src/pages/Contributions.vue:180
+msgid "Assigned to me"
+msgstr "Atribuídas a mim"
+
+#: frontend/src/components/WikiSettings/GeneralPanel.vue:13
+msgid "Auto Convert Image to WebP"
+msgstr "Converter imagem para WebP automaticamente"
+
+#. Label of a Check field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GeneralPanel.vue:23
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Auto Generate Meta Images"
+msgstr "Gerar imagens de metadados automaticamente"
+
+#: frontend/src/components/PageSettingsPanel.vue:196
+msgid "Auto-generated from the page metadata. Upload an image to override it."
+msgstr "Gerada automaticamente a partir dos metadados da página. Envie uma imagem para substituí-la."
+
+#: frontend/src/components/WikiSettings/GeneralPanel.vue:15
+msgid "Automatically convert uploaded PNG/JPEG images to WebP to reduce page size"
+msgstr "Converter automaticamente imagens PNG/JPEG enviadas para WebP para reduzir o tamanho da página"
+
+#. Description of the 'Convert Uploaded Images to WebP' (Check) field in
+#. DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Automatically convert uploaded PNG/JPEG images to WebP to reduce page size."
+msgstr "Converter automaticamente imagens PNG/JPEG enviadas para WebP para reduzir o tamanho da página."
+
+#. Label of a Long Text field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Avatar"
+msgstr "Avatar"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Avatar Seed"
+msgstr "Semente do avatar"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Avatar Style"
+msgstr "Estilo do avatar"
+
+#: frontend/src/pages/ContributionReview.vue:8
+msgid "Back"
+msgstr "Voltar"
+
+#: frontend/src/components/SpaceSidebar.vue:13
+#: frontend/src/components/SpaceSidebar.vue:17
+#: frontend/src/components/SpaceTreePanel.vue:9
+#: frontend/src/components/SpaceTreePanel.vue:13
+msgid "Back to All Spaces"
+msgstr "Voltar para todos os espaços"
+
+#. Option for the 'Type' (Select) field in DocType 'Wiki Feedback'
+#: wiki/templates/wiki/includes/feedback_widget.html:8
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+msgid "Bad"
+msgstr "Ruim"
+
+#. Label of a JSON field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Base Payload"
+msgstr "Payload base"
+
+#. Label of a Link field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Base Revision"
+msgstr "Revisão base"
+
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:49
+msgid "Beta"
+msgstr "Beta"
+
+#. Label of a Data field in DocType 'Wiki GitHub Webhook Log'
+#. Label of a Data field in DocType 'Wiki Space'
+#: frontend/src/components/NewSpaceDialog.vue:154
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Branch"
+msgstr "Branch"
+
+#: wiki/wiki/report/wiki_broken_links/wiki_broken_links.py:37
+msgid "Broken Link"
+msgstr "Link quebrado"
+
+#. Label of a shortcut in the Wiki Workspace
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "Broken Links Report"
+msgstr "Relatório de links quebrados"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:37
+msgid "Bulk Update Routes"
+msgstr "Atualizar rotas em lote"
+
+#: frontend/src/components/AssignDialog.vue:20
+#: frontend/src/components/DraftContributionPanel.vue:124
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:112
+#: frontend/src/components/SubmitForReviewButton.vue:121
+#: frontend/src/components/WikiDocumentList.vue:124
+#: frontend/src/components/WikiDocumentList.vue:165
+#: frontend/src/components/WikiDocumentList.vue:188
+#: frontend/src/components/WikiDocumentList.vue:213
+#: frontend/src/components/WikiDocumentList.vue:237
+#: frontend/src/components/WikiDocumentPanel.vue:164
+#: frontend/src/components/WikiDocumentPanel.vue:188
+#: frontend/src/pages/ContributionReview.vue:330
+#: frontend/src/pages/ContributionReview.vue:362
+#: frontend/src/pages/ContributionReview.vue:395
+#: frontend/src/pages/SpaceDetails.vue:98
+#: frontend/src/pages/SpaceDetails.vue:128
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1604
+msgid "Cannot resolve conflicts for a finalized Change Request."
+msgstr "Não é possível resolver conflitos de uma solicitação de alteração finalizada."
+
+#. Label of a Link field in DocType 'Wiki Merge Conflict'
+#. Label of a Link field in DocType 'Wiki Revision'
+#: frontend/src/components/SpaceModeStrip.vue:467
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Change Request"
+msgstr "Solicitação de alteração"
+
+#: frontend/src/components/CommandPalette.vue:230
+#: frontend/src/components/LibrarySidebar.vue:279
+#: frontend/src/layouts/MainLayout.vue:40
+#: frontend/src/pages/Contributions.vue:4
+#: frontend/src/pages/Contributions.vue:10
+#: frontend/src/pages/Contributions.vue:110
+msgid "Change Requests"
+msgstr "Solicitações de alteração"
+
+#: frontend/src/components/WikiDocumentList.vue:177
+#: frontend/src/components/WikiTree.vue:402
+msgid "Change Title"
+msgstr "Alterar título"
+
+#: frontend/src/pages/ContributionReview.vue:770
+msgid "Change request approved"
+msgstr "Solicitação de alteração aprovada"
+
+#: frontend/src/composables/useChangeRequestActions.js:85
+msgid "Change request archived"
+msgstr "Solicitação de alteração arquivada"
+
+#: frontend/src/composables/useChangeRequestActions.js:131
+#: frontend/src/pages/ContributionReview.vue:740
+msgid "Change request merged"
+msgstr "Solicitação de alteração mesclada"
+
+#: frontend/src/pages/ContributionReview.vue:853
+msgid "Change request rejected"
+msgstr "Solicitação de alteração rejeitada"
+
+#: frontend/src/composables/useChangeRequestActions.js:67
+msgid "Change request submitted for review"
+msgstr "Solicitação de alteração enviada para revisão"
+
+#: frontend/src/pages/ContributionReview.vue:866
+msgid "Change request withdrawn"
+msgstr "Solicitação de alteração retirada"
+
+#: frontend/src/pages/Contributions.vue:189
+msgid "Change requests assigned to you for review will appear here."
+msgstr "As solicitações de alteração atribuídas a você para revisão aparecerão aqui."
+
+#: frontend/src/components/DraftContributionPanel.vue:419
+msgid "Change route"
+msgstr "Alterar rota"
+
+#: frontend/src/components/SpaceIdentityPicker.vue:12
+msgid "Change space logo"
+msgstr "Alterar logo do espaço"
+
+#: frontend/src/pages/ContributionReview.vue:175
+msgid "Changes"
+msgstr "Alterações"
+
+#. Label of a Section Break field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Changes Applied"
+msgstr "Alterações aplicadas"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Change Request'
+#. Option for the 'Status' (Select) field in DocType 'Wiki Page Patch'
+#: frontend/src/components/SpaceModeStrip.vue:449
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Changes Requested"
+msgstr "Ajustes solicitados"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1472
+msgid "Changes were requested on your change request “{0}”."
+msgstr "Foram solicitados ajustes na sua solicitação de alteração “{0}”."
+
+#: frontend/src/components/SpaceWelcome.vue:30
+msgid "Choose a page from the tree on the left."
+msgstr "Escolha uma página na árvore à esquerda."
+
+#: frontend/src/components/WikiDocumentList.vue:17
+#: frontend/src/components/WikiDocumentList.vue:18
+msgid "Clear search"
+msgstr "Limpar pesquisa"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:154
+msgid "Click a month to see its days"
+msgstr "Clique em um mês para ver seus dias"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:152
+msgid "Click a week to see its days"
+msgstr "Clique em uma semana para ver seus dias"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:95
+msgid "Click to copy"
+msgstr "Clique para copiar"
+
+#. Label of a Data field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:23
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Client ID"
+msgstr "ID do cliente"
+
+#. Label of a Password field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:66
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Client Secret"
+msgstr "Segredo do cliente"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:56
+msgid "Clone"
+msgstr "Clonar"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:52
+msgid "Clone Space"
+msgstr "Clonar espaço"
+
+#: frontend/src/pages/SpaceDetails.vue:113
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:8
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:31
+msgid "Clone Wiki Space"
+msgstr "Clonar espaço Wiki"
+
+#: frontend/src/pages/SpaceDetails.vue:273
+msgid "Cloning started in background"
+msgstr "Clonagem iniciada em segundo plano"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:28
+msgid "Cloning started in background."
+msgstr "Clonagem iniciada em segundo plano."
+
+#: frontend/src/components/SpaceModeStrip.vue:258
+msgid "Close"
+msgstr "Fechar"
+
+#: frontend/src/components/PageSettingsPanel.vue:15
+#: frontend/src/components/PageSettingsPanel.vue:18
+msgid "Close page settings"
+msgstr "Fechar configurações da página"
+
+#: wiki/templates/wiki/includes/mobile_header.html:155
+msgid "Close sidebar"
+msgstr "Fechar barra lateral"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Feedback'
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+msgid "Closed"
+msgstr "Fechado"
+
+#. Label of a Section Break field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Code"
+msgstr "Código"
+
+#: frontend/src/components/WikiTree.vue:23
+msgid "Collapse"
+msgstr "Recolher"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:105
+msgid "Collect Feedback"
+msgstr "Coletar feedback"
+
+#. Label of a Data field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Commit SHA"
+msgstr "SHA do commit"
+
+#. Label of a HTML field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Compare"
+msgstr "Comparar"
+
+#. Label of a Section Break field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Compare Changes"
+msgstr "Comparar alterações"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:167
+msgid "Configuration (.wiki.json)"
+msgstr "Configuração (.wiki.json)"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:221
+msgid "Configuration saved"
+msgstr "Configuração salva"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:8
+msgid "Configure a GitHub App so Wiki Spaces can sync from GitHub repositories, including private ones. Access tokens are minted on demand from the App private key — no per-space secrets are stored."
+msgstr "Configure um GitHub App para permitir que os espaços Wiki sejam sincronizados a partir de repositórios GitHub, inclusive privados. Os tokens de acesso são gerados sob demanda a partir da chave privada do aplicativo — nenhum segredo por espaço é armazenado."
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:68
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:83
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:103
+msgid "Configured"
+msgstr "Configurado"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:95
+msgid "Configured — paste a new key to replace"
+msgstr "Configurado — cole uma nova chave para substituir"
+
+#. Label of a Select field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Conflict Type"
+msgstr "Tipo de conflito"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1607
+msgid "Conflict is already resolved."
+msgstr "O conflito já está resolvido."
+
+#: frontend/src/pages/ContributionReview.vue:102
+msgid "Conflicts"
+msgstr "Conflitos"
+
+#: frontend/src/pages/ContributionReview.vue:828
+msgid "Conflicts resolved and change request merged"
+msgstr "Conflitos resolvidos e solicitação de alteração mesclada"
+
+#: frontend/src/components/NewSpaceDialog.vue:79
+msgid "Connect GitHub"
+msgstr "Conectar GitHub"
+
+#: frontend/src/components/NewSpaceDialog.vue:72
+msgid "Connect your GitHub account to pick a repository (private repos supported)."
+msgstr "Conecte sua conta do GitHub para escolher um repositório (há suporte a repositórios privados)."
+
+#: frontend/src/components/NewSpaceDialog.vue:62
+msgid "Connecting to GitHub…"
+msgstr "Conectando ao GitHub…"
+
+#. Label of a Long Text field in DocType 'Wiki Content Blob'
+#. Label of a Code field in DocType 'Wiki Document'
+#. Label of a Markdown Editor field in DocType 'Wiki Page'
+#. Label of a Code field in DocType 'Wiki Page Revision'
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+#: wiki/wiki/doctype/wiki_page_revision/wiki_page_revision.json
+msgid "Content"
+msgstr "Conteúdo"
+
+#. Label of a Link field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Content Blob"
+msgstr "Blob de conteúdo"
+
+#. Label of a Data field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Content Hash"
+msgstr "Hash de conteúdo"
+
+#. Label of a Data field in DocType 'Wiki Content Blob'
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+msgid "Content Type"
+msgstr "Tipo de conteúdo"
+
+#: frontend/src/composables/useChangeTypeDisplay.js:83
+msgid "Content or metadata updated"
+msgstr "Conteúdo ou metadados atualizados"
+
+#. Label of a Section Break field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Contributions"
+msgstr "Contribuições"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:309
+msgid "Contributions disabled"
+msgstr "Contribuições desabilitadas"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:309
+msgid "Contributions enabled"
+msgstr "Contribuições habilitadas"
+
+#. Label of a Check field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Convert Uploaded Images to WebP"
+msgstr "Converter imagens enviadas para WebP"
+
+#: wiki/templates/wiki/document.html:45
+#: wiki/templates/wiki/macros/buttons.html:36
+msgid "Copied!"
+msgstr "Copiado!"
+
+#: wiki/templates/wiki/document.html:45
+#: wiki/templates/wiki/macros/buttons.html:36
+msgid "Copy"
+msgstr "Copiar"
+
+#: frontend/src/components/LibrarySidebar.vue:209
+msgid "Copy link"
+msgstr "Copiar link"
+
+#: wiki/templates/wiki/document.html:55 wiki/templates/wiki/document.html:69
+#: wiki/templates/wiki/macros/buttons.html:9
+msgid "Copy page"
+msgstr "Copiar página"
+
+#: wiki/templates/wiki/document.html:55 wiki/templates/wiki/document.html:69
+#: wiki/templates/wiki/macros/buttons.html:9
+msgid "Copy page as Markdown for LLMs"
+msgstr "Copiar página como Markdown para LLMs"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:79
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:84
+msgid "Copy webhook URL"
+msgstr "Copiar URL do webhook"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:221
+msgid "Could not copy URL"
+msgstr "Não foi possível copiar a URL"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:244
+msgid "Could not copy the space name"
+msgstr "Não foi possível copiar o nome do espaço"
+
+#: frontend/src/components/SpaceIdentityPicker.vue:259
+msgid "Could not generate a logo"
+msgstr "Não foi possível gerar um logo"
+
+#: frontend/src/components/SpaceModeStrip.vue:347
+msgid "Could not reload from server"
+msgstr "Não foi possível recarregar do servidor"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:265
+#: frontend/src/stores/space.js:231
+msgid "Could not start sync"
+msgstr "Não foi possível iniciar a sincronização"
+
+#: frontend/src/components/NewSpaceDialog.vue:543
+msgid "Could not verify the branch on GitHub."
+msgstr "Não foi possível verificar a branch no GitHub."
+
+#: frontend/src/components/WikiSettings/ViewTrackingToggle.vue:5
+msgid "Count visits to published pages, which is what the Overview reports"
+msgstr "Contar visitas às páginas publicadas, que são os dados apresentados na visão geral"
+
+#: frontend/src/components/NewSpaceDialog.vue:12
+msgid "Create"
+msgstr "Criar"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:12
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.js:8
+msgid "Create GitHub App"
+msgstr "Criar GitHub App"
+
+#. Label of a Check field in DocType 'Migrate To Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "Create New Assets "
+msgstr "Criar novos recursos"
+
+#: frontend/src/components/WikiDocumentList.vue:447
+msgid "Create New Group"
+msgstr "Criar novo grupo"
+
+#. Description of the 'Create New Assets ' (Check) field in DocType 'Migrate To
+#. Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "Create New Images if they exist on Disk"
+msgstr "Criar novas imagens se existirem no disco"
+
+#: frontend/src/components/WikiDocumentList.vue:447
+msgid "Create New Page"
+msgstr "Criar nova página"
+
+#: frontend/src/components/NewSpaceDialog.vue:8
+msgid "Create Wiki Space"
+msgstr "Criar espaço Wiki"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:53
+msgid "Create a new space with the same structure"
+msgstr "Criar um novo espaço com a mesma estrutura"
+
+#: frontend/src/components/SpaceWelcome.vue:84
+msgid "Create your first page"
+msgstr "Crie sua primeira página"
+
+#: frontend/src/components/WikiDocumentList.vue:43
+msgid "Create your first page to get started"
+msgstr "Crie sua primeira página para começar"
+
+#: frontend/src/pages/AllSpaces.vue:399
+msgid "Create your first wiki space from the sidebar to get started"
+msgstr "Crie seu primeiro espaço Wiki pela barra lateral para começar"
+
+#: frontend/src/pages/AllSpaces.vue:398
+msgid "Create your first wiki space to get started"
+msgstr "Crie seu primeiro espaço Wiki para começar"
+
+#. Label of a Int field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Created"
+msgstr "Criado"
+
+#. Label of a Datetime field in DocType 'Wiki Content Blob'
+#. Label of a Datetime field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Created At"
+msgstr "Criado em"
+
+#. Label of a Link field in DocType 'Wiki Content Blob'
+#. Label of a Link field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Created By"
+msgstr "Criado por"
+
+#: frontend/src/pages/ContributionReview.vue:271
+msgid "Current"
+msgstr "Atual"
+
+#: frontend/src/pages/SpaceDetails.vue:84
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:44
+msgid "Current Base Route"
+msgstr "Rota base atual"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:117
+msgid "Custom range"
+msgstr "Período personalizado"
+
+#: frontend/src/components/WikiTree.vue:416
+msgid "Danger"
+msgstr "Perigo"
+
+#. Label of a Attach Image field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Dark Mode Logo"
+msgstr "Logo do modo escuro"
+
+#: wiki/api/analytics.py:217
+msgid "Date range cannot be longer than {0} days"
+msgstr "O intervalo de datas não pode ser maior que {0} dias"
+
+#. Label of a Autocomplete field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Default Wiki Space"
+msgstr "Espaço Wiki padrão"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:66
+#: frontend/src/components/WikiDocumentList.vue:135
+#: frontend/src/components/WikiDocumentList.vue:168
+#: frontend/src/components/WikiDocumentPanel.vue:174
+#: frontend/src/components/WikiDocumentPanel.vue:554
+#: frontend/src/components/WikiTree.vue:419
+msgid "Delete"
+msgstr "Excluir"
+
+#: frontend/src/components/DraftContributionPanel.vue:424
+msgid "Delete Draft"
+msgstr "Excluir rascunho"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:62
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:121
+msgid "Delete Space"
+msgstr "Excluir espaço"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:73
+msgid "Delete Space {0}"
+msgstr "Excluir espaço {0}"
+
+#. Label of a Int field in DocType 'Wiki Git Sync Log'
+#: frontend/src/components/WikiTree.vue:67
+#: frontend/src/composables/useChangeTypeDisplay.js:24
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Deleted"
+msgstr "Excluído"
+
+#: frontend/src/components/WikiTree.vue:66
+msgid "Deleted in this draft. Merge to remove it for everyone."
+msgstr "Excluído neste rascunho. Mescle para removê-lo para todos."
+
+#. Description of the 'Enable Tabbed Navigation' (Check) field in DocType 'Wiki
+#. Space'
+#. Description of the 'Home Tab Title' (Data) field in DocType 'Wiki Space'
+#. Description of the 'Home Tab Icon' (Data) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Deprecated: tabs were removed. Kept for backwards compatibility."
+msgstr "Obsoleto: as abas foram removidas. Mantido para compatibilidade com versões anteriores."
+
+#. Description of the 'Is Tab' (Check) field in DocType 'Wiki Document'
+#. Description of the 'Tab Icon' (Data) field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Deprecated: tabs were removed. Kept so old revisions and change requests still apply."
+msgstr "Obsoleto: as abas foram removidas. Mantido para que revisões e solicitações de alteração antigas ainda possam ser aplicadas."
+
+#. Label of a Small Text field in DocType 'Wiki Change Request'
+#. Label of a Small Text field in DocType 'Wiki Page'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Description"
+msgstr "Descrição"
+
+#. Label of a Section Break field in DocType 'Wiki Git Sync Log'
+#: frontend/src/components/PageSettingsPanel.vue:202
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Details"
+msgstr "Detalhes"
+
+#: frontend/src/pages/ContributionReview.vue:253
+msgid "Diff"
+msgstr "Diferenças"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:190
+#: frontend/src/pages/Overview.vue:152
+msgid "Direct"
+msgstr "Direto"
+
+#. Label of a Check field in DocType 'Wiki Document'
+#: frontend/src/components/PageSettingsPanel.vue:69
+#: frontend/src/components/PageSettingsPanel.vue:77
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Disable Indexing"
+msgstr "Desabilitar indexação"
+
+#: frontend/src/components/SpaceModeStrip.vue:121
+msgid "Discard"
+msgstr "Descartar"
+
+#: frontend/src/components/SpaceModeStrip.vue:430
+msgid "Discard Changes"
+msgstr "Descartar alterações"
+
+#: frontend/src/components/SpaceModeStrip.vue:102
+msgid "Discard local failed changes and adopt server state"
+msgstr "Descartar alterações locais que falharam e adotar o estado do servidor"
+
+#. Label of a Int field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Doc Count"
+msgstr "Contagem de documentos"
+
+#. Label of a Data field in DocType 'Wiki Document'
+#. Label of a Data field in DocType 'Wiki Merge Conflict'
+#. Label of a Data field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Doc Key"
+msgstr "Chave do documento"
+
+#. Label of a Data field in DocType 'Migrate To Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "Docs Base Utl"
+msgstr "URL base da documentação"
+
+#. Label of a Data field in DocType 'Migrate To Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "Docs Directory"
+msgstr "Diretório da documentação"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:36
+msgid "Docs Folder"
+msgstr "Pasta da documentação"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Docs Subdirectory"
+msgstr "Subdiretório da documentação"
+
+#: frontend/src/components/NewSpaceDialog.vue:164
+msgid "Docs folder"
+msgstr "Pasta da documentação"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:393
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:440
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:477
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:793
+msgid "Document not found in change request"
+msgstr "Documento não encontrado na solicitação de alteração"
+
+#: wiki/templates/wiki/document.html:35
+#: wiki/templates/wiki/macros/buttons.html:80
+msgid "Download"
+msgstr "Baixar"
+
+#: wiki/templates/wiki/macros/buttons.html:81
+msgid "Download this page as a PDF"
+msgstr "Baixar esta página como PDF"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Change Request'
+#. Option for the 'Status' (Select) field in DocType 'Wiki Page Patch'
+#: frontend/src/components/DraftContributionPanel.vue:46
+#: frontend/src/components/DraftContributionPanel.vue:67
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Draft"
+msgstr "Rascunho"
+
+#: frontend/src/components/DraftContributionPanel.vue:107
+msgid "Draft not found"
+msgstr "Rascunho não encontrado"
+
+#: frontend/src/components/SpaceModeStrip.vue:441
+msgid "Drafting Changes"
+msgstr "Preparando alterações"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1159
+msgid "Each operation must be an object"
+msgstr "Cada operação deve ser um objeto"
+
+#: wiki/templates/wiki/macros/buttons.html:12
+msgid "Edit"
+msgstr "Editar"
+
+#: frontend/src/components/WikiDocumentList.vue:224
+msgid "Edit External Link"
+msgstr "Editar link externo"
+
+#: frontend/src/components/DraftContributionPanel.vue:112
+msgid "Edit Route"
+msgstr "Editar rota"
+
+#: frontend/src/components/WikiDocumentPanel.vue:45
+msgid "Edit on GitHub"
+msgstr "Editar no GitHub"
+
+#: frontend/src/components/PageSettingsPanel.vue:219
+msgid "Edited by"
+msgstr "Editado por"
+
+#: frontend/src/components/PageMetaLine.vue:79
+msgid "Edited {0}"
+msgstr "Editado {0}"
+
+#. Label of a Data field in DocType 'Wiki Feedback'
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+msgid "Email Id"
+msgstr "Endereço de e-mail"
+
+#. Label of a Check field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/FeedbackPanel.vue:6
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Enable Feedback"
+msgstr "Habilitar feedback"
+
+#. Label of a Check field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Enable Feedback Collection?"
+msgstr "Habilitar coleta de feedback?"
+
+#. Label of a Check field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Enable Tabbed Navigation"
+msgstr "Habilitar navegação por abas"
+
+#. Label of a Check field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GeneralPanel.vue:6
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Enable Table of Contents"
+msgstr "Habilitar sumário"
+
+#: frontend/src/components/WikiSettings/ViewTrackingToggle.vue:3
+msgid "Enable View Tracking"
+msgstr "Habilitar rastreamento de visualizações"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:62
+msgid "Enter client secret"
+msgstr "Informe o segredo do cliente"
+
+#: frontend/src/components/WikiDocumentList.vue:183
+#: frontend/src/components/WikiDocumentList.vue:451
+msgid "Enter group name"
+msgstr "Informe o nome do grupo"
+
+#: frontend/src/components/WikiDocumentList.vue:206
+#: frontend/src/components/WikiDocumentList.vue:230
+msgid "Enter link title"
+msgstr "Informe o título do link"
+
+#: frontend/src/pages/SpaceDetails.vue:92
+#: frontend/src/pages/SpaceDetails.vue:122
+msgid "Enter new route (without leading slash)"
+msgstr "Informe a nova rota (sem barra inicial)"
+
+#: frontend/src/components/WikiDocumentList.vue:183
+#: frontend/src/components/WikiDocumentList.vue:451
+msgid "Enter page title"
+msgstr "Informe o título da página"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:16
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:53
+msgid "Enter the new base route (without leading slash)"
+msgstr "Informe a nova rota base (sem barra inicial)"
+
+#: frontend/src/pages/ContributionReview.vue:388
+msgid "Enter the reason for rejection..."
+msgstr "Informe o motivo da rejeição..."
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:77
+msgid "Enter webhook secret"
+msgstr "Informe o segredo do webhook"
+
+#: frontend/src/pages/ContributionReview.vue:355
+msgid "Enter your feedback..."
+msgstr "Digite seu feedback..."
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Git Sync Log'
+#. Label of a Code field in DocType 'Wiki Git Sync Log'
+#. Option for the 'Last Sync Status' (Select) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Error"
+msgstr "Erro"
+
+#: frontend/src/pages/ContributionReview.vue:773
+#: frontend/src/pages/ContributionReview.vue:783
+msgid "Error approving change request"
+msgstr "Erro ao aprovar solicitação de alteração"
+
+#: frontend/src/composables/useChangeRequestActions.js:96
+msgid "Error archiving change request"
+msgstr "Erro ao arquivar solicitação de alteração"
+
+#: frontend/src/components/AssignDialog.vue:92
+msgid "Error assigning reviewer"
+msgstr "Erro ao atribuir revisor"
+
+#: frontend/src/components/WikiDocumentPanel.vue:609
+#: frontend/src/composables/useTreeDialogs.js:184
+#: frontend/src/composables/useTreeDialogs.js:202
+#: frontend/src/composables/useTreeDialogs.js:270
+msgid "Error creating draft"
+msgstr "Erro ao criar rascunho"
+
+#: frontend/src/components/DraftContributionPanel.vue:492
+msgid "Error deleting draft"
+msgstr "Erro ao excluir rascunho"
+
+#: frontend/src/pages/ContributionReview.vue:675
+msgid "Error loading conflicts"
+msgstr "Erro ao carregar conflitos"
+
+#: frontend/src/pages/ContributionReview.vue:730
+msgid "Error loading diff"
+msgstr "Erro ao carregar diferenças"
+
+#: frontend/src/composables/useChangeRequestActions.js:175
+#: frontend/src/pages/ContributionReview.vue:752
+#: frontend/src/pages/ContributionReview.vue:755
+msgid "Error merging change request"
+msgstr "Erro ao mesclar solicitação de alteração"
+
+#: frontend/src/pages/ContributionReview.vue:858
+msgid "Error rejecting change request"
+msgstr "Erro ao rejeitar solicitação de alteração"
+
+#: frontend/src/pages/ContributionReview.vue:806
+msgid "Error requesting changes"
+msgstr "Erro ao solicitar ajustes"
+
+#: frontend/src/pages/ContributionReview.vue:837
+msgid "Error resolving conflicts"
+msgstr "Erro ao resolver conflitos"
+
+#: frontend/src/components/WikiTree.vue:356
+msgid "Error restoring page"
+msgstr "Erro ao restaurar página"
+
+#: frontend/src/components/DraftContributionPanel.vue:308
+#: frontend/src/components/DraftContributionPanel.vue:361
+#: frontend/src/components/DraftContributionPanel.vue:480
+#: frontend/src/components/WikiDocumentPanel.vue:653
+#: frontend/src/components/WikiDocumentPanel.vue:678
+#: frontend/src/composables/useChangeRequestActions.js:55
+msgid "Error saving draft"
+msgstr "Erro ao salvar rascunho"
+
+#: frontend/src/components/PageSettingsPanel.vue:533
+msgid "Error saving page settings"
+msgstr "Erro ao salvar configurações da página"
+
+#: frontend/src/pages/SpaceDetails.vue:277
+msgid "Error starting clone"
+msgstr "Erro ao iniciar clonagem"
+
+#: frontend/src/composables/useChangeRequestActions.js:75
+msgid "Error submitting for review"
+msgstr "Erro ao enviar para revisão"
+
+#: frontend/src/composables/useTreeDialogs.js:308
+msgid "Error updating external link"
+msgstr "Erro ao atualizar link externo"
+
+#: frontend/src/components/WikiDocumentPanel.vue:637
+#: frontend/src/components/WikiTree.vue:348
+msgid "Error updating publish status"
+msgstr "Erro ao atualizar status de publicação"
+
+#: frontend/src/components/DraftContributionPanel.vue:461
+msgid "Error updating route"
+msgstr "Erro ao atualizar rota"
+
+#: frontend/src/components/DraftContributionPanel.vue:439
+#: frontend/src/components/WikiDocumentPanel.vue:582
+#: frontend/src/components/WikiDocumentPanel.vue:624
+#: frontend/src/composables/useTreeDialogs.js:230
+msgid "Error updating title"
+msgstr "Erro ao atualizar título"
+
+#: frontend/src/pages/ContributionReview.vue:873
+msgid "Error withdrawing change request"
+msgstr "Erro ao retirar solicitação de alteração"
+
+#. Label of a Data field in DocType 'Wiki GitHub Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Event"
+msgstr "Evento"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:85
+msgid "Every change request"
+msgstr "Todas as solicitações de alteração"
+
+#: frontend/src/components/WikiTree.vue:23
+msgid "Expand"
+msgstr "Expandir"
+
+#. Label of a Check field in DocType 'Wiki Document'
+#. Label of a Check field in DocType 'Wiki Revision Item'
+#: frontend/src/components/WikiDocumentList.vue:440
+#: frontend/src/components/WikiTree.vue:387
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "External Link"
+msgstr "Link externo"
+
+#. Label of a Data field in DocType 'Wiki Document'
+#. Label of a Data field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "External URL"
+msgstr "URL externa"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:252
+msgid "Failed to delete the space"
+msgstr "Falha ao excluir o espaço"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:227
+msgid "Failed to rename the space"
+msgstr "Falha ao renomear o espaço"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:224
+msgid "Failed to save configuration"
+msgstr "Falha ao salvar configuração"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:247
+msgid "Failed to save secrets"
+msgstr "Falha ao salvar segredos"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:347
+msgid "Failed to update access control"
+msgstr "Falha ao atualizar controle de acesso"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:314
+msgid "Failed to update contributions setting"
+msgstr "Falha ao atualizar configuração de contribuições"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:330
+msgid "Failed to update the feedback setting"
+msgstr "Falha ao atualizar configuração de feedback"
+
+#: frontend/src/components/SpaceSettings/NavigationPanel.vue:87
+msgid "Failed to update the order"
+msgstr "Falha ao atualizar a ordem"
+
+#: frontend/src/composables/useSpaceIdentitySaver.js:26
+msgid "Failed to update the space logo"
+msgstr "Falha ao atualizar o logo do espaço"
+
+#: frontend/src/components/SpaceSettings/NavigationPanel.vue:66
+msgid "Failed to update the switcher"
+msgstr "Falha ao atualizar o seletor"
+
+#: frontend/src/components/PageSettingsPanel.vue:475
+msgid "Failed to upload image"
+msgstr "Falha ao enviar imagem"
+
+#: frontend/src/components/SpaceIdentityPicker.vue:300
+msgid "Failed to upload logo"
+msgstr "Falha ao enviar logo"
+
+#. Label of a Attach Image field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Favicon"
+msgstr "Favicon"
+
+#. Label of a Small Text field in DocType 'Wiki Feedback'
+#. Label of a Section Break field in DocType 'Wiki Settings'
+#. Label of a Tab Break field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/WikiSettings.vue:103
+#: frontend/src/pages/ContributionReview.vue:354
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Feedback"
+msgstr "Feedback"
+
+#. Label of a Int field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/FeedbackPanel.vue:14
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Feedback Submission Limit"
+msgstr "Limite de envio de feedback"
+
+#: wiki/templates/wiki/includes/feedback_widget.html:12
+msgid "Feedback rating"
+msgstr "Nota do feedback"
+
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.py:250
+msgid "File {0} does not exist"
+msgstr "O arquivo {0} não existe"
+
+#. Label of a Datetime field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Finished At"
+msgstr "Concluído em"
+
+#: frontend/src/components/NewSpaceDialog.vue:167
+msgid "Folder in the repo to sync. Supports nested paths like docs/guide."
+msgstr "Pasta do repositório a sincronizar. Aceita caminhos aninhados, como docs/guide."
+
+#: frontend/src/components/LibrarySidebar.vue:11
+#: wiki/templates/wiki/layout.html:9
+msgid "Frappe Wiki"
+msgstr "Frappe Wiki"
+
+#: wiki/api/analytics.py:214
+msgid "From Date must be on or before To Date"
+msgstr "A data inicial deve ser igual ou anterior à data final"
+
+#: frontend/src/components/PageSettingsPanel.vue:36
+msgid "From the repo"
+msgstr "Do repositório"
+
+#. Label of a Tab Break field in DocType 'Wiki Settings'
+#. Label of a Tab Break field in DocType 'Wiki Space'
+#: frontend/src/components/PageSettingsPanel.vue:34
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:26
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:167
+#: frontend/src/components/WikiSettings/WikiSettings.vue:97
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "General"
+msgstr "Geral"
+
+#: frontend/src/components/SpaceIdentityPicker.vue:67
+msgid "Generate"
+msgstr "Gerar"
+
+#: frontend/src/components/WikiSettings/GeneralPanel.vue:25
+msgid "Generate a branded social preview image for pages that have no Meta Image uploaded"
+msgstr "Gerar uma imagem com a identidade visual para prévia em redes sociais nas páginas sem imagem de metadados enviada"
+
+#. Description of the 'Auto Generate Meta Images' (Check) field in DocType
+#. 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Generate a branded social preview image for pages that have no Meta Image uploaded."
+msgstr "Gerar uma imagem com a identidade visual para prévia em redes sociais nas páginas sem imagem de metadados enviada."
+
+#. Description of the 'Avatar' (Long Text) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Generated mark as an SVG data URI. Hidden because it is a wall of text in a form."
+msgstr "Marca gerada como URI de dados SVG. Oculta por ser um texto muito extenso em um formulário."
+
+#. Label of a Select field in DocType 'Wiki GitHub Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Git Reference Type"
+msgstr "Tipo de referência Git"
+
+#. Label of a Tab Break field in DocType 'Wiki Space'
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:76
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:172
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Git Sync"
+msgstr "Sincronização Git"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:153
+msgid "Git Sync cannot be toggled after a space is created."
+msgstr "A sincronização Git não pode ser ativada ou desativada após a criação de um espaço."
+
+#. Label of a Check field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Git Synced?"
+msgstr "Sincronizado com Git?"
+
+#: frontend/src/components/NewSpaceDialog.vue:110
+msgid "GitHub Account or Organization"
+msgstr "Conta ou organização do GitHub"
+
+#. Label of a Tab Break field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "GitHub App"
+msgstr "GitHub App"
+
+#. Label of a Data field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "GitHub App ID"
+msgstr "ID do GitHub App"
+
+#: wiki/www/github/manifest_redirect.py:29
+msgid "GitHub App creation failed: {0}"
+msgstr "Falha na criação do GitHub App: {0}"
+
+#. Description of the 'GitHub Installation ID' (Data) field in DocType 'Wiki
+#. Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "GitHub App installation that grants access to the repo. Set via the connect-and-pick flow; lets the engine mint a token for private repos."
+msgstr "Instalação do GitHub App que concede acesso ao repositório. Definida pelo fluxo de conexão e seleção; permite ao mecanismo gerar um token para repositórios privados."
+
+#: wiki/api/github.py:63 wiki/api/github.py:350 wiki/api/github.py:366
+msgid "GitHub App is not configured in Wiki Settings."
+msgstr "O GitHub App não está configurado nas configurações do Wiki."
+
+#. Label of a Data field in DocType 'Wiki GitHub Webhook Log'
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "GitHub Installation ID"
+msgstr "ID da instalação do GitHub"
+
+#. Label of a Data field in DocType 'Wiki GitHub Connection'
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "GitHub Login"
+msgstr "Login do GitHub"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:6
+#: frontend/src/components/WikiSettings/WikiSettings.vue:115
+msgid "GitHub Sync"
+msgstr "Sincronização com GitHub"
+
+#: wiki/api/github.py:498
+msgid "GitHub account is not connected."
+msgstr "A conta do GitHub não está conectada."
+
+#: wiki/www/github/redirect.py:27
+msgid "GitHub authorization failed: {0}"
+msgstr "Falha na autorização do GitHub: {0}"
+
+#: wiki/api/github.py:383
+msgid "GitHub did not return an access token: {0}"
+msgstr "O GitHub não retornou um token de acesso: {0}"
+
+#. Description of the 'Repository' (Data) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "GitHub repository, e.g. frappe/wiki"
+msgstr "Repositório GitHub, por exemplo, frappe/wiki"
+
+#. Option for the 'Type' (Select) field in DocType 'Wiki Feedback'
+#: wiki/templates/wiki/includes/feedback_widget.html:10
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+msgid "Good"
+msgstr "Bom"
+
+#: frontend/src/components/DraftContributionPanel.vue:68
+msgid "Group"
+msgstr "Grupo"
+
+#: frontend/src/components/DraftContributionPanel.vue:62
+msgid "Group name"
+msgstr "Nome do grupo"
+
+#: frontend/src/components/DraftContributionPanel.vue:76
+msgid "Groups organize pages but have no content."
+msgstr "Grupos organizam páginas, mas não têm conteúdo."
+
+#. Name of a role
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Guest"
+msgstr "Convidado"
+
+#. Label of a Data field in DocType 'Wiki Content Blob'
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+msgid "Hash"
+msgstr "Hash"
+
+#. Label of a Check field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Hashes Stale"
+msgstr "Hashes desatualizados"
+
+#. Label of a Link field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Head Revision"
+msgstr "Revisão mais recente (head)"
+
+#: frontend/src/components/WikiSettings/WikiSettings.vue:109
+msgid "Header & Robots"
+msgstr "Cabeçalho e robôs"
+
+#. Label of a Tab Break field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Header / Robots"
+msgstr "Cabeçalho / Robôs"
+
+#. Label of a Check field in DocType 'Wiki Group Item'
+#: wiki/wiki/doctype/wiki_group_item/wiki_group_item.json
+msgid "Hide on sidebar"
+msgstr "Ocultar na barra lateral"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Home Tab Icon"
+msgstr "Ícone da aba inicial"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Home Tab Title"
+msgstr "Título da aba inicial"
+
+#: frontend/src/components/WikiSettings/FeedbackPanel.vue:15
+msgid "Hourly rate limit on feedback submissions"
+msgstr "Limite de envios de feedback por hora"
+
+#. Description of the 'Feedback Submission Limit' (Int) field in DocType 'Wiki
+#. Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Hourly rate limit on submitting feedbacks"
+msgstr "Limite de envios de feedback por hora"
+
+#: frontend/src/components/SpaceIdentityPicker.vue:167
+msgid "Icon"
+msgstr "Ícone"
+
+#: frontend/src/components/SpaceIdentityPicker.vue:63
+msgid "Icons"
+msgstr "Ícones"
+
+#. Description of the 'Image' (Attach Image) field in DocType 'Wiki Page'
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Ideally should be 1200 x 630 pixels."
+msgstr "O ideal é ter 1200 x 630 pixels."
+
+#. Label of a Attach Image field in DocType 'Wiki Page'
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Image"
+msgstr "Imagem"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Change Request'
+#: frontend/src/components/SpaceModeStrip.vue:445
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "In Review"
+msgstr "Em revisão"
+
+#: wiki/wiki/report/wiki_broken_links/wiki_broken_links.js:14
+msgid "Include images?"
+msgstr "Incluir imagens?"
+
+#: wiki/wiki/report/wiki_broken_links/wiki_broken_links.js:20
+msgid "Include internal links?"
+msgstr "Incluir links internos?"
+
+#: frontend/src/components/WikiSettings/CodePanel.vue:6
+msgid "Injected into the <head> of all public wiki pages"
+msgstr "Inserido no <head> de todas as páginas públicas do Wiki"
+
+#: frontend/src/components/NewSpaceDialog.vue:97
+msgid "Install GitHub App"
+msgstr "Instalar GitHub App"
+
+#: frontend/src/components/NewSpaceDialog.vue:118
+msgid "Install the GitHub App on another account or organization"
+msgstr "Instalar o GitHub App em outra conta ou organização"
+
+#: wiki/api/analytics.py:210
+msgid "Interval must be one of {0}"
+msgstr "O intervalo deve ser um dos seguintes: {0}"
+
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.py:104
+msgid "Invalid feedback submission parameters"
+msgstr "Parâmetros de envio de feedback inválidos"
+
+#: wiki/www/github/manifest_redirect.py:32
+msgid "Invalid or expired GitHub App creation. Please try again."
+msgstr "Criação de GitHub App inválida ou expirada. Tente novamente."
+
+#: wiki/www/github/redirect.py:30
+msgid "Invalid or expired GitHub authorization. Please try connecting again."
+msgstr "Autorização do GitHub inválida ou expirada. Tente conectar novamente."
+
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.py:47
+msgid "Invalid webhook signature."
+msgstr "Assinatura de webhook inválida."
+
+#: wiki/wiki/git_sync.py:537
+msgid "Invalid {0}: {1}"
+msgstr "{0} inválido: {1}"
+
+#. Label of a Check field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Is Deleted"
+msgstr "Está excluído"
+
+#. Label of a Check field in DocType 'Wiki Document'
+#. Label of a Check field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Is Group"
+msgstr "É grupo"
+
+#. Label of a Check field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Is Merge"
+msgstr "É mesclagem"
+
+#. Label of a Check field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Is Overlay"
+msgstr "É sobreposição"
+
+#. Label of a Check field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Is Published"
+msgstr "Está publicado"
+
+#. Label of a Check field in DocType 'Wiki Document'
+#. Label of a Check field in DocType 'Wiki Space'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Is Published?"
+msgstr "Está publicado?"
+
+#. Label of a Check field in DocType 'Wiki Document'
+#. Label of a Check field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Is Tab"
+msgstr "É aba"
+
+#. Label of a Check field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Is Working"
+msgstr "É versão de trabalho"
+
+#. Description of the 'Content' (Markdown Editor) field in DocType 'Wiki Page'
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "It is recommended that you start your first heading with h2, as the title will be the h1."
+msgstr "Recomenda-se começar seu primeiro título com h2, pois o título da página será o h1."
+
+#: frontend/src/components/WikiDocumentList.vue:145
+msgid "It stays in your draft, marked as deleted, until the change request is merged."
+msgstr "Ele permanece no seu rascunho, marcado como excluído, até que a solicitação de alteração seja mesclada."
+
+#. Description of the 'Enable Feedback' (Check) field in DocType 'Wiki
+#. Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "It will show a feedback widget on every Wiki Page when enabled. It will collect the rating, email and related info about the Wiki Page."
+msgstr "Quando habilitado, exibirá um widget de feedback em todas as páginas Wiki. Ele coletará a nota, o e-mail e informações relacionadas à página Wiki."
+
+#. Label of a Code field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Javascript"
+msgstr "JavaScript"
+
+#: frontend/src/components/CommandPalette.vue:394
+msgid "Jump to"
+msgstr "Ir para"
+
+#: frontend/src/pages/ContributionReview.vue:134
+#: frontend/src/pages/ContributionReview.vue:148
+msgid "Keep Main"
+msgstr "Manter versão principal"
+
+#: frontend/src/pages/ContributionReview.vue:134
+#: frontend/src/pages/ContributionReview.vue:154
+msgid "Keep Your Changes"
+msgstr "Manter suas alterações"
+
+#. Label of a Small Text field in DocType 'Wiki Page'
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Keywords"
+msgstr "Palavras-chave"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:113
+msgid "Last 12 months"
+msgstr "Últimos 12 meses"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:112
+msgid "Last 180 days"
+msgstr "Últimos 180 dias"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:110
+#: frontend/src/pages/Overview.vue:191
+msgid "Last 30 days"
+msgstr "Últimos 30 dias"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:109
+#: frontend/src/pages/Overview.vue:190
+msgid "Last 7 days"
+msgstr "Últimos 7 dias"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:111
+#: frontend/src/pages/Overview.vue:192
+msgid "Last 90 days"
+msgstr "Últimos 90 dias"
+
+#. Label of a Datetime field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Last Edited"
+msgstr "Última edição"
+
+#. Label of a Small Text field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Last Sync Error"
+msgstr "Erro da última sincronização"
+
+#. Label of a Select field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Last Sync Status"
+msgstr "Status da última sincronização"
+
+#. Label of a Datetime field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Last Sync Time"
+msgstr "Horário da última sincronização"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:50
+msgid "Last Synced"
+msgstr "Última sincronização"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Last Synced Commit"
+msgstr "Último commit sincronizado"
+
+#: frontend/src/pages/AllSpaces.vue:112
+#: wiki/frappe_wiki/print_format/standard_wiki_document/standard_wiki_document.html:212
+msgid "Last Updated"
+msgstr "Última atualização"
+
+#: frontend/src/components/PageSettingsPanel.vue:215
+msgid "Last edited"
+msgstr "Última edição"
+
+#: frontend/src/components/SpaceModeStrip.vue:318
+msgid "Last synced {0}"
+msgstr "Última sincronização {0}"
+
+#: wiki/templates/wiki/document.html:124
+#: wiki/templates/wiki/includes/sidebar.html:244
+msgid "Last updated {0}"
+msgstr "Última atualização {0}"
+
+#. Description of the 'access_control_section' (Section Break) field in DocType
+#. 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Leave empty for open access to all logged-in users. Add the <b>Guest</b> role for public/anonymous access."
+msgstr "Deixe vazio para permitir acesso a todos os usuários conectados. Adicione o papel <b>Guest</b> para permitir acesso público ou anônimo."
+
+#. Description of the 'Meta Title' (Data) field in DocType 'Wiki Document'
+#: frontend/src/components/PageSettingsPanel.vue:89
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Leave empty to use the page title"
+msgstr "Deixe vazio para usar o título da página"
+
+#. Label of a Int field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Left"
+msgstr "Esquerda"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:173
+msgid "Let readers propose edits via change requests. Users with write access can always edit."
+msgstr "Permitir que leitores proponham edições por meio de solicitações de alteração. Usuários com acesso de escrita sempre podem editar."
+
+#. Label of a Attach Image field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Light Mode Logo"
+msgstr "Logo do modo claro"
+
+#: frontend/src/components/LibrarySidebar.vue:240
+msgid "Link copied"
+msgstr "Link copiado"
+
+#. Group in Wiki Page's connections
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Linked Documents"
+msgstr "Documentos vinculados"
+
+#: frontend/src/components/SpaceSettings/NavigationPanel.vue:6
+msgid "List this space in the switcher and on the overview page"
+msgstr "Listar este espaço no seletor e na página de visão geral"
+
+#: frontend/src/components/ContributionsPanel.vue:162
+#: frontend/src/pages/AllSpaces.vue:263
+msgid "Load more"
+msgstr "Carregar mais"
+
+#: frontend/src/components/Autocomplete.vue:84
+msgid "Load more…"
+msgstr "Carregar mais…"
+
+#: frontend/src/components/NewSpaceDialog.vue:135
+msgid "Loading repositories…"
+msgstr "Carregando repositórios…"
+
+#: frontend/src/components/Autocomplete.vue:70
+msgid "Loading…"
+msgstr "Carregando…"
+
+#. Label of a Code field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Log"
+msgstr "Log"
+
+#: frontend/src/components/CommandPalette.vue:364
+#: frontend/src/components/LibrarySidebar.vue:254
+#: frontend/src/components/MobileAppMenu.vue:36
+msgid "Log out"
+msgstr "Sair"
+
+#. Label of a Section Break field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Logo"
+msgstr "Logo"
+
+#: frontend/src/components/SpaceSettings/NavigationPanel.vue:19
+msgid "Lower numbers come first; spaces that tie are ordered by name"
+msgstr "Números menores aparecem primeiro; espaços com o mesmo número são ordenados por nome"
+
+#. Label of a Link field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Main Revision"
+msgstr "Revisão principal"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:29
+msgid "Make this wiki space publicly accessible"
+msgstr "Tornar este espaço Wiki acessível publicamente"
+
+#. Option for the 'Trigger' (Select) field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Manual"
+msgstr "Manual"
+
+#: frontend/src/components/MobileAppMenu.vue:3
+#: wiki/templates/wiki/includes/mobile_header.html:98
+msgid "Menu"
+msgstr "Menu"
+
+#: frontend/src/components/SpaceModeStrip.vue:121
+#: frontend/src/components/SpaceModeStrip.vue:142
+#: frontend/src/components/SpaceModeStrip.vue:160
+#: frontend/src/pages/ContributionReview.vue:49
+msgid "Merge"
+msgstr "Mesclar"
+
+#: frontend/src/pages/ContributionReview.vue:87
+msgid "Merge Conflicts"
+msgstr "Conflitos de mesclagem"
+
+#. Label of a Link field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Merge Revision"
+msgstr "Revisão de mesclagem"
+
+#: frontend/src/composables/useChangeRequestActions.js:167
+msgid "Merge conflict — resolve it to continue"
+msgstr "Conflito de mesclagem — resolva-o para continuar"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1856
+msgid "Merge conflicts detected"
+msgstr "Conflitos de mesclagem detectados"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Change Request'
+#: frontend/src/components/SpaceModeStrip.vue:457
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Merged"
+msgstr "Mesclado"
+
+#. Label of a Datetime field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Merged At"
+msgstr "Mesclado em"
+
+#. Label of a Link field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Merged By"
+msgstr "Mesclado por"
+
+#. Label of a Data field in DocType 'Wiki Revision'
+#. Label of a Text field in DocType 'Wiki Page Patch'
+#. Label of a Text field in DocType 'Wiki Page Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+#: wiki/wiki/doctype/wiki_page_revision/wiki_page_revision.json
+msgid "Message"
+msgstr "Mensagem"
+
+#. Label of a Small Text field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Meta Description"
+msgstr "Meta descrição"
+
+#. Label of a Attach Image field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Meta Image"
+msgstr "Meta imagem"
+
+#. Label of a Section Break field in DocType 'Wiki Document'
+#. Label of a Section Break field in DocType 'Wiki Page'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Meta Tags"
+msgstr "Meta tags"
+
+#. Label of a Data field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Meta Title"
+msgstr "Meta título"
+
+#: frontend/src/components/PageSettingsPanel.vue:95
+msgid "Meta description"
+msgstr "Meta descrição"
+
+#: frontend/src/components/PageSettingsPanel.vue:102
+msgid "Meta image"
+msgstr "Meta imagem"
+
+#: frontend/src/components/PageSettingsPanel.vue:87
+msgid "Meta title"
+msgstr "Meta título"
+
+#. Label of a Section Break field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Metadata"
+msgstr "Metadados"
+
+#. Name of a DocType
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "Migrate To Wiki"
+msgstr "Migrar para o Wiki"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:84
+msgid "Migrate to Version 3"
+msgstr "Migrar para a versão 3"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:89
+msgid "Migration completed successfully."
+msgstr "Migração concluída com sucesso."
+
+#: frontend/src/components/ContributionsPanel.vue:208
+#: frontend/src/composables/useChangeTypeDisplay.js:17
+msgid "Modified"
+msgstr "Modificado"
+
+#: frontend/src/components/SpaceModeStrip.vue:73
+#: frontend/src/pages/ContributionReview.vue:61
+msgid "More actions"
+msgstr "Mais ações"
+
+#: wiki/templates/wiki/macros/buttons.html:41
+msgid "More page actions"
+msgstr "Mais ações da página"
+
+#. Label of a Int field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Moved"
+msgstr "Movido"
+
+#: frontend/src/pages/Contributions.vue:166
+msgid "My Change Requests"
+msgstr "Minhas solicitações de alteração"
+
+#: frontend/src/components/NewSpaceDialog.vue:35
+msgid "My Wiki Space"
+msgstr "Meu espaço Wiki"
+
+#: frontend/src/components/WikiDocumentList.vue:182
+msgid "Name"
+msgstr "Nome"
+
+#: frontend/src/composables/useTreeDialogs.js:217
+msgid "Name is required"
+msgstr "O nome é obrigatório"
+
+#. Label of a Tab Break field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Navbar"
+msgstr "Barra de navegação"
+
+#. Label of a Table field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Navbar Items"
+msgstr "Itens da barra de navegação"
+
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:37
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:168
+msgid "Navigation"
+msgstr "Navegação"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:51
+msgid "Never"
+msgstr "Nunca"
+
+#: frontend/src/components/SpaceModeStrip.vue:317
+msgid "Never synced"
+msgstr "Nunca sincronizado"
+
+#. Label of a Check field in DocType 'Wiki Page Patch'
+#: frontend/src/composables/useChangeTypeDisplay.js:10
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "New"
+msgstr "Novo"
+
+#: frontend/src/pages/SpaceDetails.vue:90
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:51
+msgid "New Base Route"
+msgstr "Nova rota base"
+
+#. Label of a Data field in DocType 'Migrate To Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "New Documentation Route"
+msgstr "Nova rota da documentação"
+
+#: frontend/src/components/WikiDocumentList.vue:435
+#: frontend/src/components/WikiTree.vue:382
+msgid "New Group"
+msgstr "Novo grupo"
+
+#. Label of a Code field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "New HTML"
+msgstr "Novo HTML"
+
+#: frontend/src/components/WikiTree.vue:377
+msgid "New Page"
+msgstr "Nova página"
+
+#. Label of a Data field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "New Sidebar Group"
+msgstr "Novo grupo da barra lateral"
+
+#: frontend/src/components/LibrarySidebar.vue:96
+#: frontend/src/pages/AllSpaces.vue:10 frontend/src/pages/AllSpaces.vue:42
+msgid "New Space"
+msgstr "Novo espaço"
+
+#: frontend/src/pages/SpaceDetails.vue:120
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:14
+msgid "New Space Route"
+msgstr "Rota do novo espaço"
+
+#. Label of a Data field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "New Title"
+msgstr "Novo título"
+
+#: frontend/src/composables/useChangeTypeDisplay.js:80
+msgid "New external link added"
+msgstr "Novo link externo adicionado"
+
+#: frontend/src/composables/useChangeTypeDisplay.js:79
+msgid "New group to be created"
+msgstr "Novo grupo a criar"
+
+#: frontend/src/components/CommandPalette.vue:299
+#: frontend/src/components/SpaceWelcome.vue:36
+#: frontend/src/components/WikiDocumentList.vue:90
+#: frontend/src/pages/ContributionReview.vue:272
+msgid "New page"
+msgstr "Nova página"
+
+#: frontend/src/composables/useChangeTypeDisplay.js:81
+msgid "New page to be created"
+msgstr "Nova página a criar"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:274
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:352
+msgid "New route is the same as current route"
+msgstr "A nova rota é igual à rota atual"
+
+#: frontend/src/components/CommandPalette.vue:310
+msgid "New space"
+msgstr "Novo espaço"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:44
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:136
+#: frontend/src/pages/Overview.vue:202 frontend/src/pages/Overview.vue:227
+msgid "New visitors"
+msgstr "Novos visitantes"
+
+#. Description of the 'Last Edited' (Datetime) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Newest save or merge of a page in this space. The sidebar orders spaces by it."
+msgstr "Salvamento ou mesclagem mais recente de uma página neste espaço. A barra lateral ordena os espaços por essa informação."
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:173
+msgid "No .wiki.json in the repo — the page tree is inferred from the docs folder."
+msgstr "Não há .wiki.json no repositório — a árvore de páginas é inferida a partir da pasta da documentação."
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "No Change"
+msgstr "Sem alteração"
+
+#: frontend/src/pages/Contributions.vue:170
+msgid "No Change Requests"
+msgstr "Nenhuma solicitação de alteração"
+
+#: frontend/src/components/ContributionsPanel.vue:280
+msgid "No Space"
+msgstr "Nenhum espaço"
+
+#: frontend/src/components/LibrarySidebar.vue:83
+#: frontend/src/pages/AllSpaces.vue:33
+msgid "No Wiki Spaces"
+msgstr "Nenhum espaço Wiki"
+
+#: frontend/src/components/PageSettingsPanel.vue:520
+#: frontend/src/components/WikiDocumentPanel.vue:661
+msgid "No active change request"
+msgstr "Nenhuma solicitação de alteração ativa"
+
+#: frontend/src/pages/Overview.vue:306
+msgid "No change"
+msgstr "Sem alteração"
+
+#: frontend/src/pages/Contributions.vue:205
+msgid "No change requests in review"
+msgstr "Nenhuma solicitação de alteração em revisão"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:299
+msgid "No changes"
+msgstr "Sem alterações"
+
+#: frontend/src/pages/ContributionReview.vue:313
+msgid "No changes in this change request."
+msgstr "Não há alterações nesta solicitação de alteração."
+
+#: frontend/src/components/PageSettingsPanel.vue:191
+msgid "No description set"
+msgstr "Nenhuma descrição definida"
+
+#: frontend/src/components/Autocomplete.vue:76
+msgid "No matches"
+msgstr "Nenhuma correspondência"
+
+#: frontend/src/components/SpaceWelcome.vue:89
+msgid "No pages have come across from the repository."
+msgstr "Nenhuma página foi trazida do repositório."
+
+#: frontend/src/components/WikiDocumentList.vue:42
+msgid "No pages have synced from the repository yet"
+msgstr "Nenhuma página foi sincronizada do repositório ainda"
+
+#: frontend/src/components/WikiDocumentList.vue:31
+msgid "No pages match \"{0}\""
+msgstr "Nenhuma página corresponde a \"{0}\""
+
+#: frontend/src/components/WikiDocumentList.vue:39
+msgid "No pages yet"
+msgstr "Ainda não há páginas"
+
+#: frontend/src/components/SpaceModeStrip.vue:252
+msgid "No pending changes"
+msgstr "Nenhuma alteração pendente"
+
+#: frontend/src/pages/ContributionReview.vue:276
+msgid "No published version yet."
+msgstr "Ainda não há versão publicada."
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:21
+msgid "No repository configured"
+msgstr "Nenhum repositório configurado"
+
+#: frontend/src/components/CommandPalette.vue:96
+msgid "No results"
+msgstr "Sem resultados"
+
+#: wiki/templates/wiki/includes/mobile_header.html:210
+#: wiki/templates/wiki/includes/search_modal.html:99
+msgid "No results for"
+msgstr "Sem resultados para"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:76
+msgid "No roles configured (open to all logged-in users)."
+msgstr "Nenhum papel configurado (acesso permitido a todos os usuários conectados)."
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:17
+msgid "No roles found"
+msgstr "Nenhum papel encontrado"
+
+#: frontend/src/pages/AllSpaces.vue:72
+msgid "No spaces found"
+msgstr "Nenhum espaço encontrado"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:162
+msgid "No sync runs yet"
+msgstr "Ainda não houve sincronizações"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:74
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:82
+#: frontend/src/pages/Overview.vue:81 frontend/src/pages/Overview.vue:110
+#: frontend/src/pages/Overview.vue:142
+msgid "No views in this range"
+msgstr "Nenhuma visualização neste período"
+
+#: frontend/src/pages/AllSpaces.vue:396
+msgid "No wiki spaces available"
+msgstr "Nenhum espaço Wiki disponível"
+
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:96
+msgid "Not connected to a repository"
+msgstr "Não conectado a um repositório"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:883
+msgid "Not permitted"
+msgstr "Não permitido"
+
+#: wiki/api/analytics.py:185
+msgid "Not permitted to change page view tracking"
+msgstr "Não é permitido alterar o rastreamento de visualizações de páginas"
+
+#: wiki/api/github.py:569
+msgid "Not permitted to configure the GitHub App."
+msgstr "Não é permitido configurar o GitHub App."
+
+#: wiki/api/github.py:545
+msgid "Not permitted to read Wiki Settings."
+msgstr "Não é permitido ler as configurações do Wiki."
+
+#: wiki/api/analytics.py:177
+msgid "Not permitted to read the page view tracking setting"
+msgstr "Não é permitido ler a configuração de rastreamento de visualizações de páginas"
+
+#: wiki/api/analytics.py:245
+msgid "Not permitted to view analytics for this space"
+msgstr "Não é permitido visualizar os dados analíticos deste espaço"
+
+#: wiki/api/analytics.py:46 wiki/api/analytics.py:238
+msgid "Not permitted to view wiki analytics"
+msgstr "Não é permitido visualizar os dados analíticos do Wiki"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:68
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:83
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:103
+msgid "Not set"
+msgstr "Não definido"
+
+#: frontend/src/pages/Contributions.vue:188
+msgid "Nothing assigned to you"
+msgstr "Nada atribuído a você"
+
+#: frontend/src/components/SpaceWelcome.vue:83
+msgid "Nothing synced yet"
+msgstr "Nada sincronizado ainda"
+
+#. Option for the 'Type' (Select) field in DocType 'Wiki Feedback'
+#: wiki/templates/wiki/includes/feedback_widget.html:9
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+msgid "Ok"
+msgstr "Regular"
+
+#. Label of a Link field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Old Parent"
+msgstr "Superior anterior"
+
+#: frontend/src/components/EditorTableOfContents.vue:29
+#: frontend/src/components/EditorTableOfContents.vue:69
+#: wiki/templates/wiki/includes/mobile_header.html:54
+#: wiki/templates/wiki/includes/sidebar.html:296
+#: wiki/templates/wiki/includes/toc.html:17
+msgid "On this page"
+msgstr "Nesta página"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:323
+msgid "Only a group can be marked as a tab."
+msgstr "Somente um grupo pode ser marcado como aba."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:325
+msgid "Only a top-level group can be marked as a tab. Nested tabs are not supported."
+msgstr "Somente um grupo de nível superior pode ser marcado como aba. Abas aninhadas não são permitidas."
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:88
+msgid "Only space admins can change access control."
+msgstr "Somente administradores do espaço podem alterar o controle de acesso."
+
+#: wiki/permissions.py:163
+msgid "Only space editors can create or change tabs."
+msgstr "Somente editores do espaço podem criar ou alterar abas."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1517
+msgid "Only the author can withdraw this change request."
+msgstr "Somente o autor pode retirar esta solicitação de alteração."
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Merge Conflict'
+#. Option for the 'Status' (Select) field in DocType 'Wiki Feedback'
+#: frontend/src/pages/Overview.vue:46
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+msgid "Open"
+msgstr "Em aberto"
+
+#: frontend/src/pages/Overview.vue:203
+msgid "Open change requests"
+msgstr "Solicitações de alteração em aberto"
+
+#: frontend/src/pages/Overview.vue:40
+msgid "Open change requests by space"
+msgstr "Solicitações de alteração em aberto por espaço"
+
+#: wiki/templates/wiki/document.html:57 wiki/templates/wiki/document.html:71
+msgid "Open in ChatGPT"
+msgstr "Abrir no ChatGPT"
+
+#: wiki/templates/wiki/document.html:58 wiki/templates/wiki/document.html:72
+msgid "Open in Claude"
+msgstr "Abrir no Claude"
+
+#: wiki/templates/wiki/includes/mobile_header.html:94
+msgid "Open navigation menu"
+msgstr "Abrir menu de navegação"
+
+#: frontend/src/components/PageMetaLine.vue:12
+msgid "Open page analytics"
+msgstr "Abrir análise de dados da página"
+
+#: wiki/templates/wiki/includes/header.html:65
+msgid "Open search"
+msgstr "Abrir pesquisa"
+
+#. Label of a Int field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Operation Version"
+msgstr "Versão da operação"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1162
+msgid "Operation is missing 'type'"
+msgstr "A operação não contém 'type'"
+
+#. Description of the 'Docs Subdirectory' (Data) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Optional sub-folder in the repo to sync (e.g. docs). Leave empty to sync from the repo root."
+msgstr "Subpasta opcional do repositório a sincronizar (por exemplo, docs). Deixe vazio para sincronizar a partir da raiz do repositório."
+
+#: frontend/src/components/SpaceSettings/NavigationPanel.vue:17
+msgid "Order"
+msgstr "Ordem"
+
+#. Label of a Int field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Order Index"
+msgstr "Índice de ordenação"
+
+#: frontend/src/composables/useChangeTypeDisplay.js:87
+msgid "Order updated"
+msgstr "Ordem atualizada"
+
+#. Label of a Code field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Original HTML"
+msgstr "HTML original"
+
+#. Label of a JSON field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Ours Payload"
+msgstr "Payload da nossa versão"
+
+#. Label of a Check field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Outdated"
+msgstr "Desatualizado"
+
+#: frontend/src/components/LibrarySidebar.vue:265
+#: frontend/src/layouts/MainLayout.vue:18 frontend/src/pages/Overview.vue:4
+#: frontend/src/pages/Overview.vue:313
+msgid "Overview"
+msgstr "Visão geral"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:93
+msgid "PEM-encoded private key generated for the GitHub App"
+msgstr "Chave privada codificada em PEM gerada para o GitHub App"
+
+#. Description of the 'Private Key' (Password) field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "PEM-encoded private key generated for the GitHub App."
+msgstr "Chave privada codificada em PEM gerada para o GitHub App."
+
+#: frontend/src/components/SpaceIdentityPicker.vue:113
+msgid "PNG or SVG, shown at a small size."
+msgstr "PNG ou SVG, exibido em tamanho pequeno."
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:20
+msgid "Page"
+msgstr "Página"
+
+#: frontend/src/components/DraftContributionPanel.vue:12
+#: frontend/src/components/DraftContributionPanel.vue:13
+#: frontend/src/components/WikiDocumentPanel.vue:51
+#: frontend/src/components/WikiDocumentPanel.vue:52
+msgid "Page actions"
+msgstr "Ações da página"
+
+#: wiki/api/og_image.py:87 wiki/api/og_image.py:236 wiki/api/og_image.py:488
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:417
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:426
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:436
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:1123
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:1135
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: frontend/src/components/PageSettingsPanel.vue:13
+#: frontend/src/components/WikiDocumentPanel.vue:27
+#: frontend/src/components/WikiDocumentPanel.vue:30
+msgid "Page settings"
+msgstr "Configurações da página"
+
+#: frontend/src/components/PageSettingsPanel.vue:527
+msgid "Page settings saved"
+msgstr "Configurações da página salvas"
+
+#: frontend/src/components/DraftContributionPanel.vue:33
+#: frontend/src/components/WikiDocumentPanel.vue:76
+#: frontend/src/components/WikiDocumentPanel.vue:159
+msgid "Page title"
+msgstr "Título da página"
+
+#: frontend/src/pages/Overview.vue:55 frontend/src/pages/Overview.vue:201
+msgid "Page views"
+msgstr "Visualizações de páginas"
+
+#: frontend/src/components/Analytics/TrackingNotice.vue:5
+msgid "Page views are not being recorded"
+msgstr "As visualizações de páginas não estão sendo registradas"
+
+#: frontend/src/components/CommandPalette.vue:396
+#: frontend/src/pages/SpaceDetails.vue:12
+#: frontend/src/pages/SpaceDetails.vue:35
+msgid "Pages"
+msgstr "Páginas"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:40
+msgid "Pages are read from the repository root"
+msgstr "As páginas são lidas da raiz do repositório"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:39
+msgid "Pages are read from this folder in the repository"
+msgstr "As páginas são lidas desta pasta do repositório"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:183
+msgid "Pages live under /{0}/…"
+msgstr "As páginas ficam em /{0}/…"
+
+#. Label of a Data field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Parent Key"
+msgstr "Chave do superior"
+
+#. Label of a Data field in DocType 'Wiki Group Item'
+#. Label of a Data field in DocType 'Wiki Sidebar'
+#: wiki/wiki/doctype/wiki_group_item/wiki_group_item.json
+#: wiki/wiki/doctype/wiki_sidebar/wiki_sidebar.json
+msgid "Parent Label"
+msgstr "Rótulo do superior"
+
+#. Label of a Link field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Parent Revision"
+msgstr "Revisão pai"
+
+#. Label of a Link field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Parent Wiki Document"
+msgstr "Documento Wiki superior"
+
+#: wiki/api/analytics.py:224
+msgid "Pass either a space or a document, not both"
+msgstr "Informe um espaço ou um documento, não ambos"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:95
+msgid "Paste PEM private key"
+msgstr "Cole a chave privada PEM"
+
+#. Label of a Section Break field in DocType 'Wiki Merge Conflict'
+#. Label of a Section Break field in DocType 'Wiki GitHub Webhook Log'
+#. Label of a Code field in DocType 'Wiki GitHub Webhook Log'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Payload"
+msgstr "Payload"
+
+#. Option for the 'Last Sync Status' (Select) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Pending"
+msgstr "Pendente"
+
+#: frontend/src/components/SpaceModeStrip.vue:174
+msgid "Pending Changes"
+msgstr "Alterações pendentes"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:63
+msgid "Permanently delete this space and all its pages"
+msgstr "Excluir permanentemente este espaço e todas as suas páginas"
+
+#. Label of a Select field in DocType 'Wiki Space Role'
+#: wiki/wiki/doctype/wiki_space_role/wiki_space_role.json
+msgid "Permission Level"
+msgstr "Nível de permissão"
+
+#: frontend/src/components/SpaceWelcome.vue:27
+msgid "Pick a page to edit"
+msgstr "Escolha uma página para editar"
+
+#: frontend/src/components/LibrarySidebar.vue:199
+msgid "Pin to top"
+msgstr "Fixar no topo"
+
+#: frontend/src/components/LibrarySidebar.vue:64
+#: frontend/src/pages/AllSpaces.vue:177
+msgid "Pinned to top"
+msgstr "Fixado no topo"
+
+#: frontend/src/layouts/MainLayout.vue:91
+msgid "Please contact your administrator to request access."
+msgstr "Entre em contato com seu administrador para solicitar acesso."
+
+#: wiki/www/github/authorize.py:22 wiki/www/github/redirect.py:22
+msgid "Please log in to connect your GitHub account."
+msgstr "Entre para conectar sua conta do GitHub."
+
+#: wiki/www/github/manifest_redirect.py:22 wiki/www/github/new_app.py:24
+msgid "Please log in to create a GitHub App."
+msgstr "Entre para criar um GitHub App."
+
+#: frontend/src/components/NewSpaceDialog.vue:558
+msgid "Please pick a GitHub repository"
+msgstr "Escolha um repositório GitHub"
+
+#: frontend/src/components/NewSpaceDialog.vue:562
+msgid "Please pick or enter a branch"
+msgstr "Escolha ou informe uma branch"
+
+#: frontend/src/pages/ContributionReview.vue:845
+msgid "Please provide a reason"
+msgstr "Informe um motivo"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1485
+msgid "Please provide a reason for rejecting this change request."
+msgstr "Informe um motivo para rejeitar esta solicitação de alteração."
+
+#: frontend/src/pages/ContributionReview.vue:793
+msgid "Please provide feedback"
+msgstr "Forneça feedback"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1456
+msgid "Please provide feedback explaining what needs to change."
+msgstr "Forneça feedback explicando o que precisa mudar."
+
+#: frontend/src/pages/ContributionReview.vue:349
+msgid "Please provide feedback explaining what needs to change. This is sent back to the author."
+msgstr "Forneça feedback explicando o que precisa mudar. Ele será enviado ao autor."
+
+#: frontend/src/components/SpaceModeStrip.vue:400
+#: frontend/src/composables/useChangeRequestActions.js:115
+msgid "Please wait for reordering to finish before merging"
+msgstr "Aguarde a conclusão da reordenação antes de mesclar"
+
+#: frontend/src/pages/ContributionReview.vue:702
+msgid "Position"
+msgstr "Posição"
+
+#: wiki/templates/wiki/document.html:35
+#: wiki/templates/wiki/macros/buttons.html:80
+msgid "Preparing…"
+msgstr "Preparando…"
+
+#. Description of the 'Disable Indexing' (Check) field in DocType 'Wiki
+#. Document'
+#: frontend/src/components/PageSettingsPanel.vue:71
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Prevent search engines from indexing this page"
+msgstr "Impedir que mecanismos de pesquisa indexem esta página"
+
+#: frontend/src/components/PageSettingsPanel.vue:156
+#: frontend/src/pages/ContributionReview.vue:260
+msgid "Preview"
+msgstr "Pré-visualização"
+
+#. Label of a Password field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:101
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Private Key"
+msgstr "Chave privada"
+
+#: frontend/src/pages/ContributionReview.vue:283
+msgid "Proposed"
+msgstr "Proposto"
+
+#. Description of the 'App Public Link' (Data) field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:30
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Public installation link, e.g. https://github.com/apps/your-app/installations/new"
+msgstr "Link público de instalação, por exemplo, https://github.com/apps/your-app/installations/new"
+
+#: frontend/src/components/WikiDocumentPanel.vue:546
+#: frontend/src/components/WikiTree.vue:407
+msgid "Publish"
+msgstr "Publicar"
+
+#. Label of a Check field in DocType 'Wiki Page'
+#: frontend/src/components/PageSettingsPanel.vue:56
+#: frontend/src/components/PageSettingsPanel.vue:64
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:28
+#: frontend/src/pages/AllSpaces.vue:350
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Published"
+msgstr "Publicado"
+
+#: wiki/wiki/report/wiki_broken_links/wiki_broken_links.js:26
+msgid "Published pages only?"
+msgstr "Somente páginas publicadas?"
+
+#: frontend/src/components/SpaceWelcome.vue:11
+msgid "Pulling the latest pages from GitHub. This will only take a moment."
+msgstr "Buscando as páginas mais recentes do GitHub. Isso levará apenas um momento."
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:71
+msgid "Pushes to the repository sync automatically via this webhook URL:"
+msgstr "Os pushes para o repositório são sincronizados automaticamente por esta URL de webhook:"
+
+#. Label of a Link field in DocType 'Wiki Page Patch'
+#. Label of a Link field in DocType 'Wiki Page Revision'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+#: wiki/wiki/doctype/wiki_page_revision/wiki_page_revision.json
+msgid "Raised By"
+msgstr "Registrado por"
+
+#. Label of a Data field in DocType 'Wiki Page Revision'
+#: wiki/wiki/doctype/wiki_page_revision/wiki_page_revision.json
+msgid "Raised By Username"
+msgstr "Nome de usuário de quem registrou"
+
+#. Label of a Rating field in DocType 'Wiki Feedback'
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+msgid "Rating"
+msgstr "Nota"
+
+#. Description of the 'Avatar Seed' (Data) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Re-rolled by Shuffle. Stored so the same mark can be rebuilt from the style."
+msgstr "Gerada novamente pela opção Embaralhar. Armazenada para que a mesma marca possa ser reconstruída a partir do estilo."
+
+#. Option for the 'Permission Level' (Select) field in DocType 'Wiki Space
+#. Role'
+#: wiki/wiki/doctype/wiki_space_role/wiki_space_role.json
+msgid "Read"
+msgstr "Leitura"
+
+#: frontend/src/components/WikiDocumentPanel.vue:12
+msgid "Read-only"
+msgstr "Somente leitura"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:85
+msgid "Readable by all logged-in users if no roles are set. Add the Guest role for public/anonymous access."
+msgstr "Pode ser lido por todos os usuários conectados se nenhum papel estiver definido. Adicione o papel Guest para acesso público ou anônimo."
+
+#: frontend/src/components/PageSettingsPanel.vue:209
+msgid "Reading time"
+msgstr "Tempo de leitura"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:68
+msgid "Real-time Sync"
+msgstr "Sincronização em tempo real"
+
+#: frontend/src/pages/ContributionReview.vue:387
+msgid "Reason"
+msgstr "Motivo"
+
+#: frontend/src/components/CommandPalette.vue:397
+msgid "Recent"
+msgstr "Recentes"
+
+#: frontend/src/components/PageSettingsPanel.vue:143
+msgid "Recommended 1200×630"
+msgstr "Recomendado: 1200×630"
+
+#. Description of the 'Meta Image' (Attach Image) field in DocType 'Wiki
+#. Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Recommended size: 1200x630px"
+msgstr "Tamanho recomendado: 1200x630px"
+
+#. Description of the 'Meta Description' (Small Text) field in DocType 'Wiki
+#. Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Recommended: 150-160 characters"
+msgstr "Recomendado: 150-160 caracteres"
+
+#. Label of a Password field in DocType 'Wiki GitHub Connection'
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "Refresh Token"
+msgstr "Token de atualização"
+
+#. Label of a Datetime field in DocType 'Wiki GitHub Connection'
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "Refresh Token Expires At"
+msgstr "O token de atualização expira em"
+
+#: frontend/src/pages/ContributionReview.vue:402
+#: frontend/src/pages/ContributionReview.vue:619
+msgid "Reject"
+msgstr "Rejeitar"
+
+#: frontend/src/pages/ContributionReview.vue:377
+msgid "Reject Change Request"
+msgstr "Rejeitar solicitação de alteração"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Change Request'
+#. Option for the 'Status' (Select) field in DocType 'Wiki Page Patch'
+#: frontend/src/components/SpaceModeStrip.vue:461
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Rejected"
+msgstr "Rejeitado"
+
+#. Label of a Datetime field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Rejected At"
+msgstr "Rejeitado em"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1501
+msgid "Rejected this change request: {0}"
+msgstr "Rejeitou esta solicitação de alteração: {0}"
+
+#: frontend/src/pages/ContributionReview.vue:382
+msgid "Rejecting is final — this change request cannot be merged. Please explain why it is being rejected."
+msgstr "A rejeição é definitiva — esta solicitação de alteração não poderá ser mesclada. Explique por que ela está sendo rejeitada."
+
+#: frontend/src/components/SpaceModeStrip.vue:105
+msgid "Reload latest"
+msgstr "Recarregar versão mais recente"
+
+#: frontend/src/components/SpaceModeStrip.vue:382
+msgid "Reload latest before merging"
+msgstr "Recarregue a versão mais recente antes de mesclar"
+
+#: frontend/src/components/SubmitForReviewButton.vue:92
+msgid "Reload latest before submitting"
+msgstr "Recarregue a versão mais recente antes de enviar"
+
+#: frontend/src/composables/useChangeRequestActions.js:25
+msgid "Reload latest before {0}"
+msgstr "Recarregue a versão mais recente antes de {0}"
+
+#: frontend/src/components/PageSettingsPanel.vue:121
+#: frontend/src/components/SpaceIdentityPicker.vue:109
+msgid "Remove"
+msgstr "Remover"
+
+#: frontend/src/components/SpaceModeStrip.vue:391
+msgid "Remove failed uploads before merging"
+msgstr "Remova os envios que falharam antes de mesclar"
+
+#: frontend/src/components/SubmitForReviewButton.vue:101
+msgid "Remove failed uploads before submitting"
+msgstr "Remova os envios que falharam antes de enviar"
+
+#: frontend/src/composables/useChangeRequestActions.js:34
+msgid "Remove failed uploads before {0}"
+msgstr "Remova os envios que falharam antes de {0}"
+
+#: frontend/src/components/WikiDocumentPanel.vue:166
+#: frontend/src/components/WikiDocumentPanel.vue:541
+#: frontend/src/components/WikiTree.vue:392
+msgid "Rename"
+msgstr "Renomear"
+
+#: frontend/src/components/WikiDocumentList.vue:177
+msgid "Rename Group"
+msgstr "Renomear grupo"
+
+#: frontend/src/components/WikiDocumentPanel.vue:152
+msgid "Rename Page"
+msgstr "Renomear página"
+
+#: frontend/src/composables/useChangeTypeDisplay.js:31
+msgid "Reordered"
+msgstr "Reordenado"
+
+#: frontend/src/components/PageSettingsPanel.vue:118
+#: frontend/src/components/SpaceIdentityPicker.vue:88
+msgid "Replace"
+msgstr "Substituir"
+
+#. Description of the 'Source Path' (Data) field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Repo-relative path of the source file when this page is git-synced. Identity for cross-sync matching is (wiki_space, source_path)."
+msgstr "Caminho do arquivo de origem relativo ao repositório quando esta página é sincronizada com Git. A identidade para correspondência entre sincronizações é (wiki_space, source_path)."
+
+#. Label of a Data field in DocType 'Wiki GitHub Webhook Log'
+#. Label of a Data field in DocType 'Wiki Space'
+#: frontend/src/components/NewSpaceDialog.vue:140
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:9
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Repository"
+msgstr "Repositório"
+
+#. Label of a Data field in DocType 'Wiki GitHub Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Repository Owner"
+msgstr "Proprietário do repositório"
+
+#: wiki/wiki/git_sync.py:965
+msgid "Repository and branch are required for git sync."
+msgstr "Repositório e branch são obrigatórios para a sincronização Git."
+
+#: wiki/wiki/git_sync.py:107
+msgid "Repository tree for {0} is too large (>100,000 entries) and was truncated by GitHub. Narrow the sync to a sub-directory via the 'Docs Subdirectory' field."
+msgstr "A árvore do repositório de {0} é muito grande (>100,000 entradas) e foi truncada pelo GitHub. Restrinja a sincronização a um subdiretório pelo campo 'Subdiretório da documentação'."
+
+#: frontend/src/pages/ContributionReview.vue:344
+#: frontend/src/pages/ContributionReview.vue:369
+#: frontend/src/pages/ContributionReview.vue:612
+msgid "Request Changes"
+msgstr "Solicitar ajustes"
+
+#: frontend/src/pages/ContributionReview.vue:801
+msgid "Requested changes"
+msgstr "Ajustes solicitados"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1471
+msgid "Requested changes: {0}"
+msgstr "Ajustes solicitados: {0}"
+
+#. Label of a Select field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Resolution"
+msgstr "Resolução"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1591
+msgid "Resolution must be 'ours' or 'theirs'."
+msgstr "A resolução deve ser 'ours' ou 'theirs'."
+
+#: frontend/src/pages/ContributionReview.vue:41
+msgid "Resolve & Merge"
+msgstr "Resolver e mesclar"
+
+#: frontend/src/components/SpaceModeStrip.vue:385
+msgid "Resolve failed changes before merging"
+msgstr "Resolva as alterações que falharam antes de mesclar"
+
+#: frontend/src/components/SubmitForReviewButton.vue:95
+msgid "Resolve failed changes before submitting"
+msgstr "Resolva as alterações que falharam antes de enviar"
+
+#: frontend/src/composables/useChangeRequestActions.js:28
+msgid "Resolve failed changes before {0}"
+msgstr "Resolva as alterações que falharam antes de {0}"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Resolved"
+msgstr "Resolvido"
+
+#. Label of a Datetime field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Resolved At"
+msgstr "Resolvido em"
+
+#. Label of a Link field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Resolved By"
+msgstr "Resolvido por"
+
+#. Label of a JSON field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Resolved Payload"
+msgstr "Payload resolvido"
+
+#: frontend/src/components/WikiTree.vue:366
+msgid "Restore"
+msgstr "Restaurar"
+
+#: frontend/src/components/LibrarySidebar.vue:70
+#: frontend/src/pages/AllSpaces.vue:183
+msgid "Restricted access"
+msgstr "Acesso restrito"
+
+#. Label of a Section Break field in DocType 'Wiki GitHub Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Result"
+msgstr "Resultado"
+
+#. Label of a Section Break field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Review"
+msgstr "Revisão"
+
+#. Label of a Small Text field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Review Comment"
+msgstr "Comentário da revisão"
+
+#. Label of a Datetime field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Reviewed At"
+msgstr "Revisado em"
+
+#. Label of a Link field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Reviewed By"
+msgstr "Revisado por"
+
+#: frontend/src/components/AssignDialog.vue:87
+msgid "Reviewer assigned"
+msgstr "Revisor atribuído"
+
+#. Label of a Link field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Revision"
+msgstr "Revisão"
+
+#. Label of a Section Break field in DocType 'Wiki Change Request'
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Revisions"
+msgstr "Revisões"
+
+#. Label of a Int field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Right"
+msgstr "Direita"
+
+#: frontend/src/pages/Overview.vue:41
+msgid "Right now"
+msgstr "Agora"
+
+#. Label of a Link field in DocType 'Wiki Space Role'
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:31
+#: wiki/wiki/doctype/wiki_space_role/wiki_space_role.json
+msgid "Role"
+msgstr "Papel"
+
+#. Label of a Table field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Roles"
+msgstr "Papéis"
+
+#. Label of a Link field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Root Group"
+msgstr "Grupo raiz"
+
+#. Label of a Data field in DocType 'Wiki Document'
+#. Label of a Data field in DocType 'Wiki Revision Item'
+#. Label of a Data field in DocType 'Wiki Page'
+#. Label of a Data field in DocType 'Wiki Space'
+#: frontend/src/components/DraftContributionPanel.vue:117
+#: frontend/src/components/NewSpaceDialog.vue:40
+#: frontend/src/components/PageSettingsPanel.vue:49
+#: frontend/src/components/WikiDocumentList.vue:115
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Route"
+msgstr "Rota"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:282
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:356
+msgid "Route '{0}' is already used by another Wiki Space"
+msgstr "A rota '{0}' já é usada por outro espaço Wiki"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:19
+msgid "Route Prefix"
+msgstr "Prefixo da rota"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:270
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:349
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:383
+msgid "Route cannot be empty"
+msgstr "A rota não pode estar vazia"
+
+#: frontend/src/components/NewSpaceDialog.vue:554
+msgid "Route is required."
+msgstr "A rota é obrigatória."
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:68
+msgid "Routes Updated"
+msgstr "Rotas atualizadas"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Git Sync Log'
+#. Option for the 'Last Sync Status' (Select) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Running"
+msgstr "Em execução"
+
+#: frontend/src/components/PageSettingsPanel.vue:249
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:127
+#: frontend/src/components/WikiDocumentList.vue:126
+#: frontend/src/components/WikiDocumentList.vue:191
+#: frontend/src/components/WikiDocumentList.vue:215
+#: frontend/src/components/WikiDocumentList.vue:239
+#: frontend/src/components/WikiSettings/CodePanel.vue:22
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:43
+msgid "Save"
+msgstr "Salvar"
+
+#: frontend/src/components/WikiDocumentPanel.vue:195
+msgid "Save Delete Draft"
+msgstr "Salvar rascunho de exclusão"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:116
+msgid "Save Secrets"
+msgstr "Salvar segredos"
+
+#: frontend/src/components/SpaceModeStrip.vue:397
+msgid "Save your changes before merging"
+msgstr "Salve suas alterações antes de mesclar"
+
+#: frontend/src/composables/useChangeRequestActions.js:40
+msgid "Save your changes before {0}"
+msgstr "Salve suas alterações antes de {0}"
+
+#: frontend/src/composables/useSyncState.js:32
+msgid "Saving…"
+msgstr "Salvando…"
+
+#. Option for the 'Trigger' (Select) field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Scheduled"
+msgstr "Agendado"
+
+#: frontend/src/components/CommandPalette.vue:9
+#: frontend/src/components/CommandPalette.vue:25
+#: frontend/src/components/CommandPalette.vue:174
+#: frontend/src/components/LibrarySidebar.vue:28
+#: wiki/templates/wiki/includes/mobile_header.html:200
+msgid "Search"
+msgstr "Pesquisar"
+
+#: wiki/templates/wiki/includes/header.html:71
+#: wiki/templates/wiki/includes/search_modal.html:52
+msgid "Search documentation"
+msgstr "Pesquisar documentação"
+
+#: wiki/templates/wiki/includes/mobile_header.html:201
+msgid "Search navigation"
+msgstr "Pesquisar navegação"
+
+#: frontend/src/components/WikiDocumentList.vue:10
+msgid "Search pages..."
+msgstr "Pesquisar páginas..."
+
+#: frontend/src/components/AssignDialog.vue:14
+msgid "Search people..."
+msgstr "Pesquisar pessoas..."
+
+#: frontend/src/components/NewSpaceDialog.vue:146
+msgid "Search repositories…"
+msgstr "Pesquisar repositórios…"
+
+#: frontend/src/components/CommandPalette.vue:36
+msgid "Search results"
+msgstr "Resultados da pesquisa"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:15
+msgid "Search role to add"
+msgstr "Pesquisar papel para adicionar"
+
+#: frontend/src/pages/AllSpaces.vue:57
+msgid "Search spaces..."
+msgstr "Pesquisar espaços..."
+
+#: frontend/src/components/CommandPalette.vue:96
+msgid "Searching…"
+msgstr "Pesquisando…"
+
+#. Label of a Section Break field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:52
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Secrets"
+msgstr "Segredos"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:244
+msgid "Secrets updated"
+msgstr "Segredos atualizados"
+
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.js:6
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:6
+msgid "See on website"
+msgstr "Ver no site"
+
+#: frontend/src/components/NewSpaceDialog.vue:113
+msgid "Select an account or organization"
+msgstr "Selecione uma conta ou organização"
+
+#: frontend/src/components/CommandPalette.vue:321
+#: frontend/src/components/LibrarySidebar.vue:247
+#: frontend/src/components/MobileAppMenu.vue:28
+msgid "Settings"
+msgstr "Configurações"
+
+#. Description of the 'Webhook Secret' (Password) field in DocType 'Wiki
+#. Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Shared secret used to verify incoming webhook deliveries (TB6)."
+msgstr "Segredo compartilhado usado para verificar entregas recebidas de webhook (TB6)."
+
+#. Description of the 'Keywords' (Small Text) field in DocType 'Wiki Page'
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Should be a comma separated list"
+msgstr "Deve ser uma lista separada por vírgulas"
+
+#: frontend/src/components/WikiSettings/FeedbackPanel.vue:8
+msgid "Show a feedback widget on every wiki page to collect ratings and comments"
+msgstr "Mostrar um widget de feedback em todas as páginas Wiki para coletar notas e comentários"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:107
+msgid "Show a feedback widget on wiki pages to collect user reactions"
+msgstr "Mostrar um widget de feedback nas páginas Wiki para coletar reações dos usuários"
+
+#: frontend/src/components/WikiSettings/GeneralPanel.vue:7
+msgid "Show an auto-generated table of contents on wiki pages"
+msgstr "Mostrar um sumário gerado automaticamente nas páginas Wiki"
+
+#: frontend/src/components/SpaceSettings/NavigationPanel.vue:4
+msgid "Show in Space Switcher"
+msgstr "Mostrar no seletor de espaços"
+
+#. Label of a Check field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Show in switcher?"
+msgstr "Mostrar no seletor?"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:21
+msgid "Show the whole space"
+msgstr "Mostrar o espaço inteiro"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:41
+msgid "Shown in the reader header and on generated social preview images"
+msgstr "Exibido no cabeçalho do leitor e nas imagens geradas de prévia em redes sociais"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:5
+msgid "Shown in the sidebar, the switcher and the reader header"
+msgstr "Exibido na barra lateral, no seletor e no cabeçalho do leitor"
+
+#. Label of a Data field in DocType 'Wiki GitHub Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Signature"
+msgstr "Assinatura"
+
+#. Label of a Int field in DocType 'Wiki Content Blob'
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+msgid "Size"
+msgstr "Tamanho"
+
+#. Label of a Data field in DocType 'Wiki Document'
+#. Label of a Data field in DocType 'Wiki Revision Item'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Slug"
+msgstr "Slug"
+
+#: frontend/src/components/PageSettingsPanel.vue:83
+msgid "Social preview"
+msgstr "Prévia em redes sociais"
+
+#. Label of a Int field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Sort Order"
+msgstr "Ordem de classificação"
+
+#. Label of a Section Break field in DocType 'Wiki GitHub Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Source"
+msgstr "Origem"
+
+#. Label of a Data field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Source Path"
+msgstr "Caminho de origem"
+
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:8
+#: frontend/src/pages/AllSpaces.vue:105
+msgid "Space"
+msgstr "Espaço"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Space Color"
+msgstr "Cor do espaço"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Space Icon"
+msgstr "Ícone do espaço"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:39
+msgid "Space Logo"
+msgstr "Logo do espaço"
+
+#. Label of a Data field in DocType 'Wiki Space'
+#: frontend/src/components/NewSpaceDialog.vue:33
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:4
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Space Name"
+msgstr "Nome do espaço"
+
+#: frontend/src/components/SpaceSidebar.vue:44
+msgid "Space actions"
+msgstr "Ações do espaço"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:12
+msgid "Space name"
+msgstr "Nome do espaço"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:242
+msgid "Space name copied"
+msgstr "Nome do espaço copiado"
+
+#: frontend/src/components/CommandPalette.vue:332
+#: frontend/src/components/LibrarySidebar.vue:204
+#: frontend/src/components/SpaceSidebar.vue:114
+#: frontend/src/components/SpaceTreePanel.vue:34
+#: frontend/src/components/SpaceTreePanel.vue:38
+msgid "Space settings"
+msgstr "Configurações do espaço"
+
+#: frontend/src/components/CommandPalette.vue:395
+#: frontend/src/components/LibrarySidebar.vue:185
+#: frontend/src/layouts/MainLayout.vue:29
+msgid "Spaces"
+msgstr "Espaços"
+
+#. Description of the 'Synced Spaces' (Small Text) field in DocType 'Wiki
+#. GitHub Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Spaces a push enqueued a sync for (empty for ignored or non-matching deliveries)."
+msgstr "Espaços para os quais um push colocou uma sincronização na fila (vazio para entregas ignoradas ou sem correspondência)."
+
+#: frontend/src/pages/SpaceDetails.vue:134
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:32
+msgid "Start Cloning"
+msgstr "Iniciar clonagem"
+
+#. Label of a Datetime field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Started At"
+msgstr "Iniciado em"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:25
+msgid "Starting clone..."
+msgstr "Iniciando clonagem..."
+
+#. Label of a Select field in DocType 'Wiki Change Request'
+#. Label of a Select field in DocType 'Wiki Merge Conflict'
+#. Label of a Select field in DocType 'Wiki Feedback'
+#. Label of a Select field in DocType 'Wiki Git Sync Log'
+#. Label of a Select field in DocType 'Wiki Page Patch'
+#: frontend/src/components/ContributionsPanel.vue:202
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Status"
+msgstr "Status"
+
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:55
+msgid "Stored secrets are never shown. Leave a field blank to keep its current value."
+msgstr "Os segredos armazenados nunca são exibidos. Deixe um campo vazio para manter seu valor atual."
+
+#: frontend/src/components/ContributionsPanel.vue:201
+msgid "Subject"
+msgstr "Assunto"
+
+#: frontend/src/components/SubmitForReviewButton.vue:126
+#: wiki/templates/wiki/includes/feedback_widget.html:54
+msgid "Submit"
+msgstr "Enviar"
+
+#: frontend/src/components/SubmitForReviewButton.vue:16
+#: frontend/src/components/SubmitForReviewButton.vue:26
+msgid "Submit for review"
+msgstr "Enviar para revisão"
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Git Sync Log'
+#. Option for the 'Last Sync Status' (Select) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Success"
+msgstr "Sucesso"
+
+#: wiki/templates/wiki/includes/header.html:25
+#: wiki/templates/wiki/includes/mobile_header.html:149
+msgid "Switch wiki space"
+msgstr "Alternar espaço Wiki"
+
+#. Label of a Int field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Switcher Order"
+msgstr "Ordem no seletor"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:96
+msgid "Sync History"
+msgstr "Histórico de sincronização"
+
+#: frontend/src/components/WikiTree.vue:52
+#: frontend/src/composables/useSyncState.js:31
+msgid "Sync failed"
+msgstr "Falha na sincronização"
+
+#: frontend/src/components/WikiTree.vue:51
+msgid "Sync failed — edit again or delete to recover"
+msgstr "Falha na sincronização — edite novamente ou exclua para recuperar"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:285
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:289
+#: frontend/src/components/SpaceWelcome.vue:8 frontend/src/stores/space.js:63
+#: frontend/src/stores/space.js:67
+msgid "Sync in progress"
+msgstr "Sincronização em andamento"
+
+#: frontend/src/components/SpaceModeStrip.vue:43
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:29
+#: frontend/src/components/SpaceSidebar.vue:128
+msgid "Sync now"
+msgstr "Sincronizar agora"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:254
+#: frontend/src/stores/space.js:226
+msgid "Sync started — pulling the latest from GitHub"
+msgstr "Sincronização iniciada — buscando a versão mais recente do GitHub"
+
+#. Label of a Small Text field in DocType 'Wiki GitHub Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Synced Spaces"
+msgstr "Espaços sincronizados"
+
+#: frontend/src/components/LibrarySidebar.vue:67
+#: frontend/src/components/SpaceModeStrip.vue:34
+#: frontend/src/pages/AllSpaces.vue:180
+msgid "Synced from GitHub"
+msgstr "Sincronizado a partir do GitHub"
+
+#: frontend/src/components/NewSpaceDialog.vue:50
+msgid "Synced from GitHub?"
+msgstr "Sincronizado a partir do GitHub?"
+
+#: frontend/src/components/SpaceSettings/AccessPanel.vue:177
+msgid "Synced spaces are read-only, so contributions are always off."
+msgstr "Espaços sincronizados são somente leitura, por isso as contribuições ficam sempre desabilitadas."
+
+#: frontend/src/components/WikiTree.vue:57
+#: frontend/src/components/WikiTree.vue:58
+msgid "Syncing…"
+msgstr "Sincronizando…"
+
+#. Name of a role
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+#: wiki/wiki/doctype/wiki_page_revision/wiki_page_revision.json
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "System Manager"
+msgstr "Administrador do sistema"
+
+#. Label of a Data field in DocType 'Wiki Document'
+#. Label of a Data field in DocType 'Wiki Revision Item'
+#: frontend/src/components/IconPicker.vue:16
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Tab Icon"
+msgstr "Ícone da aba"
+
+#: frontend/src/components/IconGrid.vue:7
+msgid "Tab icons"
+msgstr "Ícones de abas"
+
+#: wiki/templates/wiki/includes/feedback_widget.html:67
+msgid "Thanks!"
+msgstr "Obrigado!"
+
+#: frontend/src/components/NewSpaceDialog.vue:90
+msgid "The GitHub App is not installed on any account yet. Install it on the account and repositories you want to sync."
+msgstr "O GitHub App ainda não está instalado em nenhuma conta. Instale-o na conta e nos repositórios que deseja sincronizar."
+
+#: frontend/src/components/NewSpaceDialog.vue:45
+msgid "The URL path for this wiki space (e.g., /my-wiki-space)"
+msgstr "O caminho da URL deste espaço Wiki (por exemplo, /my-wiki-space)"
+
+#: frontend/src/pages/ContributionReview.vue:89
+msgid "The following documents have conflicting changes. Choose which version to keep for each conflict."
+msgstr "Os documentos a seguir têm alterações conflitantes. Escolha qual versão manter em cada conflito."
+
+#. Description of the 'Wiki Config (.wiki.json)' (Code) field in DocType 'Wiki
+#. Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "The most recently loaded .wiki.json from the repo (empty when the structure is inferred)."
+msgstr "O .wiki.json carregado mais recentemente do repositório (vazio quando a estrutura é inferida)."
+
+#: frontend/src/components/WikiDocumentPanel.vue:180
+msgid "The page is removed from the space when this change request is merged."
+msgstr "A página é removida do espaço quando esta solicitação de alteração é mesclada."
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:84
+msgid "Their revision history"
+msgstr "O histórico de revisões delas"
+
+#. Label of a JSON field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Theirs Payload"
+msgstr "Payload da outra versão"
+
+#: frontend/src/components/CommandPalette.vue:348
+#: wiki/templates/wiki/includes/search_modal.html:62
+msgid "Theme: Dark"
+msgstr "Tema: escuro"
+
+#: frontend/src/components/CommandPalette.vue:356
+#: wiki/templates/wiki/includes/search_modal.html:62
+msgid "Theme: Light"
+msgstr "Tema: claro"
+
+#: frontend/src/pages/Contributions.vue:206
+msgid "There are no change requests waiting for review."
+msgstr "Não há solicitações de alteração aguardando revisão."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1422
+msgid "There are no changes to submit for review."
+msgstr "Não há alterações para enviar à revisão."
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:277
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:359
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:379
+msgid "This Wiki Space has no root group. Migrate to Version 3 first."
+msgstr "Este espaço Wiki não tem grupo raiz. Migre para a versão 3 primeiro."
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.py:164
+msgid "This Wiki Space is not git-synced."
+msgstr "Este espaço Wiki não está sincronizado com Git."
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:80
+msgid "This cannot be undone. Deleting the space also removes:"
+msgstr "Isso não pode ser desfeito. Excluir o espaço também remove:"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:111
+msgid "This change request is {0} and cannot be changed."
+msgstr "Esta solicitação de alteração está com status {0} e não pode ser alterada."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:125
+msgid "This change request is {0} and is locked for editing."
+msgstr "Esta solicitação de alteração está com status {0} e está bloqueada para edição."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1148
+msgid "This draft has changed elsewhere. Reload latest."
+msgstr "Este rascunho foi alterado em outro local. Recarregue a versão mais recente."
+
+#: frontend/src/components/WikiDocumentList.vue:154
+msgid "This group contains"
+msgstr "Este grupo contém"
+
+#: frontend/src/components/DraftContributionPanel.vue:75
+msgid "This is a draft group."
+msgstr "Este é um grupo em rascunho."
+
+#: wiki/www/wiki_app.py:34
+msgid "This method is only meant for developer mode"
+msgstr "Este método é destinado apenas ao modo de desenvolvedor"
+
+#: frontend/src/composables/useTreeDialogs.js:92
+msgid "This route is already in use"
+msgstr "Esta rota já está em uso"
+
+#: frontend/src/components/SpaceWelcome.vue:90
+msgid "This space doesn't have any pages yet."
+msgstr "Este espaço ainda não tem páginas."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:98
+msgid "This wiki space is not accepting contributions."
+msgstr "Este espaço Wiki não está aceitando contribuições."
+
+#: wiki/permissions.py:40
+msgid "This wiki space is synced from GitHub and is read-only."
+msgstr "Este espaço Wiki é sincronizado a partir do GitHub e é somente leitura."
+
+#: frontend/src/pages/ContributionReview.vue:325
+msgid "This will approve the change request and immediately merge it into the live wiki. This cannot be undone. Are you sure?"
+msgstr "Isso aprovará a solicitação de alteração e a mesclará imediatamente no Wiki publicado. Isso não pode ser desfeito. Tem certeza?"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:86
+msgid "This will sync the sidebar into tree-based Wiki Documents. Continue?"
+msgstr "Isso sincronizará a barra lateral com documentos Wiki organizados em árvore. Continuar?"
+
+#. Description of the 'Space Color' (Data) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Tint behind the space icon: one of gray, blue, green, amber, red, violet."
+msgstr "Cor de fundo do ícone do espaço: um dos valores gray, blue, green, amber, red, violet."
+
+#. Label of a Data field in DocType 'Wiki Change Request'
+#. Label of a Small Text field in DocType 'Wiki Document'
+#. Label of a Small Text field in DocType 'Wiki Revision Item'
+#. Label of a Data field in DocType 'Wiki Page'
+#: frontend/src/components/PageSettingsPanel.vue:42
+#: frontend/src/components/WikiDocumentList.vue:112
+#: frontend/src/components/WikiDocumentList.vue:182
+#: frontend/src/components/WikiDocumentList.vue:205
+#: frontend/src/components/WikiDocumentList.vue:229
+#: frontend/src/components/WikiDocumentPanel.vue:157
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Title"
+msgstr "Título"
+
+#. Label of a Section Break field in DocType 'Wiki Page'
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+msgid "Title & Content"
+msgstr "Título e conteúdo"
+
+#: frontend/src/composables/useTreeDialogs.js:148
+#: frontend/src/composables/useTreeDialogs.js:247
+#: frontend/src/composables/useTreeDialogs.js:287
+msgid "Title is required"
+msgstr "O título é obrigatório"
+
+#: frontend/src/components/LibrarySidebar.vue:253
+#: frontend/src/components/MobileAppMenu.vue:34
+msgid "Toggle Theme"
+msgstr "Alternar tema"
+
+#: frontend/src/components/CommandPalette.vue:341
+#: wiki/templates/wiki/includes/header.html:101
+msgid "Toggle theme"
+msgstr "Alternar tema"
+
+#. Label of a Section Break field in DocType 'Wiki GitHub Connection'
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "Tokens"
+msgstr "Tokens"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:71
+#: frontend/src/pages/Overview.vue:107
+msgid "Top pages"
+msgstr "Páginas mais acessadas"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:79
+#: frontend/src/pages/Overview.vue:139
+msgid "Top referrers"
+msgstr "Principais origens de acesso"
+
+#: frontend/src/components/Analytics/TrackingNotice.vue:8
+msgid "Tracking counts visits to published pages and stores a device fingerprint for each visitor. It applies to the whole site."
+msgstr "O rastreamento conta visitas às páginas publicadas e armazena uma impressão digital do dispositivo de cada visitante. Ele se aplica a todo o site."
+
+#. Label of a Data field in DocType 'Wiki Revision'
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Tree Hash"
+msgstr "Hash da árvore"
+
+#. Label of a Section Break field in DocType 'Wiki Document'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+msgid "Tree Related Fields"
+msgstr "Campos relacionados à árvore"
+
+#. Label of a Select field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Trigger"
+msgstr "Acionamento"
+
+#: frontend/src/components/Analytics/TrackingNotice.vue:14
+msgid "Turn on tracking"
+msgstr "Ativar rastreamento"
+
+#. Label of a Select field in DocType 'Wiki Feedback'
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+msgid "Type"
+msgstr "Tipo"
+
+#: wiki/templates/wiki/includes/search_modal.html:92
+msgid "Type to search documentation"
+msgstr "Digite para pesquisar a documentação"
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:168
+msgid "Type {0} to confirm"
+msgstr "Digite {0} para confirmar"
+
+#: frontend/src/components/WikiDocumentList.vue:207
+#: frontend/src/components/WikiDocumentList.vue:231
+msgid "URL"
+msgstr "URL"
+
+#: frontend/src/composables/useTreeDialogs.js:251
+#: frontend/src/composables/useTreeDialogs.js:291
+msgid "URL is required"
+msgstr "A URL é obrigatória"
+
+#: wiki/templates/wiki/document.html:218
+msgid "Unable to download this page right now."
+msgstr "Não é possível baixar esta página agora."
+
+#. Option for the 'Status' (Select) field in DocType 'Wiki Page Patch'
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Under Review"
+msgstr "Em revisão"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1106
+msgid "Unknown operation type: {0}"
+msgstr "Tipo de operação desconhecido: {0}"
+
+#: frontend/src/components/LibrarySidebar.vue:199
+msgid "Unpin from top"
+msgstr "Desafixar do topo"
+
+#: frontend/src/components/WikiDocumentPanel.vue:546
+#: frontend/src/components/WikiTree.vue:407
+msgid "Unpublish"
+msgstr "Cancelar publicação"
+
+#: frontend/src/components/CommandPalette.vue:83
+#: frontend/src/components/LibrarySidebar.vue:186
+#: frontend/src/components/WikiTree.vue:83
+#: frontend/src/components/WikiTree.vue:84 frontend/src/pages/AllSpaces.vue:186
+#: frontend/src/pages/AllSpaces.vue:351
+msgid "Unpublished"
+msgstr "Não publicado"
+
+#: frontend/src/components/DraftContributionPanel.vue:41
+#: frontend/src/components/DraftContributionPanel.vue:42
+#: frontend/src/components/SpaceSettings/SpaceSettings.vue:52
+#: frontend/src/components/WikiDocumentPanel.vue:88
+#: frontend/src/components/WikiDocumentPanel.vue:89
+#: frontend/src/components/WikiSettings/CodePanel.vue:14
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:35
+#: frontend/src/composables/useSyncState.js:33
+msgid "Unsaved changes"
+msgstr "Alterações não salvas"
+
+#: frontend/src/components/DraftContributionPanel.vue:213
+#: frontend/src/components/PageSettingsPanel.vue:43
+#: frontend/src/components/SpaceModeStrip.vue:199
+#: frontend/src/components/WikiDocumentPanel.vue:174
+#: frontend/src/components/WikiDocumentPanel.vue:457
+#: frontend/src/pages/ContributionReview.vue:202
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1219
+msgid "Untitled"
+msgstr "Sem título"
+
+#: frontend/src/components/DraftContributionPanel.vue:126
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:23
+msgid "Update"
+msgstr "Atualizar"
+
+#: frontend/src/pages/SpaceDetails.vue:104
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:56
+msgid "Update Routes"
+msgstr "Atualizar rotas"
+
+#: frontend/src/pages/SpaceDetails.vue:77
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:39
+msgid "Update Wiki Space Routes"
+msgstr "Atualizar rotas do espaço Wiki"
+
+#. Label of a Int field in DocType 'Wiki Git Sync Log'
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Updated"
+msgstr "Atualizado"
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:64
+msgid "Updating routes..."
+msgstr "Atualizando rotas..."
+
+#: frontend/src/components/SpaceIdentityPicker.vue:88
+#: frontend/src/components/SpaceIdentityPicker.vue:168
+msgid "Upload"
+msgstr "Enviar"
+
+#: frontend/src/components/PageSettingsPanel.vue:140
+msgid "Upload image"
+msgstr "Enviar imagem"
+
+#: frontend/src/components/PageSettingsPanel.vue:140
+msgid "Uploading..."
+msgstr "Enviando..."
+
+#: frontend/src/components/SpaceIdentityPicker.vue:101
+msgid "Use this image"
+msgstr "Usar esta imagem"
+
+#. Label of a Link field in DocType 'Wiki GitHub Connection'
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "User"
+msgstr "Usuário"
+
+#. Label of a Tab Break field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Version 3"
+msgstr "Versão 3"
+
+#: frontend/src/components/SpaceModeStrip.vue:421
+msgid "View changes ({0})"
+msgstr "Ver alterações ({0})"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:59
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:149
+msgid "View commit on GitHub"
+msgstr "Ver commit no GitHub"
+
+#: frontend/src/components/PageSettingsPanel.vue:235
+msgid "View in Desk"
+msgstr "Ver no Desk"
+
+#: frontend/src/components/WikiDocumentPanel.vue:14
+#: frontend/src/components/WikiDocumentPanel.vue:18
+msgid "View live"
+msgstr "Ver versão publicada"
+
+#: frontend/src/components/SpaceSidebar.vue:121
+msgid "View live site"
+msgstr "Ver site publicado"
+
+#: frontend/src/components/SpaceTreePanel.vue:25
+#: frontend/src/components/SpaceTreePanel.vue:30
+msgid "View space"
+msgstr "Ver espaço"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:38
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:135
+#: frontend/src/pages/Overview.vue:226
+msgid "Views"
+msgstr "Visualizações"
+
+#: frontend/src/pages/Overview.vue:78
+msgid "Views by space"
+msgstr "Visualizações por espaço"
+
+#: frontend/src/components/Analytics/AnalyticsDashboard.vue:54
+msgid "Views over time"
+msgstr "Visualizações ao longo do tempo"
+
+#: frontend/src/components/PageSettingsPanel.vue:58
+msgid "Visible on the public site"
+msgstr "Visível no site público"
+
+#: frontend/src/components/SpaceModeStrip.vue:394
+msgid "Wait for pending changes to sync before merging"
+msgstr "Aguarde a sincronização das alterações pendentes antes de mesclar"
+
+#: frontend/src/components/SubmitForReviewButton.vue:104
+msgid "Wait for pending changes to sync before submitting"
+msgstr "Aguarde a sincronização das alterações pendentes antes de enviar"
+
+#: frontend/src/composables/useChangeRequestActions.js:37
+msgid "Wait for pending changes to sync before {0}"
+msgstr "Aguarde a sincronização das alterações pendentes antes de {0}"
+
+#: frontend/src/components/SpaceModeStrip.vue:388
+msgid "Wait for uploads to finish before merging"
+msgstr "Aguarde a conclusão dos envios antes de mesclar"
+
+#: frontend/src/components/SubmitForReviewButton.vue:98
+msgid "Wait for uploads to finish before submitting"
+msgstr "Aguarde a conclusão dos envios antes de enviar"
+
+#: frontend/src/composables/useChangeRequestActions.js:31
+msgid "Wait for uploads to finish before {0}"
+msgstr "Aguarde a conclusão dos envios antes de {0}"
+
+#: frontend/src/components/WikiDocumentList.vue:152
+msgid "Warning"
+msgstr "Aviso"
+
+#: wiki/templates/wiki/includes/feedback_widget.html:4
+msgid "Was this helpful?"
+msgstr "Isso foi útil?"
+
+#. Option for the 'Trigger' (Select) field in DocType 'Wiki Git Sync Log'
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:123
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Webhook"
+msgstr "Webhook"
+
+#. Label of a Password field in DocType 'Wiki Settings'
+#: frontend/src/components/WikiSettings/GitHubAppPanel.vue:81
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Webhook Secret"
+msgstr "Segredo do webhook"
+
+#: frontend/src/components/SpaceSettings/GitSyncPanel.vue:219
+msgid "Webhook URL copied"
+msgstr "URL do webhook copiada"
+
+#. Description of the 'Git Synced?' (Check) field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "When enabled, this space is synced one-way from a GitHub repository and is read-only in the wiki. Immutable after creation."
+msgstr "Quando habilitado, este espaço é sincronizado em uma única direção a partir de um repositório GitHub e é somente leitura no Wiki. Não pode ser alterado após a criação."
+
+#. Description of the 'Access Token Expires At' (Datetime) field in DocType
+#. 'Wiki GitHub Connection'
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "When the access token expires (blank = non-expiring)."
+msgstr "Quando o token de acesso expira (vazio = sem expiração)."
+
+#. Name of a Workspace
+#: wiki/config/desktop.py:11 wiki/templates/wiki/includes/header.html:27
+#: wiki/templates/wiki/includes/header.html:56
+#: wiki/templates/wiki/includes/mobile_header.html:14
+#: wiki/templates/wiki/includes/mobile_header.html:145
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "Wiki"
+msgstr "Wiki"
+
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_app_switcher_list_table/wiki_app_switcher_list_table.json
+msgid "Wiki App Switcher List Table"
+msgstr "Tabela da lista do seletor de aplicativos Wiki"
+
+#. Name of a role
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+#: wiki/wiki/doctype/wiki_page_revision/wiki_page_revision.json
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Wiki Approver"
+msgstr "Aprovador do Wiki"
+
+#. Name of a report
+#: wiki/wiki/report/wiki_broken_links/wiki_broken_links.json
+msgid "Wiki Broken Links"
+msgstr "Links quebrados do Wiki"
+
+#. Name of a DocType
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+msgid "Wiki Change Request"
+msgstr "Solicitação de alteração do Wiki"
+
+#. Label of a Code field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Wiki Config (.wiki.json)"
+msgstr "Configuração do Wiki (.wiki.json)"
+
+#. Name of a DocType
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+msgid "Wiki Content Blob"
+msgstr "Blob de conteúdo do Wiki"
+
+#. Name of a DocType
+#. Label of a Link field in DocType 'Wiki Feedback'
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/report/wiki_broken_links/wiki_broken_links.py:30
+msgid "Wiki Document"
+msgstr "Documento Wiki"
+
+#. Name of a DocType
+#. Label of a shortcut in the Wiki Workspace
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "Wiki Feedback"
+msgstr "Feedback do Wiki"
+
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+msgid "Wiki Git Sync Log"
+msgstr "Log de sincronização Git do Wiki"
+
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_github_connection/wiki_github_connection.json
+msgid "Wiki GitHub Connection"
+msgstr "Conexão do Wiki com GitHub"
+
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "Wiki GitHub Webhook Log"
+msgstr "Log de webhook do GitHub do Wiki"
+
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_group_item/wiki_group_item.json
+msgid "Wiki Group Item"
+msgstr "Item de grupo do Wiki"
+
+#. Name of a role
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/frappe_wiki/doctype/wiki_content_blob/wiki_content_blob.json
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Wiki Manager"
+msgstr "Gerente do Wiki"
+
+#. Name of a DocType
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "Wiki Merge Conflict"
+msgstr "Conflito de mesclagem do Wiki"
+
+#. Label of a Link field in DocType 'Wiki Feedback'
+#. Label of a Link field in DocType 'Wiki Group Item'
+#. Name of a DocType
+#. Label of a Link field in DocType 'Wiki Page Patch'
+#. Label of a Link field in DocType 'Wiki Page Revision Item'
+#. Label of a Link field in DocType 'Wiki Sidebar'
+#: wiki/wiki/doctype/wiki_feedback/wiki_feedback.json
+#: wiki/wiki/doctype/wiki_group_item/wiki_group_item.json
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+#: wiki/wiki/doctype/wiki_page_revision_item/wiki_page_revision_item.json
+#: wiki/wiki/doctype/wiki_sidebar/wiki_sidebar.json
+msgid "Wiki Page"
+msgstr "Página Wiki"
+
+#. Label of a Section Break field in DocType 'Wiki Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Wiki Page Configurations"
+msgstr "Configurações de página Wiki"
+
+#. Linked DocType in Wiki Page's connections
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+#: wiki/wiki/doctype/wiki_page_patch/wiki_page_patch.json
+msgid "Wiki Page Patch"
+msgstr "Patch de página Wiki"
+
+#. Label of a shortcut in the Wiki Workspace
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "Wiki Page Patches"
+msgstr "Patches de página Wiki"
+
+#. Linked DocType in Wiki Page's connections
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_page/wiki_page.json
+#: wiki/wiki/doctype/wiki_page_revision/wiki_page_revision.json
+msgid "Wiki Page Revision"
+msgstr "Revisão de página Wiki"
+
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_page_revision_item/wiki_page_revision_item.json
+msgid "Wiki Page Revision Item"
+msgstr "Item de revisão de página Wiki"
+
+#. Label of a shortcut in the Wiki Workspace
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "Wiki Page Revisions"
+msgstr "Revisões de páginas Wiki"
+
+#: wiki/wiki/doctype/wiki_page/wiki_page.py:10
+msgid "Wiki Page doctype is deprecated and will be deleted in a future release. Please migrate to Wiki Document (Version 3 structure)."
+msgstr "O DocType Wiki Page está obsoleto e será excluído em uma versão futura. Migre para Wiki Document (estrutura da versão 3)."
+
+#. Label of a Table field in DocType 'Wiki Page Revision'
+#. Label of a shortcut in the Wiki Workspace
+#: wiki/wiki/doctype/wiki_page_revision/wiki_page_revision.json
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "Wiki Pages"
+msgstr "Páginas Wiki"
+
+#. Name of a DocType
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+msgid "Wiki Revision"
+msgstr "Revisão do Wiki"
+
+#. Name of a DocType
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+msgid "Wiki Revision Item"
+msgstr "Item de revisão do Wiki"
+
+#. Name of a DocType
+#. Label of a shortcut in the Wiki Workspace
+#: frontend/src/components/WikiSettings/WikiSettings.vue:6
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "Wiki Settings"
+msgstr "Configurações do Wiki"
+
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_sidebar/wiki_sidebar.json
+msgid "Wiki Sidebar"
+msgstr "Barra lateral do Wiki"
+
+#. Label of a Table field in DocType 'Wiki Space'
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Wiki Sidebars"
+msgstr "Barras laterais do Wiki"
+
+#. Label of a Link field in DocType 'Wiki Change Request'
+#. Label of a Link field in DocType 'Wiki Document'
+#. Label of a Link field in DocType 'Wiki Revision'
+#. Label of a Link field in DocType 'Wiki App Switcher List Table'
+#. Label of a Link field in DocType 'Wiki Git Sync Log'
+#. Label of a Section Break field in DocType 'Wiki Settings'
+#. Name of a DocType
+#. Label of a shortcut in the Wiki Workspace
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+#: wiki/wiki/doctype/wiki_app_switcher_list_table/wiki_app_switcher_list_table.json
+#: wiki/wiki/doctype/wiki_git_sync_log/wiki_git_sync_log.json
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+#: wiki/wiki/report/wiki_broken_links/wiki_broken_links.js:8
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "Wiki Space"
+msgstr "Espaço Wiki"
+
+#: frontend/src/components/NewSpaceDialog.vue:505
+msgid "Wiki Space \"{0}\" created successfully."
+msgstr "Espaço Wiki \"{0}\" criado com sucesso."
+
+#. Name of a DocType
+#: wiki/wiki/doctype/wiki_space_role/wiki_space_role.json
+msgid "Wiki Space Role"
+msgstr "Papel do espaço Wiki"
+
+#. Name of a role
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.json
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.json
+#: wiki/frappe_wiki/doctype/wiki_revision/wiki_revision.json
+#: wiki/frappe_wiki/doctype/wiki_revision_item/wiki_revision_item.json
+#: wiki/wiki/doctype/wiki_space/wiki_space.json
+msgid "Wiki User"
+msgstr "Usuário do Wiki"
+
+#: frontend/src/composables/useChangeTypeDisplay.js:85
+msgid "Will be deleted"
+msgstr "Será excluído"
+
+#. Description of the '&lt;head&gt; HTML' (Code) field in DocType 'Wiki
+#. Settings'
+#: wiki/wiki/doctype/wiki_settings/wiki_settings.json
+msgid "Will be included in all public Wiki pages"
+msgstr "Será incluído em todas as páginas Wiki públicas"
+
+#: frontend/src/pages/ContributionReview.vue:73
+#: frontend/src/pages/ContributionReview.vue:638
+msgid "Withdraw"
+msgstr "Retirar"
+
+#: frontend/src/components/PageSettingsPanel.vue:205
+msgid "Words"
+msgstr "Palavras"
+
+#. Option for the 'Permission Level' (Select) field in DocType 'Wiki Space
+#. Role'
+#: wiki/wiki/doctype/wiki_space_role/wiki_space_role.json
+msgid "Write"
+msgstr "Escrita"
+
+#: wiki/www/github/manifest_redirect.py:24 wiki/www/github/new_app.py:26
+msgid "You are not permitted to configure the GitHub App."
+msgstr "Você não tem permissão para configurar o GitHub App."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:538
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:823
+msgid "You do not have access to this wiki space."
+msgstr "Você não tem acesso a este espaço Wiki."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1531
+msgid "You do not have permission to merge change requests in this space."
+msgstr "Você não tem permissão para mesclar solicitações de alteração neste espaço."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1627
+msgid "You do not have permission to merge in this space."
+msgstr "Você não tem permissão para mesclar neste espaço."
+
+#: wiki/api/wiki_space.py:257
+msgid "You do not have permission to reorder this document"
+msgstr "Você não tem permissão para reordenar este documento"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1600
+msgid "You do not have permission to resolve conflicts in this space."
+msgstr "Você não tem permissão para resolver conflitos neste espaço."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1434
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1461
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1490
+msgid "You do not have permission to review change requests in this space."
+msgstr "Você não tem permissão para revisar solicitações de alteração neste espaço."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1554
+msgid "You do not have permission to view merge conflicts in this space."
+msgstr "Você não tem permissão para visualizar conflitos de mesclagem neste espaço."
+
+#: frontend/src/layouts/MainLayout.vue:88
+msgid "You don't have permission to access the Wiki."
+msgstr "Você não tem permissão para acessar o Wiki."
+
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:765
+msgid "You don't have permission to delete child document: {0}"
+msgstr "Você não tem permissão para excluir o documento filho: {0}"
+
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:755
+msgid "You don't have permission to delete this document"
+msgstr "Você não tem permissão para excluir este documento"
+
+#: wiki/frappe_wiki/doctype/wiki_document/wiki_document.py:726
+msgid "You don't have permission to edit this page"
+msgstr "Você não tem permissão para editar esta página"
+
+#: frontend/src/pages/Contributions.vue:171
+msgid "You have not created any change requests yet. Edit a wiki page to get started."
+msgstr "Você ainda não criou solicitações de alteração. Edite uma página Wiki para começar."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1444
+msgid "Your change request “{0}” was approved."
+msgstr "Sua solicitação de alteração “{0}” foi aprovada."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:2202
+msgid "Your change request “{0}” was merged."
+msgstr "Sua solicitação de alteração “{0}” foi mesclada."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1502
+msgid "Your change request “{0}” was rejected."
+msgstr "Sua solicitação de alteração “{0}” foi rejeitada."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1139
+msgid "base_version must be an integer"
+msgstr "base_version deve ser um número inteiro"
+
+#. Option for the 'Git Reference Type' (Select) field in DocType 'Wiki GitHub
+#. Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "branch"
+msgstr "branch"
+
+#: frontend/src/pages/ContributionReview.vue:21
+msgid "by"
+msgstr "por"
+
+#: frontend/src/components/SubmitForReviewButton.vue:115
+msgid "change"
+msgstr "alteração"
+
+#: frontend/src/components/SubmitForReviewButton.vue:115
+msgid "changes"
+msgstr "alterações"
+
+#: frontend/src/components/WikiDocumentList.vue:155
+msgid "child document"
+msgstr "documento filho"
+
+#: frontend/src/components/WikiDocumentList.vue:155
+msgid "child documents"
+msgstr "documentos filhos"
+
+#. Option for the 'Conflict Type' (Select) field in DocType 'Wiki Merge
+#. Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "content"
+msgstr "content"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1026
+msgid "create_node operation requires temp_key"
+msgstr "A operação create_node exige temp_key"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1029
+msgid "create_node operation requires title"
+msgstr "A operação create_node exige title"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1077
+msgid "delete_node operation requires doc_key"
+msgstr "A operação delete_node exige doc_key"
+
+#: frontend/src/components/NewSpaceDialog.vue:166
+msgid "docs"
+msgstr "docs"
+
+#: frontend/src/components/WikiDocumentList.vue:142
+msgid "group"
+msgstr "grupo"
+
+#: frontend/src/components/WikiDocumentList.vue:208
+#: frontend/src/components/WikiDocumentList.vue:232
+msgid "https://example.com"
+msgstr "https://example.com"
+
+#: frontend/src/components/NewSpaceDialog.vue:158
+msgid "main"
+msgstr "main"
+
+#. Option for the 'Resolution' (Select) field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "manual"
+msgstr "manual"
+
+#: frontend/src/composables/useChangeRequestActions.js:118
+msgid "merging"
+msgstr "mesclar"
+
+#. Option for the 'Conflict Type' (Select) field in DocType 'Wiki Merge
+#. Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "meta"
+msgstr "meta"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1092
+msgid "move_node operation requires doc_key"
+msgstr "A operação move_node exige doc_key"
+
+#: frontend/src/components/NewSpaceDialog.vue:44
+msgid "my-wiki-space"
+msgstr "my-wiki-space"
+
+#: wiki/templates/wiki/includes/search_modal.html:161
+msgid "new tab"
+msgstr "nova aba"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1124
+msgid "operations must be a non-empty list"
+msgstr "operations deve ser uma lista não vazia"
+
+#. Option for the 'Resolution' (Select) field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "ours"
+msgstr "ours"
+
+#: frontend/src/components/WikiDocumentList.vue:142
+#: frontend/src/pages/AllSpaces.vue:375
+msgid "page"
+msgstr "página"
+
+#: frontend/src/components/DraftContributionPanel.vue:119
+msgid "page-route"
+msgstr "page-route"
+
+#: frontend/src/components/SpaceModeStrip.vue:479
+#: frontend/src/pages/AllSpaces.vue:375
+msgid "pages"
+msgstr "páginas"
+
+#: frontend/src/pages/ContributionReview.vue:92
+msgid "resolved"
+msgstr "resolvidos"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1085
+msgid "restore_node operation requires doc_key"
+msgstr "A operação restore_node exige doc_key"
+
+#: frontend/src/components/WikiDocumentList.vue:116
+msgid "space/page-url"
+msgstr "space/page-url"
+
+#: frontend/src/components/PageSettingsPanel.vue:50
+msgid "space/section/page"
+msgstr "space/section/page"
+
+#: frontend/src/composables/useChangeRequestActions.js:60
+msgid "submitting"
+msgstr "enviar"
+
+#. Option for the 'Git Reference Type' (Select) field in DocType 'Wiki GitHub
+#. Webhook Log'
+#: wiki/wiki/doctype/wiki_github_webhook_log/wiki_github_webhook_log.json
+msgid "tag"
+msgstr "tag"
+
+#: frontend/src/components/WikiDocumentList.vue:156
+msgid "that will also be deleted."
+msgstr "que também serão excluídos."
+
+#. Option for the 'Resolution' (Select) field in DocType 'Wiki Merge Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "theirs"
+msgstr "theirs"
+
+#: frontend/src/components/CommandPalette.vue:115
+#: wiki/templates/wiki/includes/search_modal.html:167
+msgid "to close"
+msgstr "para fechar"
+
+#: frontend/src/components/CommandPalette.vue:107
+#: wiki/templates/wiki/includes/search_modal.html:144
+msgid "to navigate"
+msgstr "para navegar"
+
+#: frontend/src/components/CommandPalette.vue:120
+#: wiki/templates/wiki/includes/search_modal.html:176
+msgid "to open"
+msgstr "para abrir"
+
+#: frontend/src/components/CommandPalette.vue:111
+#: wiki/templates/wiki/includes/search_modal.html:150
+msgid "to select"
+msgstr "para selecionar"
+
+#. Option for the 'Conflict Type' (Select) field in DocType 'Wiki Merge
+#. Conflict'
+#: wiki/frappe_wiki/doctype/wiki_merge_conflict/wiki_merge_conflict.json
+msgid "tree"
+msgstr "tree"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1065
+msgid "update_content operation requires content"
+msgstr "A operação update_content exige content"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1063
+msgid "update_content operation requires doc_key"
+msgstr "A operação update_content exige doc_key"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1054
+msgid "update_node operation requires doc_key"
+msgstr "A operação update_node exige doc_key"
+
+#. Description of the 'Assets Prepend' (Data) field in DocType 'Migrate To
+#. Wiki'
+#: wiki/wiki/doctype/migrate_to_wiki/migrate_to_wiki.json
+msgid "with docs base url"
+msgstr "com a URL base da documentação"
+
+#: frontend/src/pages/Contributions.vue:281
+msgid "{0} change requests"
+msgstr "{0} solicitações de alteração"
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1639
+msgid "{0} conflict(s) still unresolved."
+msgstr "{0} conflitos ainda não resolvidos."
+
+#: wiki/wiki/doctype/wiki_space/wiki_space.js:69
+msgid "{0} documents updated successfully"
+msgstr "{0} documentos atualizados com sucesso"
+
+#: frontend/src/components/PageSettingsPanel.vue:211
+msgid "{0} min"
+msgstr "{0} min"
+
+#: frontend/src/components/PageMetaLine.vue:67
+msgid "{0} min read"
+msgstr "{0} min de leitura"
+
+#: wiki/wiki/git_sync.py:539
+msgid "{0} must be a JSON object."
+msgstr "{0} deve ser um objeto JSON."
+
+#: wiki/frappe_wiki/doctype/wiki_change_request/wiki_change_request.py:1741
+msgid "{0} new conflict(s) detected during merge retry."
+msgstr "{0} novos conflitos detectados ao tentar mesclar novamente."
+
+#: frontend/src/components/SpaceSettings/GeneralPanel.vue:177
+msgid "{0} pages"
+msgstr "{0} páginas"
+
+#: frontend/src/components/LibrarySidebar.vue:220
+msgid "{0} pinned"
+msgstr "{0} fixado"
+
+#: frontend/src/components/LibrarySidebar.vue:220
+msgid "{0} unpinned"
+msgstr "{0} desafixado"
+
+#: frontend/src/components/PageMetaLine.vue:74
+msgid "{0} views in last 30 days"
+msgstr "{0} visualizações nos últimos 30 dias"
+
+#: frontend/src/components/SpaceModeStrip.vue:479
+msgid "{0} {1} changed"
+msgstr "{0} {1} com alterações"
+
+#. Count format of shortcut in the Wiki Workspace
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "{} Published"
+msgstr "{} publicados"
+
+#. Count format of shortcut in the Wiki Workspace
+#: wiki/wiki/workspace/wiki/wiki.json
+msgid "{} Under Review"
+msgstr "{} em revisão"
+

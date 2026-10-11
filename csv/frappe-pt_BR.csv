@@ -1,0 +1,932 @@
+﻿msgid;msgstr_pt_BR;msgctxt;referencia;revisao_SAN;observacao_SAN
+!=;!=;;frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json;;
+#{0};#{0};;frappe/public/js/frappe/ui/toolbar/tag_utils.js:22;;
+"&lt;head&gt; HTML";"HTML de &lt;head&gt;";;frappe/website/doctype/website_settings/website_settings.json;;
+1 of 2;1 de 2;;frappe/public/js/print_format_builder/PrintFormat.vue:3;;
+<;<;;frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json;;
+<=;<=;;frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json;;
+"<a href=""https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication"" target=""_blank"">
+  Click here to learn about token-based authentication
+</a>";"<a href=""https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication"" target=""_blank"">
+  Clique aqui para saber mais sobre autenticação por token
+</a>";;frappe/core/doctype/user/user.json;;
+"<div class=""well"">
+    Edit list of Series in the box. Rules:
+    <ul>
+        <li>Each Series Prefix on a new line.</li>
+        <li>Allowed special characters are ""/"" and ""-""</li>
+        <li>
+            Optionally, set the number of digits in the series using dot (.)
+            followed by hashes (#). For example, "".####"" means that the series
+            will have four digits. Default is five digits.
+        </li>
+        <li>
+            You can also use variables in the series name by putting them
+            between (.) dots
+            <br>
+            Supported Variables:
+            <ul>
+                <li><code>.YYYY.</code> - Year in 4 digits</li>
+                <li><code>.YY.</code> - Year in 2 digits</li>
+                <li><code>.MM.</code> - Month</li>
+                <li><code>.DD.</code> - Day of month</li>
+                <li><code>.WW.</code> - Week of the year</li>
+                <li><code>.FY.</code> - Fiscal Year</li>
+                <li>
+                    <code>.{fieldname}.</code> - fieldname on the document e.g.
+                    <code>branch</code>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    Examples:
+    <ul>
+        <li>INV-</li>
+        <li>INV-10-</li>
+        <li>INVK-</li>
+        <li>INV-.YYYY.-.{branch}.-.MM.-.####</li>
+    </ul>
+</div>
+<br>
+";"<div class=""well"">
+    Edite a lista de séries na caixa. Regras:
+    <ul>
+        <li>Cada prefixo de série deve ficar em uma nova linha.</li>
+        <li>Os caracteres especiais permitidos são ""/"" e ""-""</li>
+        <li>
+            Opcionalmente, defina o número de dígitos da série usando um ponto (.)
+            seguido de cerquilhas (#). Por exemplo, "".####"" significa que a série
+            terá quatro dígitos. O padrão é cinco dígitos.
+        </li>
+        <li>
+            Você também pode usar variáveis no nome da série colocando-as
+            entre pontos (.)
+            <br>
+            Variáveis aceitas:
+            <ul>
+                <li><code>.YYYY.</code> - Ano com 4 dígitos</li>
+                <li><code>.YY.</code> - Ano com 2 dígitos</li>
+                <li><code>.MM.</code> - Mês</li>
+                <li><code>.DD.</code> - Dia do mês</li>
+                <li><code>.WW.</code> - Semana do ano</li>
+                <li><code>.FY.</code> - Exercício fiscal</li>
+                <li>
+                    <code>.{fieldname}.</code> - nome do campo no documento, por exemplo,
+                    <code>branch</code>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    Exemplos:
+    <ul>
+        <li>INV-</li>
+        <li>INV-10-</li>
+        <li>INVK-</li>
+        <li>INV-.YYYY.-.{branch}.-.MM.-.####</li>
+    </ul>
+</div>
+<br>
+";;frappe/core/doctype/document_naming_settings/document_naming_settings.json;;
+"<p><strong>{{ __(""Condition Examples"") }}:</strong></p>
+<pre><code class=""language-python"">doc.status==""Open""<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
+</code></pre>
+";"<p><strong>{{ __(""Condition Examples"") }}:</strong></p>
+<pre><code class=""language-python"">doc.status==""Open""<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
+</code></pre>
+";;frappe/email/doctype/notification/notification.json;;
+"<p><strong>{{ __(""Condition Examples"") }}:</strong></p>
+<pre>doc.status==""Open""<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
+</pre>";"<p><strong>{{ __(""Condition Examples"") }}:</strong></p>
+<pre>doc.status==""Open""<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
+</pre>";;frappe/integrations/doctype/webhook/webhook.json;;
+"<span class=""h2"">Hi,</span>";"<span class=""h2"">Olá,</span>";;frappe/core/workspace/welcome_workspace/welcome_workspace.json;;
+"<span class=""h4""><b>Documents</b></span>";"<span class=""h4""><b>Documentos</b></span>";;frappe/automation/workspace/tools/tools.json;;
+"<span class=""h4""><b>Reports & Masters</b></span>";"<span class=""h4""><b>Relatórios e cadastros</b></span>";;frappe/website/workspace/website/website.json;;
+"<span class=""h4""><b>Reports &amp; Masters</b></span>";"<span class=""h4""><b>Relatórios &amp; cadastros</b></span>";;frappe/core/workspace/users/users.json;;
+"<span class=""h4""><b>Your Shortcuts</b></span>";"<span class=""h4""><b>Seus atalhos</b></span>";;frappe/automation/workspace/tools/tools.json;;
+"<span style=""font-size: 18px; letter-spacing: 0.18px;""><b>Components to build your app</b></span>";"<span style=""font-size: 18px; letter-spacing: 0.18px;""><b>Componentes para criar seu aplicativo</b></span>";;frappe/core/workspace/build/build.json;;
+"<span style=""font-size: 18px; letter-spacing: 0.18px;""><b>Get started</b><br></span>";"<span style=""font-size: 18px; letter-spacing: 0.18px;""><b>Comece aqui</b><br></span>";;frappe/core/workspace/build/build.json;;
+=;=;;frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json;;
+>;>;;frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json;;
+>=;>=;;frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json;;
+A DocType (Document Type) is used to insert forms in ERPNext. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in ERPNext as per your business needs.;Um DocType (tipo de documento) é usado para inserir formulários no ERPNext. Formulários como Cliente, Pedidos e Faturas são DocTypes no backend. Você também pode criar novos DocTypes para criar novos formulários no ERPNext conforme as necessidades da sua empresa.;;frappe/custom/onboarding_step/custom_doctype/custom_doctype.json;;
+A0;A0;;frappe/printing/doctype/print_settings/print_settings.json;;
+A1;A1;;frappe/printing/doctype/print_settings/print_settings.json;;
+A2;A2;;frappe/printing/doctype/print_settings/print_settings.json;;
+A3;A3;;frappe/printing/doctype/print_settings/print_settings.json;;
+A4;A4;;frappe/printing/doctype/print_settings/print_settings.json;;
+A5;A5;;frappe/printing/doctype/print_settings/print_settings.json;;
+A6;A6;;frappe/printing/doctype/print_settings/print_settings.json;;
+A7;A7;;frappe/printing/doctype/print_settings/print_settings.json;;
+A8;A8;;frappe/printing/doctype/print_settings/print_settings.json;;
+A9;A9;;frappe/printing/doctype/print_settings/print_settings.json;;
+API;API;;frappe/core/doctype/server_script/server_script.json;;
+ASC;ASC;;frappe/core/doctype/doctype/doctype.json;;
+Accept Invitation;Aceitar convite;;frappe/templates/emails/user_invitation.html:16;;
+Accepted At;Aceito em;;frappe/core/doctype/user_invitation/user_invitation.json;;
+Active Directory;Active Directory;;frappe/integrations/doctype/ldap_settings/ldap_settings.json;;
+Add Blog Category;Adicionar categoria de blog;;frappe/website/onboarding_step/add_blog_category/add_blog_category.json;;
+Add attachment;Adicionar anexo;;frappe/public/js/frappe/form/controls/attachment_gallery.js:205;;
+Alerts and Notifications;Alertas e notificações;;frappe/automation/workspace/tools/tools.json;;
+Allow Consecutive Login Attempts ;Permitir tentativas consecutivas de login ;;frappe/core/doctype/system_settings/system_settings.json;;
+Allow Editing After Submit;Permitir edição após confirmação;;frappe/website/doctype/web_form/web_form.json;;
+Allow Guest to comment;Permitir comentários de visitantes;;frappe/website/doctype/blog_settings/blog_settings.json;;
+Allow Multiple Responses;Permitir várias respostas;;frappe/website/doctype/web_form/web_form.json;;
+Allow Older Web View Links (Insecure);Permitir links antigos de visualização na web (inseguro);;frappe/core/doctype/system_settings/system_settings.json;;
+Allow recording my first session to improve user experience;Permitir a gravação da minha primeira sessão para melhorar a experiência do usuário;;frappe/desk/page/setup_wizard/setup_wizard.js:439;;
+Allowed Doctypes for Guest Uploads;DocTypes permitidos para envio de arquivos por visitantes;;frappe/core/doctype/system_settings/system_settings.json;;
+Allows printing or PDF download of documents.;Permite imprimir documentos ou baixá-los em PDF.;;frappe/core/page/permission_manager/permission_manager_help.html:52;;
+Allows sharing document access with other users.;Permite compartilhar o acesso ao documento com outros usuários.;;frappe/core/page/permission_manager/permission_manager_help.html:77;;
+Allows the user to access reports related to the document.;Permite que o usuário acesse relatórios relacionados ao documento.;;frappe/core/page/permission_manager/permission_manager_help.html:62;;
+Allows the user to create new documents.;Permite que o usuário crie novos documentos.;;frappe/core/page/permission_manager/permission_manager_help.html:42;;
+Allows the user to delete documents.;Permite que o usuário exclua documentos.;;frappe/core/page/permission_manager/permission_manager_help.html:47;;
+Allows the user to edit existing records they have access to.;Permite que o usuário edite registros existentes aos quais tem acesso.;;frappe/core/page/permission_manager/permission_manager_help.html:37;;
+Allows the user to email from the document.;Permite que o usuário envie e-mails a partir do documento.;;frappe/core/page/permission_manager/permission_manager_help.html:57;;
+Allows the user to export data from the Report view.;Permite que o usuário exporte dados da visualização de relatório.;;frappe/core/page/permission_manager/permission_manager_help.html:67;;
+Allows the user to search and see records.;Permite que o usuário pesquise e veja registros.;;frappe/core/page/permission_manager/permission_manager_help.html:27;;
+Allows the user to use Data Import tool to create / update records.;Permite que o usuário use a ferramenta de importação de dados para criar ou atualizar registros.;;frappe/core/page/permission_manager/permission_manager_help.html:72;;
+Allows the user to view the document.;Permite que o usuário visualize o documento.;;frappe/core/page/permission_manager/permission_manager_help.html:32;;
+Allows users to enable the mask property for any field of the respective doctype.;Permite que os usuários habilitem a propriedade de máscara em qualquer campo do respectivo DocType.;;frappe/core/page/permission_manager/permission_manager_help.html:82;;
+App Access Key;Chave de acesso do aplicativo;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+App Access Key and/or Secret Key are not present.;A chave de acesso e/ou a chave secreta do aplicativo não foram informadas.;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.js:22;;
+App Client ID;ID do cliente do aplicativo;;frappe/integrations/doctype/oauth_client/oauth_client.json;;
+App Client Secret;Segredo do cliente do aplicativo;;frappe/integrations/doctype/oauth_client/oauth_client.json;;
+App Secret Key;Chave secreta do aplicativo;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+"App that produced this notification; used to scope app-specific panels. Derived from the reference document when not set explicitly.";"Aplicativo que gerou esta notificação; usado para delimitar painéis específicos por aplicativo. Obtido do documento de referência quando não definido explicitamente.";;frappe/desk/doctype/notification_log/notification_log.json;;
+App {} is not installed;O aplicativo {} não está instalado;;frappe/apps.py:118;;
+Ar;Ar;Number system;frappe/public/js/frappe/utils/number_systems.js:41;SAN;"Abreviação do sistema numérico indiano (arab); mantida para evitar conversão incorreta de escala."
+Are you sure you want to delete page {0}?;Tem certeza de que deseja excluir a página {0}?;;frappe/public/js/frappe/views/workspace/workspace.js:930;;
+Are you sure you want to log out?;Tem certeza de que deseja sair?;;frappe/public/js/frappe/desk.js:372;;
+Are you sure you want to relink this communication?;Tem certeza de que deseja vincular esta comunicação novamente?;;frappe/core/doctype/communication/communication.js:166;;
+Are you sure you want to resend the invitation?;Tem certeza de que deseja reenviar o convite?;;frappe/core/doctype/user_invitation/user_invitation.js:18;;
+Are you sure you want to send this newsletter now?;Tem certeza de que deseja enviar esta newsletter agora?;;frappe/email/doctype/newsletter/newsletter.js:60;;
+Arial;Arial;;frappe/printing/doctype/print_settings/print_settings.json;;
+Assignment Rule is not allowed on document type {0};A regra de atribuição não é permitida no tipo de documento {0};;frappe/automation/doctype/assignment_rule/assignment_rule.py:56;;
+Atleast one field is required in Web Form Fields Table;É necessário pelo menos um campo na tabela de campos do formulário web;;frappe/website/doctype/web_form/web_form.js:69;;
+Atleast one field of Parent Document Type is mandatory;É obrigatório pelo menos um campo do tipo de documento pai;;frappe/core/doctype/data_export/data_export.js:44;;
+Attachment Gallery;Galeria de anexos;;frappe/core/doctype/docfield/docfield.json;;
+Attachment Gallery filters must target File.;Os filtros da galeria de anexos devem se aplicar ao DocType File.;;frappe/core/doctype/doctype/doctype.py:1678 frappe/desk/form/load.py:228;;
+Attendee not found in this event.;Participante não encontrado neste evento.;;frappe/desk/doctype/event/event.py:255;;
+Attending;Participando;;frappe/desk/doctype/event/event.json;;
+Audience;Público-alvo;;frappe/email/doctype/newsletter/newsletter.json;;
+Authentication Apps you can use are: ;Aplicativos de autenticação que você pode usar: ;;frappe/www/qrcode.html:19;;
+Authorization POST requests must use application/x-www-form-urlencoded;Requisições POST de autorização devem usar application/x-www-form-urlencoded;;frappe/integrations/oauth2.py:80;;
+Avatar;Avatar;;frappe/website/doctype/blogger/blogger.json;;
+B0;B0;;frappe/printing/doctype/print_settings/print_settings.json;;
+B1;B1;;frappe/printing/doctype/print_settings/print_settings.json;;
+B10;B10;;frappe/printing/doctype/print_settings/print_settings.json;;
+B2;B2;;frappe/printing/doctype/print_settings/print_settings.json;;
+B3;B3;;frappe/printing/doctype/print_settings/print_settings.json;;
+B4;B4;;frappe/printing/doctype/print_settings/print_settings.json;;
+B5;B5;;frappe/printing/doctype/print_settings/print_settings.json;;
+B6;B6;;frappe/printing/doctype/print_settings/print_settings.json;;
+B7;B7;;frappe/printing/doctype/print_settings/print_settings.json;;
+B8;B8;;frappe/printing/doctype/print_settings/print_settings.json;;
+B9;B9;;frappe/printing/doctype/print_settings/print_settings.json;;
+Backing up Data.;Fazendo backup dos dados.;;frappe/integrations/doctype/google_drive/google_drive.py:172;;
+Backing up to Google Drive.;Fazendo backup no Google Drive.;;frappe/integrations/doctype/google_drive/google_drive.js:32;;
+Backup Details;Detalhes do backup;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+Backup Files;Arquivos de backup;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+Backup Folder ID;ID da pasta de backup;;frappe/integrations/doctype/google_drive/google_drive.json;;
+Backup Folder Name;Nome da pasta de backup;;frappe/integrations/doctype/google_drive/google_drive.json;;
+Backup Path;Caminho do backup;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+Backup public and private files along with the database.;Incluir os arquivos públicos e privados no backup junto com o banco de dados.;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+Backups;Backups;;frappe/core/doctype/system_settings/system_settings.json;;
+Backups (MB);Backups (MB);;frappe/desk/doctype/system_health_report/system_health_report.json;;
+Beta;Beta;;frappe/core/doctype/doctype/doctype.json;;
+Blog;Blog;;frappe/website/doctype/blog_post/blog_post.py:241;;
+Blogs, Website View Tracking, and more.;Blogs, rastreamento de visualizações do site e mais.;;frappe/website/module_onboarding/website/website.json;;
+Bot;Bot;;frappe/core/doctype/comment/comment.json;;
+Both DocType and Name required;O DocType e o nome são obrigatórios;;frappe/printing/page/print_format_builder/print_format_builder.js:128;;
+Browse by category;Navegar por categoria;;frappe/website/doctype/blog_post/templates/blog_post_list.html:18;;
+Bucket {0} not found.;Bucket {0} não encontrado.;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.py:72;;
+Bulk Actions;Ações em massa;;frappe/core/doctype/user/user.json;;
+By default, emails are only sent for failed backups.;Por padrão, e-mails são enviados apenas em caso de falha nos backups.;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+C5E;C5E;;frappe/printing/doctype/print_settings/print_settings.json;;
+CC;CC;;frappe/core/doctype/communication/communication.json;;
+CC;CC;Email Recipients;frappe/public/js/frappe/views/communication.js:73;;
+CMD;CMD;;frappe/core/doctype/recorder/recorder.json;;
+CSS;CSS;;frappe/desk/doctype/custom_html_block/custom_html_block.json;;
+CSV;CSV;;frappe/core/doctype/data_export/data_export.json;;
+Cache;Cache;;frappe/desk/doctype/system_health_report/system_health_report.json;;
+Call to Action;Chamada para ação;;frappe/website/doctype/blog_settings/blog_settings.json;;
+Can Submit;Pode confirmar;;frappe/public/js/frappe/form/templates/set_sharing.html:6;;
+Cancel Scheduling;Cancelar agendamento;;frappe/email/doctype/newsletter/newsletter.js:132;;
+Cannot delete private workspace of other users;Não é possível excluir o espaço de trabalho privado de outros usuários;;frappe/desk/doctype/workspace/workspace.py:436;;
+Cannot delete public workspace without Workspace Manager role;Não é possível excluir um espaço de trabalho público sem o papel Workspace Manager;;frappe/desk/doctype/workspace/workspace.py:429;;
+Cannot update private workspace of other users;Não é possível atualizar o espaço de trabalho privado de outros usuários;;frappe/desk/doctype/workspace/workspace.py:370;;
+Category for the in-app notification. Used for filtering and per-user email preferences.;Categoria da notificação no aplicativo. Usada para filtragem e preferências de e-mail por usuário.;;frappe/email/doctype/notification/notification.json;;
+Chaining Hash;Hash de encadeamento;;frappe/core/doctype/transaction_log/transaction_log.json;;
+"Change the starting / current sequence number of an existing series. <br>
+
+Warning: Incorrectly updating counters can prevent documents from getting created. ";"Altere o número inicial ou atual da sequência de uma série existente. <br>
+
+Aviso: atualizar contadores incorretamente pode impedir a criação de documentos. ";;frappe/core/doctype/document_naming_settings/document_naming_settings.json;;
+Chat;Chat;;frappe/core/doctype/communication/communication.json;;
+Check broken links;Verificar links quebrados;;frappe/email/doctype/newsletter/newsletter.js:18;;
+Checking broken links...;Verificando links quebrados...;;frappe/email/doctype/newsletter/newsletter.js:20;;
+Checksum Version;Versão da soma de verificação;;frappe/core/doctype/transaction_log/transaction_log.json;;
+Child Table {0} for field {1};Tabela filha {0} do campo {1};;frappe/core/doctype/doctype/doctype.py:1625;;
+Choose which notification types are emailed to you. Unchecked types still show as in-app notifications.;Escolha quais tipos de notificação receber por e-mail. Os tipos desmarcados continuarão sendo exibidos como notificações no aplicativo.;;frappe/desk/doctype/notification_settings/notification_settings.js:45;;
+Clear Cache and Reload;Limpar cache e recarregar;;frappe/public/js/frappe/ui/keyboard.js:278;;
+Clear Link;Limpar vínculo;;frappe/public/js/frappe/form/controls/link.js:17;;
+Clear all filters;Limpar todos os filtros;;frappe/public/js/frappe/list/base_list.js:890;;
+Click On Customize to add your first widget;Clique em Personalizar para adicionar seu primeiro widget;;frappe/public/js/frappe/views/dashboard/dashboard_view.js:195;;
+Click on <b>Authorize Google Drive Access</b> to authorize Google Drive Access.;Clique em <b>Autorizar acesso ao Google Drive</b> para autorizar o acesso ao Google Drive.;;frappe/integrations/doctype/google_drive/google_drive.js:47;;
+Comm10E;Comm10E;;frappe/printing/doctype/print_settings/print_settings.json;;
+Comment limit;Limite de comentários;;frappe/website/doctype/blog_settings/blog_settings.json;;
+Comment limit per hour;Limite de comentários por hora;;frappe/website/doctype/blog_settings/blog_settings.json;;
+Confirm Your Email;Confirme seu e-mail;;frappe/email/doctype/newsletter/newsletter.py:333;;
+Console;Console;;frappe/desk/doctype/system_console/system_console.json;;
+Copy Embed Code;Copiar código de incorporação;;frappe/website/doctype/web_form/web_form.js:29;;
+Copy to Clipboard;Copiar para a área de transferência;;frappe/public/js/frappe/form/toolbar.js:426;;
+Could not start up: ;Não foi possível iniciar: ;;frappe/desk/page/setup_wizard/setup_wizard.js:241;;
+Cr;Cr;Number system;frappe/public/js/frappe/utils/number_systems.js:23;SAN;"Abreviação de crore, unidade do sistema numérico indiano; confirmar convenção de exibição."
+Create Blogger;Criar autor de blog;;frappe/website/onboarding_step/create_blogger/create_blogger.json;;
+Create Custom Fields;Criar campos personalizados;;frappe/custom/onboarding_step/custom_field/custom_field.json;;
+Create Duplicate;Criar cópia;;frappe/public/js/frappe/views/workspace/workspace.js:970;;
+Create a New Format;Criar um novo formato;;frappe/printing/page/print_format_builder/print_format_builder_start.html:16;;
+Create a new record;Criar um novo registro;;frappe/public/js/frappe/ui/toolbar/awesome_bar.js:162;;
+Create and send emails to a specific group of subscribers periodically.;Crie e envie e-mails periodicamente para um grupo específico de assinantes.;;frappe/email/doctype/newsletter/newsletter.json;;
+Create new forms and views with doctypes. Set up multi-level workflows for approval;Crie novos formulários e visualizações com DocTypes. Configure workflows de aprovação com vários níveis;;frappe/core/workspace/build/build.json;;
+Cron;Cron;;frappe/core/doctype/scheduled_job_type/scheduled_job_type.json;;
+Custom Document Types;Tipos de documento personalizados;;frappe/custom/onboarding_step/custom_doctype/custom_doctype.json;;
+Custom Field, Custom Doctype, Naming Series, Role Permission, Workflow, Print Formats, Reports;Campo personalizado, DocType personalizado, série de numeração, permissão por papel, workflow, formatos de impressão, relatórios;;frappe/custom/module_onboarding/customization/customization.json;;
+Customization onboarding is all done!;A configuração inicial da personalização está concluída!;;frappe/custom/module_onboarding/customization/customization.json;;
+Customize Print Formats;Personalizar formatos de impressão;;frappe/custom/onboarding_step/print_format/print_format.json;;
+DB Tables;Tabelas do banco de dados;;frappe/core/doctype/duckdb_sync/duckdb_sync.json;;
+DELETE;DELETE;;frappe/core/doctype/recorder/recorder.json;;
+DESC;DESC;;frappe/core/doctype/doctype/doctype.json;;
+DLE;DLE;;frappe/printing/doctype/print_settings/print_settings.json;;
+Days;Dias;Duration;frappe/public/js/frappe/form/controls/duration.js:20;;
+Default display currency;Moeda padrão de exibição;;frappe/core/doctype/system_settings/system_settings.json;;
+Default for 'Check' type of field {0} must be either '0' or '1';O valor padrão do campo {0} do tipo 'Check' deve ser '0' ou '1';;frappe/core/doctype/doctype/doctype.py:1354;;
+Delete Gravatar URLs;Excluir URLs do Gravatar;;frappe/public/js/frappe/legacy_gravatar_cleanup.js:13;;
+Delete Workspace;Excluir espaço de trabalho;;frappe/public/js/frappe/views/workspace/workspace.js:869;;
+Deleted all documents successfully;Todos os documentos foram excluídos com sucesso;;frappe/desk/reportview.py:623;;
+Deletion Steps ;Etapas de exclusão ;;frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json;;
+Disable Likes;Desabilitar curtidas;;frappe/website/doctype/blog_post/blog_post.json;;
+Disable Prepared Report Automation;Desabilitar automação de relatórios preparados;;frappe/core/doctype/report/report.json;;
+Do Not Create New User ;Não criar novo usuário ;;frappe/integrations/doctype/ldap_settings/ldap_settings.json;;
+Do not have permission to access bucket {0}.;Sem permissão para acessar o bucket {0}.;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.py:70;;
+Doc Values;Valores do documento;;frappe/website/doctype/web_form_request/web_form_request.json;;
+DocField;DocField;;frappe/core/doctype/docfield/docfield.json;;
+DocPerm;DocPerm;;frappe/core/doctype/docperm/docperm.json;;
+DocShare;DocShare;;frappe/core/doctype/docshare/docshare.json;;
+DocType;DocType;;frappe/core/doctype/amended_document_naming_settings/amended_document_naming_settings.json;;
+DocType must be a string;O DocType deve ser uma string;;frappe/client.py:455;;
+DocTypes can not be modified, please use {0} instead;DocTypes não podem ser modificados. Use {0};;frappe/core/doctype/doctype/doctype.js:71;;
+Doctype To Sync;DocType a sincronizar;;frappe/core/doctype/doctype_to_sync/doctype_to_sync.json;;
+Doctype with same route already exist. Please choose different title.;Já existe um DocType com a mesma rota. Escolha outro título.;;frappe/public/js/frappe/views/workspace/workspace.js:1348;;
+Document Name must be a string;O nome do documento deve ser uma string;;frappe/client.py:458;;
+Document {0} {1} does not exist;O documento {0} {1} não existe;;frappe/client.py:483;;
+Documentation;Documentação;;frappe/public/js/frappe/form/controls/base_input.js:182;;
+Dr;Dr.;;frappe/desk/page/setup_wizard/install_fixtures.py:46;;
+Drag elements from the sidebar to add. Drag them back to trash.;Arraste elementos da barra lateral para adicioná-los. Arraste-os de volta para a lixeira para removê-los.;;frappe/printing/page/print_format_builder/print_format_builder_layout.html:3;;
+Dropbox Access Token;Token de acesso do Dropbox;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+Dropbox Refresh Token;Token de atualização do Dropbox;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+DuckDB Sync;Sincronização com o DuckDB;;frappe/core/doctype/duckdb_sync/duckdb_sync.json;;
+DuckDB Sync Item;Item de sincronização com o DuckDB;;frappe/core/doctype/duckdb_sync_item/duckdb_sync_item.json;;
+Duplicate Workspace;Duplicar espaço de trabalho;;frappe/public/js/frappe/views/workspace/workspace.js:592;;
+Duplicate of {0} named as {1} is created successfully;Cópia de {0} com o nome {1} criada com sucesso;;frappe/public/js/frappe/views/workspace/workspace.js:1035;;
+ESC;ESC;;frappe/public/js/frappe/form/grid_row_form.js:72;;
+"Each document created in ERPNext can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.
+";"Cada documento criado no ERPNext pode ter um ID exclusivo gerado a partir de um prefixo definido. Embora cada documento tenha um prefixo predefinido, você pode personalizá-lo com ferramentas como Séries de numeração e Regras de nomeação de documentos.
+";;frappe/custom/onboarding_step/naming_series/naming_series.json;;
+Edit Filter;Editar filtro;;frappe/public/js/frappe/ui/filters/filter.js:401;;
+Edit Section;Editar seção;;frappe/printing/page/print_format_builder/print_format_builder.js:414;;
+Edit Workspace;Editar espaço de trabalho;;frappe/public/js/frappe/views/workspace/workspace.js:848;;
+Email Sent;E-mail enviado;;frappe/email/doctype/newsletter/newsletter.json;;
+Email Sent At;E-mail enviado em;;frappe/core/doctype/user_invitation/user_invitation.json;;
+Email everyone for <b>{0}</b> notifications? This adds it to every user's email preferences. Users can still opt out individually afterwards.;Enviar notificações de <b>{0}</b> por e-mail para todos? Isso as adiciona às preferências de e-mail de todos os usuários. Cada usuário ainda poderá desativá-las depois.;;frappe/desk/doctype/notification_type/notification_type.js:16;;
+Email me for these notification types;Enviar-me e-mails para estes tipos de notificação;;frappe/desk/doctype/notification_settings/notification_settings.json;;
+Enable Automatic Backup;Habilitar backup automático;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+Enable Email Notification;Habilitar notificação por e-mail;;frappe/website/doctype/blog_post/blog_post.json;;
+Enable Email Notifications for All Users;Habilitar notificações por e-mail para todos os usuários;;frappe/desk/doctype/notification_type/notification_type.js:13;;
+Enable Rate Limit;Habilitar limite de requisições;;frappe/core/doctype/server_script/server_script.json;;
+Enable Snapshot Reports;Habilitar relatórios de snapshot;;frappe/core/doctype/system_settings/system_settings.json;;
+Enable Website Tracking;Habilitar rastreamento do site;;frappe/website/onboarding_step/enable_website_tracking/enable_website_tracking.json;;
+Enable email notification for any comment or likes received on your Blog Post.;Habilite notificações por e-mail para comentários ou curtidas recebidos na publicação do blog.;;frappe/website/doctype/blog_post/blog_post.json;;
+Enable the notification type before emailing it to users.;Habilite o tipo de notificação antes de enviá-lo por e-mail aos usuários.;;frappe/desk/doctype/notification_type/notification_type.py:93;;
+Enabled scheduled execution for script {0};Execução agendada habilitada para o script {0};;frappe/core/doctype/server_script/server_script.py:245;;
+Enabling email for {0} across all users in the background.;Habilitando e-mails de {0} para todos os usuários em segundo plano.;;frappe/desk/doctype/notification_type/notification_type.py:104;;
+Enabling this will register your site on a central relay server to send push notifications for all installed apps through Firebase Cloud Messaging. This server only stores user tokens and error logs, and no messages are saved. ;"Habilitar esta opção registrará seu site em um servidor central de retransmissão para enviar notificações push de todos os aplicativos instalados pelo Firebase Cloud Messaging. Esse servidor armazena apenas tokens de usuários e logs de erros; nenhuma mensagem é salva. ";;frappe/integrations/doctype/push_notification_settings/push_notification_settings.json;;
+Endpoint URL;URL do endpoint;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+Endpoints;Endpoints;;frappe/integrations/doctype/connected_app/connected_app.json;;
+Energy Point Log;Log de pontos de energia;;frappe/core/doctype/user/user.json;;
+Energy Point Update on {0};Atualização de pontos de energia em {0};;frappe/desk/doctype/notification_log/notification_log.py:240;;
+Error: Document has been modified after you have opened it;Erro: o documento foi modificado depois que você o abriu;;frappe/model/document.py:871;;
+Event Notifications;Notificações de eventos;;frappe/desk/doctype/event_notifications/event_notifications.json;;
+"Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.
+
+Once custom fields are added, you can use them for reports and analytics charts as well.
+";"Cada formulário do ERPNext tem um conjunto padrão de campos. Se precisar registrar uma informação para a qual não existe um campo padrão, você pode adicionar um campo personalizado.
+
+Depois de adicionados, os campos personalizados também podem ser usados em relatórios e gráficos de análise.
+";;frappe/custom/onboarding_step/custom_field/custom_field.json;;
+"Ex: ""colors"": [""#d1d8dd"", ""#ff5858""]";"Ex.: ""colors"": [""#d1d8dd"", ""#ff5858""]";;frappe/desk/doctype/dashboard_chart/dashboard_chart.json;;
+Excel;Excel;;frappe/core/doctype/data_export/data_export.json;;
+Executive;Executive;;frappe/printing/doctype/print_settings/print_settings.json;;
+Existing Gravatar URLs may still be stored on User and Contact records. Do you want to delete these URLs now?;URLs existentes do Gravatar ainda podem estar armazenadas nos registros de usuários e contatos. Deseja excluir essas URLs agora?;;frappe/public/js/frappe/legacy_gravatar_cleanup.js:28;;
+Existing Gravatar URLs may still be stored on User, Contact, and Lead records. Do you want to delete these URLs now?;URLs existentes do Gravatar ainda podem estar armazenadas nos registros de usuários, contatos e leads. Deseja excluir essas URLs agora?;;frappe/public/js/frappe/legacy_gravatar_cleanup.js:25;;
+Experimental;Experimental;;frappe/public/js/frappe/form/templates/form_sidebar.html:23;;
+Facebook;Facebook;;frappe/integrations/doctype/social_login_key/social_login_key.json;;
+FavIcon;Favicon;;frappe/website/doctype/website_settings/website_settings.json;;
+Feedback Request;Solicitação de feedback;;frappe/core/doctype/communication/communication.json;;
+Fieldtype of {0} in {1} cannot be changed from {2} to {3};O tipo do campo {0} em {1} não pode ser alterado de {2} para {3};;frappe/custom/doctype/custom_field/custom_field.py:193;;
+File Backup;Backup de arquivos;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+Filename;Nome do arquivo;;frappe/core/doctype/duckdb_sync/duckdb_sync.json;;
+Filter must have 4 values (doctype, fieldname, operator, value): {0};O filtro deve ter 4 valores (doctype, fieldname, operator, value): {0};;frappe/utils/data.py:1957;;
+Filters applied to Link queries and Attachment Gallery files.;Filtros aplicados às consultas de vínculos e aos arquivos da galeria de anexos.;;frappe/core/doctype/docfield/docfield.json;;
+Filters must be four-value rows with string doctypes, fields, and operators.;Os filtros devem ser linhas com quatro valores, com DocTypes, campos e operadores do tipo string.;;frappe/desk/form/load.py:226;;
+Filters {0};Filtros {0};;frappe/public/js/frappe/ui/filters/filter_list.js:133;;
+First Used On;Usado pela primeira vez em;;frappe/website/doctype/web_form_request/web_form_request.json;;
+Following links are broken in the email content: {0};Os seguintes links estão quebrados no conteúdo do e-mail: {0};;frappe/email/doctype/newsletter/newsletter.js:30;;
+"For Links, enter the DocType as range.
+For Select, enter list of Options, each on a new line.";"Para campos Link, informe o DocType como intervalo.
+Para campos Select, informe a lista de opções, uma por linha.";;frappe/core/doctype/docfield/docfield.json;;
+Frappe;Frappe;;frappe/integrations/doctype/social_login_key/social_login_key.json;;
+Frappe Framework;Frappe Framework;;frappe/public/js/frappe/ui/toolbar/about.js:8;;
+Frappe no longer uses Gravatar because it can disclose hashed email addresses to a third-party service. To fully stop this behavior, existing Gravatar image URLs must be deleted.;O Frappe não usa mais o Gravatar porque ele pode expor hashes de endereços de e-mail a um serviço de terceiros. Para interromper completamente esse comportamento, as URLs de imagens existentes do Gravatar devem ser excluídas.;;frappe/public/js/frappe/legacy_gravatar_cleanup.js:18;;
+Function {0} is not allowed in this query.;A função {0} não é permitida nesta consulta.;;frappe/model/db_query.py:278;;
+GET;GET;;frappe/core/doctype/recorder/recorder.json;;
+GNU General Public License;Licença Pública Geral GNU;;frappe/core/doctype/package/package.json;;
+Gantt;Gantt;;frappe/desk/doctype/form_tour/form_tour.json;;
+Genderqueer;Genderqueer;;frappe/desk/page/setup_wizard/install_fixtures.py:32;;
+Generate Custom Reports;Gerar relatórios personalizados;;frappe/custom/onboarding_step/report_builder/report_builder.json;;
+Get more insights with;Obtenha mais análises com;;frappe/public/js/frappe/list/list_sidebar.js:282;;
+GitHub;GitHub;;frappe/integrations/doctype/social_login_key/social_login_key.json;;
+Go to Access Control section;Ir para a seção de controle de acesso;;frappe/website/doctype/web_form/web_form.js:388;;
+Google;Google;;frappe/integrations/doctype/social_login_key/social_login_key.json;;
+Google Calendar - Contact / email not found. Did not add attendee for -<br>{0};Google Calendar - Contato ou e-mail não encontrado. Não foi adicionado participante para -<br>{0};;frappe/integrations/doctype/google_calendar/google_calendar.py:818;;
+Google Drive;Google Drive;;frappe/integrations/doctype/google_drive/google_drive.json;;
+Google Drive - Could not create folder in Google Drive - Error Code {0};Google Drive - Não foi possível criar a pasta no Google Drive - Código de erro {0};;frappe/integrations/doctype/google_drive/google_drive.py:119;;
+Google Drive - Could not find folder in Google Drive - Error Code {0};Google Drive - Não foi possível encontrar a pasta no Google Drive - Código de erro {0};;frappe/integrations/doctype/google_drive/google_drive.py:134;;
+Google Drive - Could not locate - {0};Google Drive - Não foi possível localizar - {0};;frappe/integrations/doctype/google_drive/google_drive.py:195;;
+Google Drive Backup Successful.;Backup no Google Drive concluído com sucesso.;;frappe/integrations/doctype/google_drive/google_drive.py:206;;
+Google Snippet Preview;Prévia do resultado no Google;;frappe/website/doctype/blog_post/blog_post.json;;
+Gravatar URL deletion has been queued.;A exclusão das URLs do Gravatar foi colocada na fila.;;frappe/public/js/frappe/legacy_gravatar_cleanup.js:54;;
+Gravatar URLs will not be deleted.;As URLs do Gravatar não serão excluídas.;;frappe/public/js/frappe/legacy_gravatar_cleanup.js:59;;
+Guests are not allowed to upload files for {0} Doctype;Visitantes não podem enviar arquivos para o DocType {0};;frappe/handler.py:187;;
+HEAD;HEAD;;frappe/core/doctype/recorder/recorder.json;;
+HH:mm:ss;HH:mm:ss;;frappe/core/doctype/system_settings/system_settings.json;;
+HTML;HTML;;frappe/core/doctype/docfield/docfield.json;;
+Headline of the in-app notification. Falls back to Subject if left blank. Supports Jinja.;Título da notificação no aplicativo. Usa o assunto se deixado em branco. Aceita Jinja.;;frappe/email/doctype/notification/notification.json;;
+"Help: To link to another record in the system, use ""/app/note/[Note Name]"" as the Link URL. (don't use ""http://"")";"Ajuda: para criar um link para outro registro no sistema, use ""/app/note/[Note Name]"" como URL do link. (não use ""http://"")";;frappe/desk/doctype/note/note.json;;
+Helvetica;Helvetica;;frappe/printing/doctype/print_settings/print_settings.json;;
+Helvetica Neue;Helvetica Neue;;frappe/printing/doctype/print_settings/print_settings.json;;
+Hide Saved;Ocultar salvos;;frappe/public/js/frappe/list/list_filter.js:87;;
+Hide Tags;Ocultar tags;;frappe/public/js/frappe/list/list_view.js:1639;;
+Hide Workspace;Ocultar espaço de trabalho;;frappe/public/js/frappe/views/workspace/workspace.js:860;;
+I guess you don't have access to any workspace yet, but you can create one just for yourself. Click on the <b>Create Workspace</b> button to create one.<br>;Parece que você ainda não tem acesso a nenhum espaço de trabalho, mas pode criar um só para você. Clique no botão <b>Criar espaço de trabalho</b> para criar um.<br>;;frappe/core/workspace/welcome_workspace/welcome_workspace.json;;
+ID;ID;;frappe/core/doctype/data_import/importer.py:1139;;
+ID;ID;Label of name column in report;frappe/desk/reportview.py:508;;
+Idx;Idx;;frappe/desk/doctype/desktop_icon/desktop_icon.json;;
+If checked, <i>Prepared Report</i> will not be enabled automatically on slow runs.;Se marcado, o <i>Relatório preparado</i> não será habilitado automaticamente em execuções lentas.;;frappe/core/doctype/report/report.json;;
+If enabled, the password strength will be enforced based on the Minimum Password Score value. A value of 2 being medium strong and 4 being very strong.;Se habilitado, a força da senha será exigida com base no valor de Pontuação mínima da senha. O valor 2 corresponde a uma senha de força média e o valor 4, a uma senha muito forte.;;frappe/core/doctype/system_settings/system_settings.json;;
+If enabled, the web form can only be used with a <i>Key</i> from a corresponding <b>Web Form Request</b>.;Se habilitado, o formulário web só poderá ser usado com uma <i>Chave</i> de uma <b>Solicitação de formulário web</b> correspondente.;;frappe/website/doctype/web_form/web_form.json;;
+If it's empty, it will backup to the root of the bucket.;Se estiver vazio, o backup será salvo na raiz do bucket.;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+"If the condition is satisfied user will be rewarded with the points. eg. doc.status == 'Closed'
+";"Se a condição for atendida, o usuário receberá os pontos. Ex.: doc.status == 'Closed'
+";;frappe/social/doctype/energy_point_rule/energy_point_rule.json;;
+If the user enables the mask property for the phone number field, the value will be displayed in a masked format (e.g., 811XXXXXXX).;Se o usuário habilitar a propriedade de máscara no campo de telefone, o valor será exibido em formato mascarado (por exemplo, 811XXXXXXX).;;frappe/core/page/permission_manager/permission_manager_help.html:83;;
+If the user has access to Employee and Report is enabled, they can view Employee-based reports.;Se o usuário tiver acesso ao DocType Employee e a permissão de relatório estiver habilitada, poderá visualizar relatórios de colaboradores.;;frappe/core/page/permission_manager/permission_manager_help.html:63;;
+If this email is registered with us, a download link will be sent to it.;Se este e-mail estiver cadastrado conosco, um link para download será enviado para ele.;;frappe/website/web_form/request_data/request_data.json;;
+If you have recently restored the site you may need to copy the site config contaning original Encryption Key.;Se você restaurou o site recentemente, talvez precise copiar a configuração do site que contém a chave de criptografia original.;;frappe/utils/password.py:206;;
+If you just want to customize for your site, use {0} instead.;Se deseja apenas personalizar seu site, use {0}.;;frappe/core/doctype/doctype/doctype.js:81;;
+Illegal Access Token. Please try again;Token de acesso inválido. Tente novamente;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.py:348;;
+Image Height;Altura da imagem;;frappe/printing/doctype/letter_head/letter_head.json;;
+Image Width;Largura da imagem;;frappe/printing/doctype/letter_head/letter_head.json;;
+Impersonating {0};Acessando como {0};;frappe/public/js/frappe/ui/toolbar/navbar.html:21;;
+In ERPNext, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions.;No ERPNext, você pode adicionar colaboradores como usuários e conceder acesso restrito a eles. Ferramentas como Permissão por papel e Permissão do usuário permitem definir regras que restringem o acesso do usuário a cadastros e transações.;;frappe/custom/onboarding_step/role_permissions/role_permissions.json;;
+"In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in ERPNext by pulling values from the same multiple ERPNext tables.
+";"Em cada módulo, você encontrará diversos relatórios acessíveis com um clique, desde demonstrações financeiras até análises de vendas e compras e acompanhamento de estoque. Se um relatório necessário não estiver disponível por padrão, você pode criar relatórios personalizados no ERPNext combinando valores de várias tabelas do sistema.
+";;frappe/custom/onboarding_step/report_builder/report_builder.json;;
+In {0}, {1} is required in every row.;Em {0}, {1} é obrigatório em todas as linhas.;;frappe/public/js/frappe/form/save.js:223;;
+In {0}, {1} is required in row {2}.;Em {0}, {1} é obrigatório na linha {2}.;;frappe/public/js/frappe/form/save.js:229;;
+In {0}, {1} is required in rows {2}.;Em {0}, {1} é obrigatório nas linhas {2}.;;frappe/public/js/frappe/form/save.js:238;;
+In {0}, {1} is required in {2} rows.;Em {0}, {1} é obrigatório em {2} linhas.;;frappe/public/js/frappe/form/save.js:245;;
+Incorrect value in row {0}:;Valor incorreto na linha {0}:;;frappe/model/document.py:1402;;
+Incorrect value:;Valor incorreto:;;frappe/model/document.py:1404;;
+InnoDB;InnoDB;;frappe/core/doctype/doctype/doctype.json;;
+Instagram;Instagram;;frappe/public/js/frappe/ui/toolbar/about.js:60;;
+Instructions Emailed;Instruções enviadas por e-mail;;frappe/templates/includes/login/login.js:255;;
+Inter;Inter;;frappe/printing/doctype/print_settings/print_settings.json;;
+Interval;Intervalo;;frappe/desk/doctype/event_notifications/event_notifications.json;;
+Intro;Apresentação;;frappe/desk/page/user_profile/user_profile_sidebar.html:22;;
+Introduction to Website;Introdução ao site;;frappe/website/onboarding_step/introduction_to_website/introduction_to_website.json;;
+Invalid Filters for field {0}. Filters must be a list of filters, where each filter is a list with four values: doctype, fieldname, operator, and value.;Filtros inválidos para o campo {0}. Os filtros devem ser uma lista de filtros, sendo cada filtro uma lista com quatro valores: doctype, fieldname, operator e value.;;frappe/core/doctype/doctype/doctype.py:1670;;
+Invalid Filters for field {0}. Filters must be valid JSON.;Filtros inválidos para o campo {0}. Os filtros devem ser um JSON válido.;;frappe/core/doctype/doctype/doctype.py:1661;;
+Invalid JSON;JSON inválido;;frappe/website/doctype/web_form_request/web_form_request.py:84;;
+Invalid Login. Try again.;Login inválido. Tente novamente.;;frappe/templates/includes/login/login.js:281;;
+Invalid Package Name;Nome de pacote inválido;;frappe/core/doctype/package_import/package_import.py:49;;
+Invalid Web Form Request;Solicitação de formulário web inválida;;frappe/website/doctype/web_form/web_form.py:481;;
+Invalid action;Ação inválida;;frappe/utils/legacy_gravatar_cleanup.py:82;;
+Invalid backup path;Caminho de backup inválido;;frappe/utils/response.py:285;;
+Invalid field for grouping;Campo inválido para agrupamento;;frappe/desk/page/user_profile/user_profile.py:34;;
+Invalid or expired key;Chave inválida ou expirada;;frappe/core/api/user_invitation.py:154;;
+Invitation resent;Convite reenviado;;frappe/core/doctype/user_invitation/user_invitation.js:25;;
+Invited By;Convidado por;;frappe/core/doctype/user_invitation/user_invitation.json;;
+JS;JS;;frappe/printing/doctype/print_format/print_format.json;;
+JSON;JSON;;frappe/core/doctype/docfield/docfield.json;;
+JSON value must be an object;O valor JSON deve ser um objeto;;frappe/website/doctype/web_form_request/web_form_request.py:87;;
+JavaScript;JavaScript;;frappe/website/doctype/website_theme/website_theme.json;;
+Javascript;JavaScript;;frappe/core/doctype/report/report.json;;
+Jinja;Jinja;;frappe/printing/doctype/print_format/print_format.json;;
+K;mil;Number system;frappe/public/js/frappe/utils/number_systems.js:17;;
+Kanban;Kanban;;frappe/desk/doctype/form_tour/form_tour.json;;
+Keep Gravatar URLs;Manter URLs do Gravatar;;frappe/public/js/frappe/legacy_gravatar_cleanup.js:40;;
+Key Required;Chave obrigatória;;frappe/website/doctype/web_form/web_form.js:393;;
+Key required;Chave obrigatória;;frappe/website/doctype/web_form/web_form.json;;
+Keycloak;Keycloak;;frappe/integrations/doctype/social_login_key/social_login_key.json;;
+Kh;Kh;Number system;frappe/public/js/frappe/utils/number_systems.js:37;SAN;"Abreviação de kharab, unidade do sistema numérico indiano; confirmar convenção de exibição."
+L;L;Number system;frappe/public/js/frappe/utils/number_systems.js:27;SAN;"Abreviação de lakh, unidade do sistema numérico indiano; confirmar convenção de exibição."
+Last 6 Months;Últimos 6 meses;;frappe/public/js/frappe/ui/filters/filter.js:658;;
+Last Backup On;Último backup em;;frappe/integrations/doctype/google_drive/google_drive.json;;
+Learn about Standard and Custom Print Formats;Saiba mais sobre formatos de impressão padrão e personalizados;;frappe/custom/onboarding_step/print_format/print_format.json;;
+Learn about Web Pages;Saiba mais sobre páginas web;;frappe/website/onboarding_step/web_page_tour/web_page_tour.json;;
+Learn how to add Custom Fields;Saiba como adicionar campos personalizados;;frappe/custom/onboarding_step/custom_field/custom_field.json;;
+Learn more about Report Builders;Saiba mais sobre os construtores de relatórios;;frappe/custom/onboarding_step/report_builder/report_builder.json;;
+Learn more about creating new DocTypes;Saiba mais sobre a criação de novos DocTypes;;frappe/custom/onboarding_step/custom_doctype/custom_doctype.json;;
+Ledger;Ledger;;frappe/printing/doctype/print_settings/print_settings.json;;
+Legal;Legal;;frappe/printing/doctype/print_settings/print_settings.json;;
+Let's Set Up Your Website.;Vamos configurar seu site.;;frappe/website/module_onboarding/website/website.json;;
+Like limit;Limite de curtidas;;frappe/website/doctype/blog_settings/blog_settings.json;;
+Like limit per hour;Limite de curtidas por hora;;frappe/website/doctype/blog_settings/blog_settings.json;;
+Like on {0}: {1};Curtida em {0}: {1};;frappe/templates/includes/likes/likes.py:30;;
+Limit Number of DB Backups;Limitar número de backups do banco de dados;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+Link;Link;;frappe/core/doctype/docfield/docfield.json;;
+Link DocType;DocType vinculado;;frappe/core/doctype/activity_log/activity_log.json;;
+LinkedIn;LinkedIn;;frappe/public/js/frappe/ui/toolbar/about.js:40;;
+Links;Vínculos;;frappe/contacts/doctype/address/address.js:39;;
+List a document type;Listar um tipo de documento;;frappe/public/js/frappe/ui/toolbar/awesome_bar.js:167;;
+Loading user profile;Carregando perfil do usuário;;frappe/desk/page/user_profile/user_profile_controller.js:20;;
+Login Required;Login obrigatório;;frappe/website/doctype/web_form/web_form.js:389;;
+Login or a request key is required to see web form list view. Enable {0} to see list settings;É necessário fazer login ou informar uma chave de solicitação para ver a lista do formulário web. Habilite {0} para ver as configurações da lista;;frappe/website/doctype/web_form/web_form.js:396;;
+Loving Frappe Framework?;Gostando do Frappe Framework?;;frappe/core/doctype/server_script/server_script_list.js:18;;
+M;mi;Number system;frappe/public/js/frappe/utils/number_systems.js:13;;
+Make Attachment Public (by default);Tornar anexo público (por padrão);;frappe/core/doctype/docfield/docfield.json;;
+Malformed Address Header;Cabeçalho de endereço malformado;;frappe/email/receive.py:510;;
+Manage third party apps;Gerenciar aplicativos de terceiros;;frappe/www/me.html:50;;
+Manage your apps;Gerenciar seus aplicativos;;frappe/www/me.html:59;;
+Marketing Campaign;Campanha de marketing;;frappe/website/doctype/marketing_campaign/marketing_campaign.json;;
+Master;Master;;frappe/desk/page/setup_wizard/install_fixtures.py:50;SAN;"Forma de tratamento tradicional para menino; não há equivalente direto adequado ao cadastro brasileiro."
+Max Zip Extract Size (MB);Tamanho máximo de extração de ZIP (MB);;frappe/core/doctype/system_settings/system_settings.json;;
+"Maximum points allowed after multiplying points with the multiplier value
+(Note: For no limit leave this field empty or set 0)";"Máximo de pontos permitido após aplicar o multiplicador
+(Observação: para não limitar, deixe este campo vazio ou defina 0)";;frappe/social/doctype/energy_point_rule/energy_point_rule.json;;
+Maximum total size a ZIP archive is allowed to expand to when extracted.;Tamanho total máximo permitido para o conteúdo de um arquivo ZIP após a extração.;;frappe/core/doctype/system_settings/system_settings.json;;
+Maybe;Talvez;;frappe/desk/doctype/event/event.json;;
+Meaning of Different Permission Types;Significado dos diferentes tipos de permissão;;frappe/core/page/permission_manager/permission_manager_help.html:14;;
+Menu;Menu;;frappe/public/js/frappe/ui/page.html:40;;
+Message-id;Message-id;;frappe/email/doctype/unhandled_email/unhandled_email.json;;
+Meta;Metadados;;frappe/website/doctype/web_form/web_form.json;;
+Meta Tags;Meta tags;;frappe/website/doctype/blog_post/blog_post.json;;
+Minutes;Minutos;Duration;frappe/public/js/frappe/form/controls/duration.js:23;;
+Models;Modelos;;frappe/core/workspace/build/build.json;;
+Monospace;Monospace;;frappe/printing/doctype/print_settings/print_settings.json;;
+Monthly Rank;Classificação mensal;;frappe/desk/page/user_profile/user_profile_controller.js:406;;
+Mr;Sr.;;frappe/desk/page/setup_wizard/install_fixtures.py:43;;
+Mrs;Sra.;;frappe/desk/page/setup_wizard/install_fixtures.py:47;;
+Ms;Sra.;;frappe/desk/page/setup_wizard/install_fixtures.py:44;;
+Mx;Mx;;frappe/desk/page/setup_wizard/install_fixtures.py:45;SAN;"Forma de tratamento neutra em inglês; confirmar convenção institucional em português."
+My Profile;Meu perfil;;frappe/hooks.py;;
+My Settings;Minhas configurações;;frappe/hooks.py;;
+MyISAM;MyISAM;;frappe/core/doctype/doctype/doctype.json;;
+N/A;N/D;Number not available;frappe/public/js/frappe/widgets/number_card_widget.js:226;;
+"Naming Options:
+<ol><li><b>field:[fieldname]</b> - By Field</li><li><b>autoincrement</b> - Uses Databases' Auto Increment feature</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present)</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li>
+<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>";"Opções de nomeação:
+<ol><li><b>field:[fieldname]</b> - Por campo</li><li><b>autoincrement</b> - Usa o recurso de incremento automático do banco de dados</li><li><b>naming_series:</b> - Por série de numeração (deve existir um campo chamado naming_series)</li><li><b>Prompt</b> - Solicita um nome ao usuário</li><li><b>[series]</b> - Série por prefixo (separado por ponto); por exemplo, PRE.#####</li>
+<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Substitui todos os termos entre chaves (nomes de campos, componentes de data (DD, MM, YY) e séries) por seus valores. Fora das chaves, qualquer caractere pode ser usado.</li></ol>";;frappe/core/doctype/doctype/doctype.json;;
+Naming Series;Série de numeração;;frappe/core/doctype/document_naming_settings/document_naming_settings.json;;
+Navigation Buttons;Botões de navegação;;frappe/core/doctype/user/user.json;;
+Need Workspace Manager role to hide/unhide public workspaces;É necessário o papel Workspace Manager para ocultar ou exibir espaços de trabalho públicos;;frappe/desk/doctype/workspace/workspace.py:366;;
+New Newsletter;Nova newsletter;;frappe/email/doctype/email_group/email_group.js:67;;
+Newsletter;Newsletter;;frappe/automation/workspace/tools/tools.json;;
+Newsletter Attachment;Anexo de newsletter;;frappe/email/doctype/newsletter_attachment/newsletter_attachment.json;;
+Newsletter Email Group;Grupo de e-mails da newsletter;;frappe/email/doctype/newsletter_email_group/newsletter_email_group.json;;
+Newsletter has already been sent;A newsletter já foi enviada;;frappe/email/doctype/newsletter/newsletter.py:130;;
+Newsletter must be published to send webview link in email;A newsletter deve estar publicada para enviar o link de visualização na web por e-mail;;frappe/email/doctype/newsletter/newsletter.py:149;;
+Newsletters;Newsletters;;frappe/email/doctype/newsletter/newsletter.py:393;;
+Next 6 Months;Próximos 6 meses;;frappe/public/js/frappe/ui/filters/filter.js:710;;
+Next Document;Próximo documento;;frappe/public/js/frappe/form/toolbar.js:335;;
+Next Month;Próximo mês;;frappe/public/js/frappe/ui/filters/filter.js:702;;
+Next Quarter;Próximo trimestre;;frappe/public/js/frappe/ui/filters/filter.js:706;;
+Next Week;Próxima semana;;frappe/public/js/frappe/ui/filters/filter.js:698;;
+Next Year;Próximo ano;;frappe/public/js/frappe/ui/filters/filter.js:714;;
+No Data to Show;Nenhum dado para exibir;;frappe/desk/page/user_profile/user_profile.html:11;;
+No Items Found;Nenhum item encontrado;;frappe/desk/page/leaderboard/leaderboard.js:282;;
+No Permitted Charts on this Dashboard;Nenhum gráfico com permissão de acesso neste dashboard;;frappe/core/page/dashboard_view/dashboard_view.js:92;;
+No activities to show;Nenhuma atividade para exibir;;frappe/desk/page/user_profile/user_profile_controller.js:441;;
+No attachments;Sem anexos;;frappe/public/js/frappe/form/controls/attachment_gallery.js:55;;
+No broken links found in the email content;Nenhum link quebrado encontrado no conteúdo do e-mail;;frappe/email/doctype/newsletter/newsletter.js:34;;
+No changes made on the page;Nenhuma alteração feita na página;;frappe/public/js/frappe/views/workspace/workspace.js:1522;;
+No comments yet. ;Ainda não há comentários. ;;frappe/templates/includes/comments/comments.html:4;;
+No email account associated with the User. Please add an account under User > Email Inbox.;Nenhuma conta de e-mail associada ao usuário. Adicione uma conta em Usuário > Caixa de entrada de e-mail.;;frappe/public/js/frappe/views/inbox/inbox_view.js:21;;
+No new notifications;Nenhuma nova notificação;;frappe/public/js/frappe/ui/toolbar/navbar.html:46;;
+No of Rows (Max 500);Número de linhas (máximo de 500);;frappe/email/doctype/auto_email_report/auto_email_report.json;;
+No {0} Found;Nenhum resultado encontrado para {0};;frappe/public/js/frappe/list/list_view_select.js:158;;
+No.;Nº;Title of the 'row number' column;frappe/public/js/form_builder/utils.js:117;;
+Noop Source;Noop Source;;frappe/tests/test_translate.py:84;SAN;"String usada por teste de tradução; preservada como fixture para evitar alterar o comportamento esperado."
+Not Used;Não usado;;frappe/website/doctype/web_form_request/web_form_request_list.js:13;;
+Not permitted to sort or group by {0};Sem permissão para ordenar ou agrupar por {0};;frappe/model/db_query.py:1610;;
+Note: By default emails for failed backups are sent.;Observação: por padrão, e-mails são enviados em caso de falha nos backups.;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+Notification Message;Mensagem da notificação;;frappe/email/doctype/notification/notification.json;;
+Notification Title;Título da notificação;;frappe/email/doctype/notification/notification.json;;
+Notification Type;Tipo de notificação;;frappe/desk/doctype/notification_type/notification_type.json;;
+Notification Type Preference;Preferência de tipo de notificação;;frappe/desk/doctype/notification_type_preference/notification_type_preference.json;;
+Number of DB Backups;Número de backups do banco de dados;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+Number of DB backups cannot be less than 1;O número de backups do banco de dados não pode ser menor que 1;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.py:54;;
+OAuth;OAuth;;frappe/email/doctype/email_account/email_account.json;;
+OK;OK;;frappe/templates/includes/oauth_confirmation.html:32;;
+OPTIONS;OPTIONS;;frappe/core/doctype/recorder/recorder.json;;
+Office 365;Office 365;;frappe/integrations/doctype/social_login_key/social_login_key.json;;
+One of the child page with name {0} already exist in {1} Section. Please update the name of the child page first before moving;Já existe uma página filha com o nome {0} na seção {1}. Atualize o nome da página filha antes de movê-la;;frappe/public/js/frappe/views/workspace/workspace.js:1357;;
+Only Workspace Manager can sort or edit this page;Somente usuários com o papel Workspace Manager podem ordenar ou editar esta página;;frappe/public/js/frappe/views/workspace/workspace.js:581;;
+Only change this if you want to use other S3 compatible object storage backends.;Altere esta opção somente se desejar usar outros serviços de armazenamento de objetos compatíveis com S3.;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+Only pending invitations can be resent;Somente convites pendentes podem ser reenviados;;frappe/core/api/user_invitation.py:124;;
+Open Source Applications for the Web;Aplicativos de código aberto para a web;;frappe/public/js/frappe/ui/toolbar/about.js:12;;
+Open a dialog with mandatory fields to create a new record quickly;Abrir uma janela com os campos obrigatórios para criar um novo registro rapidamente;;frappe/core/doctype/doctype/doctype.json;;
+OpenLDAP;OpenLDAP;;frappe/integrations/doctype/ldap_settings/ldap_settings.json;;
+Optional body of the in-app notification. Supports Jinja.;Corpo opcional da notificação no aplicativo. Aceita Jinja.;;frappe/email/doctype/notification/notification.json;;
+Outlook.com;Outlook.com;;frappe/email/doctype/email_account/email_account.json;;
+PATCH;PATCH;;frappe/core/doctype/recorder/recorder.json;;
+PDF;PDF;;frappe/printing/page/print/print.js:71;;
+PID;PID;;frappe/core/doctype/rq_worker/rq_worker.json;;
+POST;POST;;frappe/core/doctype/recorder/recorder.json;;
+PUT;PUT;;frappe/core/doctype/recorder/recorder.json;;
+Package contains disallowed path entry;O pacote contém uma entrada de caminho não permitida;;frappe/core/doctype/package_import/package_import.py:65;;
+Page Saved Successfully;Página salva com sucesso;;frappe/public/js/frappe/views/workspace/workspace.js:1544;;
+Page with title {0} already exist.;Já existe uma página com o título {0}.;;frappe/public/js/frappe/views/workspace/workspace.js:1344;;
+Past dates are not allowed for Scheduling.;Datas passadas não são permitidas para agendamento.;;frappe/email/doctype/newsletter/newsletter.py:159;;
+Permission;Permissão;;frappe/core/page/permission_manager/permission_manager_help.html:19;;
+Permission Manager;Gerenciador de permissões;;frappe/core/workspace/users/users.json;;
+Please enter the password;Informe a senha;;frappe/www/update-password.html:232;;
+Please fill the following mandatory fields before saving:;Preencha os seguintes campos obrigatórios antes de salvar:;;frappe/public/js/frappe/form/save.js:256;;
+Please save the Newsletter before sending;Salve a newsletter antes de enviar;;frappe/email/doctype/newsletter/newsletter.py:133;;
+Please set Dropbox access keys in site config or doctype;Defina as chaves de acesso do Dropbox na configuração do site ou no DocType;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.py:305;;
+Please verify your Email Address;Verifique seu endereço de e-mail;;frappe/email/doctype/newsletter/newsletter.py:336;;
+Polling;Polling;;frappe/desk/doctype/system_health_report/system_health_report.json;;
+Portal;Portal;;frappe/website/workspace/website/website.json;;
+Postal;Postal;;frappe/contacts/doctype/address/address.json;;
+Posts by {0};Publicações de {0};;frappe/website/doctype/blog_post/blog_post.py:260;;
+Posts filed under {0};Publicações na categoria {0};;frappe/website/doctype/blog_post/blog_post.py:252;;
+Preview Image;Imagem de pré-visualização;;frappe/website/doctype/blog_category/blog_category.json;;
+Previous Document;Documento anterior;;frappe/public/js/frappe/form/toolbar.js:327;;
+Previous Hash;Hash anterior;;frappe/core/doctype/transaction_log/transaction_log.json;;
+Print Format Builder (New);Construtor de formatos de impressão (novo);;frappe/automation/workspace/tools/tools.json;;
+Print Formats allow you can define looks for documents when printed or converted to PDF. You can also create a custom Print Format using drag-and-drop tools.;Os formatos de impressão permitem definir a aparência dos documentos ao imprimir ou converter em PDF. Você também pode criar um formato de impressão personalizado usando ferramentas de arrastar e soltar.;;frappe/custom/onboarding_step/print_format/print_format.json;;
+Prof;Prof.;;frappe/desk/page/setup_wizard/install_fixtures.py:51;;
+Provide a list of allowed Doctypes for file uploads. Each line should contain one allowed Doctype. If unset, uploads to all doctypes are allowed. Example: <br>User<br>Item<br>Quotation;Informe uma lista de DocTypes permitidos para envio de arquivos. Cada linha deve conter um DocType permitido. Se não for definida, o envio será permitido para todos os DocTypes. Exemplo: <br>User<br>Item<br>Quotation;;frappe/core/doctype/system_settings/system_settings.json;;
+Publish as a web page;Publicar como página web;;frappe/email/doctype/newsletter/newsletter.json;;
+Python;Python;;frappe/desk/doctype/system_console/system_console.json;;
+QZ Tray Failed: ;Falha do QZ Tray: ;;frappe/public/js/frappe/form/print_utils.js:250;;
+Queued for Submission. You can track the progress over {0}.;Colocado na fila para confirmação. Você pode acompanhar o progresso em {0}.;;frappe/core/doctype/submission_queue/submission_queue.py:186;;
+Queued for backup. It may take a few minutes to an hour.;Colocado na fila de backup. Pode levar de alguns minutos a uma hora.;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.py:65;;
+Queued {0} emails;{0} e-mails colocados na fila;;frappe/email/doctype/newsletter/newsletter.js:95;;
+Queuing emails...;Colocando e-mails na fila...;;frappe/email/doctype/newsletter/newsletter.js:90;;
+RQ Worker;Worker RQ;;frappe/core/doctype/rq_worker/rq_worker.json;;
+Rank;Classificação;;frappe/desk/page/user_profile/user_profile_controller.js:405;;
+Rate Limiting;Limitação de requisições;;frappe/core/doctype/server_script/server_script.json;;
+Rate Limits;Limites de requisições;;frappe/website/doctype/blog_settings/blog_settings.json;;
+Rate limit for email link login;Limite de requisições de login por link de e-mail;;frappe/core/doctype/system_settings/system_settings.json;;
+Re:;Re:;;frappe/email/doctype/email_account/email_account.py:680;;
+Re: {0};Re: {0};;frappe/core/doctype/communication/communication.js:271;;
+Receive an email for notifications of these types. Remove a type to stop its emails (in-app notifications are unaffected).;Receba e-mails para notificações destes tipos. Remova um tipo para deixar de receber seus e-mails (as notificações no aplicativo não são afetadas).;;frappe/desk/doctype/notification_settings/notification_settings.json;;
+Recipient & Status;Destinatário e status;;frappe/desk/doctype/notification_log/notification_log.json;;
+Redact Message After Send;Remover conteúdo da mensagem após o envio;;frappe/email/doctype/email_queue/email_queue.json;;
+Reference Doc;Documento de referência;;frappe/desk/doctype/event/event.json;;
+Rejected malformed encoded address header with synthesized '@': {0};Cabeçalho de endereço codificado malformado rejeitado por conter '@' sintetizado: {0};;frappe/email/receive.py:511;;
+Replace the message body with a placeholder once the email has been sent, so that sensitive content like password reset links is not retained in the queue.;Substituir o corpo da mensagem por um marcador após o envio do e-mail, para que conteúdos sensíveis, como links de redefinição de senha, não sejam mantidos na fila.;;frappe/email/doctype/email_queue/email_queue.json;;
+Request Account Deletion;Solicitar exclusão da conta;;frappe/www/me.html:66;;
+Res: {0};Res: {0};;frappe/core/doctype/communication/communication.js:282;;
+Resend;Reenviar;;frappe/core/doctype/user_invitation/user_invitation.js:17;;
+Reset the password for your account;Redefina a senha da sua conta;;frappe/www/me.html:36;;
+Response ;Resposta ;;frappe/email/doctype/email_template/email_template.json;;
+Robots.txt;Robots.txt;;frappe/website/doctype/website_settings/website_settings.json;;
+"Route: Example ""/app""";"Rota: exemplo ""/app""";;frappe/core/doctype/role/role.json;;
+Row # {0}: Non administrator user can not set the role {1} to the custom doctype;Linha nº {0}: usuários sem acesso de administrador não podem definir o papel {1} para o DocType personalizado;;frappe/core/doctype/doctype/doctype.py:1851;;
+S3 Backup Settings;Configurações de backup S3;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+S3 Backup has been queued. You can track the progress <a href='/app/rq-job/{0}' target='_blank'>here</a>.;O backup S3 foi colocado na fila. Você pode acompanhar o progresso <a href='/app/rq-job/{0}' target='_blank'>aqui</a>.;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.js:20;;
+S3 Bucket Details;Detalhes do bucket S3;;frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json;;
+SMS;SMS;;frappe/core/doctype/communication/communication.json;;
+SMTP Settings for outgoing emails;Configurações SMTP para e-mails de saída;;frappe/email/doctype/email_account/email_account.json;;
+SQL;SQL;;frappe/desk/doctype/system_console/system_console.json;;
+SQL Explain;EXPLAIN SQL;;frappe/core/doctype/recorder/recorder.js:85;;
+Salesforce;Salesforce;;frappe/integrations/doctype/social_login_key/social_login_key.json;;
+Save the document to attach files.;Salve o documento para anexar arquivos.;;frappe/public/js/frappe/form/controls/attachment_gallery.js:30;;
+Schedule Newsletter;Agendar newsletter;;frappe/email/doctype/newsletter/newsletter.js:106;;
+Schedule sending;Agendar envio;;frappe/email/doctype/newsletter/newsletter.js:70;;
+Schedule sending at a later time;Agendar envio para mais tarde;;frappe/email/doctype/newsletter/newsletter.json;;
+Scheduled Sending;Envio agendado;;frappe/email/doctype/newsletter/newsletter.json;;
+Script;Script;;frappe/core/doctype/report/report.json;;
+Scripts;Scripts;;frappe/printing/doctype/letter_head/letter_head.json;;
+Search Bar;Barra de pesquisa;;frappe/core/doctype/user/user.json;;
+Search Results for;Resultados da pesquisa por;;frappe/www/search.py:14;;
+Search or type a command ({0});Pesquise ou digite um comando ({0});;frappe/public/js/frappe/ui/toolbar/navbar.html:29;;
+Security.txt;Security.txt;;frappe/core/doctype/security_settings/security_settings.json;;
+Select Document;Selecionar documento;;frappe/integrations/doctype/webhook/webhook.json;;
+Select a DocType to make a new format;Selecione um DocType para criar um novo formato;;frappe/printing/page/print_format_builder/print_format_builder.js:110;;
+Select a document to check if it meets conditions.;Selecione um documento para verificar se ele atende às condições.;;frappe/integrations/doctype/webhook/webhook.py:133;;
+Select a document to preview request data;Selecione um documento para pré-visualizar os dados da requisição;;frappe/integrations/doctype/webhook/webhook.py:145;;
+Select an app to continue;Selecione um aplicativo para continuar;;frappe/www/apps.html:10;;
+Send Acknowledgement Email;Enviar e-mail de confirmação de recebimento;;frappe/website/doctype/contact_us_settings/contact_us_settings.json;;
+Send Email At;Enviar e-mail em;;frappe/email/doctype/newsletter/newsletter.json;;
+Send Email for Successful Backup;Enviar e-mail para backup bem-sucedido;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.json;;
+Send Email for Successful backup;Enviar e-mail para backup bem-sucedido;;frappe/integrations/doctype/google_drive/google_drive.json;;
+Send Test Email;Enviar e-mail de teste;;frappe/email/doctype/newsletter/newsletter.js:153;;
+Send Web View Link;Enviar link de visualização na web;;frappe/email/doctype/newsletter/newsletter.json;;
+Send a request to delete your account;Envie uma solicitação para excluir sua conta;;frappe/www/me.html:67;;
+Send a test email;Enviar um e-mail de teste;;frappe/email/doctype/newsletter/newsletter.js:10;;
+Send again;Enviar novamente;;frappe/email/doctype/newsletter/newsletter.js:166;;
+Send an acknowledgement email to the email address entered in the contact form.;Enviar um e-mail de confirmação de recebimento para o endereço informado no formulário de contato.;;frappe/website/doctype/contact_us_settings/contact_us_settings.json;;
+Send now;Enviar agora;;frappe/email/doctype/newsletter/newsletter.js:46;;
+Sendgrid;Sendgrid;;frappe/email/doctype/email_account/email_account.json;;
+Sending emails;Enviando e-mails;;frappe/email/doctype/newsletter/newsletter.js:203;;
+Sending...;Enviando...;;frappe/email/doctype/newsletter/newsletter.js:164;;
+Settings to control blog categories and interactions like comments and likes;Configurações para controlar categorias do blog e interações como comentários e curtidas;;frappe/website/doctype/blog_settings/blog_settings.json;;
+Setup Approval Workflows;Configurar workflows de aprovação;;frappe/custom/onboarding_step/workflows/workflows.json;;
+Setup Limited Access for a User;Configurar acesso limitado para um usuário;;frappe/custom/onboarding_step/role_permissions/role_permissions.json;;
+Setup Naming Series;Configurar séries de numeração;;frappe/custom/onboarding_step/naming_series/naming_series.json;;
+"Show ""Call to Action"" in Blog";"Mostrar ""Chamada para ação"" no blog";;frappe/website/doctype/blog_settings/blog_settings.json;;
+Show List;Mostrar lista;;frappe/website/doctype/web_form/web_form.json;;
+Show Saved;Mostrar salvos;;frappe/public/js/frappe/list/list_filter.js:18;;
+Show all blogs;Mostrar todos os blogs;;frappe/website/doctype/blog_post/templates/blog_post_list.html:24;;
+Sign Up is disabled;O cadastro está desabilitado;;frappe/core/doctype/user/user.py:992;;
+"Simple Python Expression, Example: Status in (""Closed"", ""Cancelled"")";"Expressão Python simples. Exemplo: Status in (""Closed"", ""Cancelled"")";;frappe/automation/doctype/assignment_rule/assignment_rule.json;;
+"Simple Python Expression, Example: Status in (""Invalid"")";"Expressão Python simples. Exemplo: Status in (""Invalid"")";;frappe/automation/doctype/assignment_rule/assignment_rule.json;;
+Simple Python Expression, Example: status == 'Open' and type == 'Bug';Expressão Python simples. Exemplo: status == 'Open' and type == 'Bug';;frappe/automation/doctype/assignment_rule/assignment_rule.json;;
+Site;Site;;frappe/templates/emails/security_txt_expiry_alert.html:5;;
+Skype;Skype;;frappe/website/doctype/contact_us_settings/contact_us_settings.json;;
+Slack Webhook URL;URL do webhook do Slack;;frappe/integrations/doctype/slack_webhook_url/slack_webhook_url.json;;
+Snapshot Report;Relatório de snapshot;;frappe/core/doctype/report/report.json;;
+Snapshot Reports;Relatórios de snapshot;;frappe/core/doctype/system_settings/system_settings.json;;
+Source Document Name;Nome do documento de origem;;frappe/desk/doctype/notification_log/notification_log.json;;
+Source Document Type;Tipo do documento de origem;;frappe/desk/doctype/notification_log/notification_log.json;;
+Spam;Spam;;frappe/core/doctype/communication/communication.json;;
+SparkPost;SparkPost;;frappe/email/doctype/email_account/email_account.json;;
+Stack Trace;Stack trace;;frappe/core/doctype/recorder/recorder.js:82;;
+Standard reports can only be created in developer mode.;Relatórios padrão só podem ser criados no modo de desenvolvedor.;;frappe/core/doctype/report/report.py:417;;
+Star us on GitHub;Dê uma estrela no GitHub;;frappe/core/doctype/server_script/server_script_list.js:20;;
+StartTLS;StartTLS;;frappe/integrations/doctype/ldap_settings/ldap_settings.json;;
+Status Updated;Status atualizado;;frappe/www/update-password.html:161;;
+Status: {0};Status: {0};;frappe/www/message.html:40;;
+Subqueries are not allowed in this query.;Subconsultas não são permitidas nesta consulta.;;frappe/model/db_query.py:274;;
+Successfully {0} 1 record.;1 registro {0} com sucesso.;;frappe/core/doctype/data_import/data_import.js:149;;
+Successfully {0} {1} record out of {2}. Click on Export Errored Rows, fix the errors and import again.;{1} registro de {2} {0} com sucesso. Clique em Exportar linhas com erros, corrija os erros e importe novamente.;;frappe/core/doctype/data_import/data_import.js:156;;
+Successfully {0} {1} records out of {2}. Click on Export Errored Rows, fix the errors and import again.;{1} registros de {2} {0} com sucesso. Clique em Exportar linhas com erros, corrija os erros e importe novamente.;;frappe/core/doctype/data_import/data_import.js:161;;
+Successfully {0} {1} records.;{1} registros {0} com sucesso.;;frappe/core/doctype/data_import/data_import.js:151;;
+Sync Data;Sincronizar dados;;frappe/core/doctype/duckdb_sync/duckdb_sync.js:23;;
+Sync In Batches;Sincronizar em lotes;;frappe/core/doctype/system_settings/system_settings.json;;
+Sync Timeout (Seconds);Tempo limite de sincronização (segundos);;frappe/core/doctype/system_settings/system_settings.json;;
+Synced;Sincronizado;;frappe/core/doctype/duckdb_sync_item/duckdb_sync_item.json;;
+System Notifications;Notificações do sistema;;frappe/desk/doctype/notification_settings/notification_settings.json;;
+T;tri;Number system;frappe/public/js/frappe/utils/number_systems.js:5;;
+Tag;Tag;;frappe/desk/doctype/tag/tag.json;;
+Tags;Tags;;frappe/model/meta.py:53;;
+Take Backup;Fazer backup;;frappe/integrations/doctype/google_drive/google_drive.js:29;;
+Take Backup Now;Fazer backup agora;;frappe/integrations/doctype/dropbox_settings/dropbox_settings.js:39;;
+Test email sent to {0};E-mail de teste enviado para {0};;frappe/email/doctype/newsletter/newsletter.py:94;;
+Thank you;Obrigado;;frappe/templates/emails/password_reset.html:5;;
+Thank you for reaching out to us. We will get back to you at the earliest.;Obrigado por entrar em contato. Retornaremos assim que possível.;;frappe/www/contact.py:48;;
+Thank you for your interest in subscribing to our updates;Obrigado pelo interesse em receber nossas atualizações;;frappe/email/doctype/newsletter/newsletter.py:335;;
+The email button is enabled for the user in the document.;O botão de e-mail fica habilitado para o usuário no documento.;;frappe/core/page/permission_manager/permission_manager_help.html:58;;
+The page you are looking for has gone missing.;A página que você procura não foi encontrada.;;frappe/www/404.html:18;;
+The print button is enabled for the user in the document.;O botão de impressão fica habilitado para o usuário no documento.;;frappe/core/page/permission_manager/permission_manager_help.html:53;;
+The total column width cannot be more than 10.;A largura total das colunas não pode ser maior que 10.;;frappe/public/js/frappe/form/grid_row.js:670;;
+The user can create a new Item but cannot edit existing items.;O usuário pode criar um novo item, mas não pode editar itens existentes.;;frappe/core/page/permission_manager/permission_manager_help.html:43;;
+The user can delete Draft / Cancelled documents.;O usuário pode excluir documentos em rascunho ou cancelados.;;frappe/core/page/permission_manager/permission_manager_help.html:48;;
+The user can export report data.;O usuário pode exportar dados de relatórios.;;frappe/core/page/permission_manager/permission_manager_help.html:68;;
+The user can import new records or update existing data for the document.;O usuário pode importar novos registros ou atualizar os dados existentes do documento.;;frappe/core/page/permission_manager/permission_manager_help.html:73;;
+The user can select a Customer in Sales Order but cannot open the Customer master.;O usuário pode selecionar um cliente no pedido de venda, mas não pode abrir o cadastro do cliente.;;frappe/core/page/permission_manager/permission_manager_help.html:28;;
+The user can share document access with another user.;O usuário pode compartilhar o acesso ao documento com outro usuário.;;frappe/core/page/permission_manager/permission_manager_help.html:78;;
+The user can update a customer or any other fields in an existing Sales Order but cannot create a new Sales Order.;O usuário pode atualizar o cliente ou qualquer outro campo de um pedido de venda existente, mas não pode criar um novo pedido de venda.;;frappe/core/page/permission_manager/permission_manager_help.html:38;;
+The user can view Sales Invoices but cannot modify any field values in them.;O usuário pode visualizar faturas de venda, mas não pode modificar os valores dos campos.;;frappe/core/page/permission_manager/permission_manager_help.html:33;;
+There's nothing here;Não há nada aqui;;frappe/www/404.html:15;;
+These announcements will appear inside a dismissible alert below the Navbar.;Estes avisos aparecerão em um alerta que pode ser dispensado abaixo da barra de navegação.;;frappe/core/doctype/navbar_settings/navbar_settings.json;;
+This Doctype does not contain latitude and longitude fields;Este DocType não contém campos de latitude e longitude;;frappe/geo/utils.py:90;;
+This Doctype does not contain location fields;Este DocType não contém campos de localização;;frappe/geo/utils.py:73;;
+This Month;Este mês;;frappe/public/js/frappe/ui/filters/filter.js:672;;
+This Quarter;Este trimestre;;frappe/public/js/frappe/ui/filters/filter.js:676;;
+This Web Form Request has already been used;Esta solicitação de formulário web já foi usada;;frappe/website/doctype/web_form_request/web_form_request.py:59;;
+This Web Form Request has expired;Esta solicitação de formulário web expirou;;frappe/website/doctype/web_form_request/web_form_request.py:62;;
+This Week;Esta semana;;frappe/public/js/frappe/ui/filters/filter.js:668;;
+This Year;Este ano;;frappe/public/js/frappe/ui/filters/filter.js:680;;
+This document allows you to edit limited fields. For all kinds of workspace customization, use the Edit button located on the workspace page;Este documento permite editar apenas alguns campos. Para qualquer personalização do espaço de trabalho, use o botão Editar na página do espaço de trabalho;;frappe/desk/doctype/workspace/workspace.js:23;;
+This document has already been queued for submission. You can track the progress over {0}.;Este documento já foi colocado na fila para confirmação. Você pode acompanhar o progresso em {0}.;;frappe/core/doctype/submission_queue/submission_queue.py:171;;
+This is a snapshot report generated {0}.;Este é um relatório de snapshot gerado {0}.;;frappe/public/js/frappe/views/reports/query_report.js:690;;
+This newsletter is scheduled to be sent on {0};Esta newsletter está agendada para envio em {0};;frappe/email/doctype/newsletter/newsletter.js:223;;
+This newsletter was scheduled to send on a later date. Are you sure you want to send it now?;Esta newsletter estava agendada para uma data posterior. Tem certeza de que deseja enviá-la agora?;;frappe/email/doctype/newsletter/newsletter.js:50;;
+This will terminate the job immediately and might be dangerous, are you sure? ;Isso encerrará a tarefa imediatamente e pode ser perigoso. Tem certeza? ;;frappe/core/doctype/rq_job/rq_job.js:15;;
+Timeline;Linha do tempo;;frappe/core/doctype/user/user.json;;
+To manage your authorized third party apps;Para gerenciar seus aplicativos de terceiros autorizados;;frappe/www/me.html:51;;
+"To use Google Indexing, enable <a href=""/app/google-settings"">Google Settings</a>.";"Para usar a indexação do Google, habilite as <a href=""/app/google-settings"">Configurações do Google</a>.";;frappe/website/doctype/website_settings/website_settings.json;;
+"To use Slack Channel, add a <a href=""#List/Slack%20Webhook%20URL/List"">Slack Webhook URL</a>.";"Para usar um canal do Slack, adicione uma <a href=""#List/Slack%20Webhook%20URL/List"">URL de webhook do Slack</a>.";;frappe/email/doctype/notification/notification.json;;
+Toggle Full Width;Alternar largura total;;frappe/hooks.py;;
+Toggle Section: {0};Alternar seção: {0};;frappe/public/js/frappe/views/workspace/workspace.js:212;;
+Toggle Sidebar;Alternar barra lateral;;frappe/public/js/frappe/ui/page.js:194;;
+Toggle Sidebar;Alternar barra lateral;Button in list view menu;frappe/public/js/frappe/list/list_view.js:1758;;
+Toggle Theme;Alternar tema;;frappe/hooks.py;;
+Tomorrow;Amanhã;;frappe/public/js/frappe/ui/filters/filter.js:745;;
+Too many requests. Please try again later.;Muitas requisições. Tente novamente mais tarde.;;frappe/templates/includes/login/login.js:283;;
+Tools;Ferramentas;;frappe/automation/workspace/tools/tools.json;;
+Top 10;10 melhores;;frappe/core/report/prepared_report_analytics/prepared_report_analytics.js:13;;
+Top Performer;Melhor desempenho;;frappe/templates/emails/energy_points_summary.html:3;;
+Top {0};{0} melhores;;frappe/templates/emails/energy_points_summary.html:33;;
+Total Recipients;Total de destinatários;;frappe/email/doctype/newsletter/newsletter.json;;
+Total Views;Total de visualizações;;frappe/email/doctype/newsletter/newsletter.json;;
+Total number of emails to sync in initial sync process ;Número total de e-mails a sincronizar no processo de sincronização inicial ;;frappe/email/doctype/email_account/email_account.json;;
+Transaction Hash;Hash da transação;;frappe/core/doctype/transaction_log/transaction_log.json;;
+Transaction Log;Log de transações;;frappe/core/doctype/transaction_log/transaction_log.json;;
+Transaction Log Report;Relatório do log de transações;;frappe/core/report/transaction_log_report/transaction_log_report.json;;
+Try the new Print Designer;Experimente o novo Print Designer;;frappe/printing/page/print/print.js:193;;
+Type Distribution;Distribuição por tipo;;frappe/desk/page/user_profile/user_profile.html:17;;
+Type Name;Nome do tipo;;frappe/desk/doctype/notification_type/notification_type.json;;
+UID;UID;;frappe/core/doctype/communication/communication.json;;
+UIDNEXT;UIDNEXT;;frappe/email/doctype/email_account/email_account.json;;
+UIDVALIDITY;UIDVALIDITY;;frappe/email/doctype/email_account/email_account.json;;
+URL;URL;;frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json;;
+Unable to load attachments.;Não foi possível carregar os anexos.;;frappe/public/js/frappe/form/controls/attachment_gallery.js:43;;
+Unhide Workspace;Exibir espaço de trabalho;;frappe/public/js/frappe/views/workspace/workspace.js:601;;
+Unknown file encoding. Tried utf-8, windows-1250, windows-1252.;Codificação de arquivo desconhecida. Foram testadas utf-8, windows-1250 e windows-1252.;;frappe/utils/csvutils.py:84;;
+Unsubscribe Param;Parâmetro de cancelamento de inscrição;;frappe/email/doctype/email_queue/email_queue.json;;
+Updates;Atualizações;;frappe/core/doctype/system_settings/system_settings.json;;
+Upgrade plan;Fazer upgrade do plano;;frappe/public/js/billing.bundle.js:131;;
+Uploading backup to Google Drive.;Enviando backup para o Google Drive.;;frappe/integrations/doctype/google_drive/google_drive.py:198;;
+Uploading successful.;Envio concluído com sucesso.;;frappe/integrations/doctype/google_drive/google_drive.py:203;;
+Uploading to Google Drive;Enviando para o Google Drive;;frappe/integrations/doctype/google_drive/google_drive.js:16;;
+Use Number Format from Currency;Usar formato numérico da moeda;;frappe/core/doctype/system_settings/system_settings.json;;
+Used;Usado;;frappe/website/doctype/web_form_request/web_form_request_list.js:9;;
+User ID of a Blogger;ID do usuário autor do blog;;frappe/website/doctype/blogger/blogger.json;;
+Valid email and name required;É necessário informar e-mail e nome válidos;;frappe/templates/includes/login/login.js:40;;
+Verdana;Verdana;;frappe/printing/doctype/print_settings/print_settings.json;;
+View Blog Post;Ver publicação do blog;;frappe/templates/includes/likes/likes.py:34;;
+View Ref;Ver referência;;frappe/social/doctype/energy_point_log/energy_point_log_list.js:20;;
+View Switcher;Seletor de visualização;;frappe/core/doctype/user/user.json;;
+Wait for it to finish. Deleting the lock file {} will not release the lock.;Aguarde a conclusão. Excluir o arquivo de bloqueio {} não liberará o bloqueio.;;frappe/utils/synchronization.py:48;;
+Web Form Request;Solicitação de formulário web;;frappe/website/doctype/web_form/web_form.json;;
+Web Form Request key is required;A chave da solicitação de formulário web é obrigatória;;frappe/website/doctype/web_form_request/web_form_request.py:129;;
+Web Form Request link copied;Link da solicitação de formulário web copiado;;frappe/website/doctype/web_form_request/web_form_request.js:15;;
+Web Form Values;Valores do formulário web;;frappe/website/doctype/web_form_request/web_form_request.json;;
+Web Site;Site;;frappe/website/workspace/website/website.json;;
+Webhook;Webhook;;frappe/core/doctype/doctype/doctype.json;;
+Websocket;WebSocket;;frappe/desk/doctype/system_health_report/system_health_report.json;;
+"What the recipient receives by email when this notification fires. Mirrors Title/Description by default; set these to make the email differ from the in-app text.";"Conteúdo que o destinatário recebe por e-mail quando esta notificação é acionada. Por padrão, replica o título e a descrição; defina estes campos para diferenciar o e-mail do texto exibido no aplicativo.";;frappe/desk/doctype/notification_log/notification_log.json;;
+Will be used in url (usually first name).;Será usado na URL (geralmente o primeiro nome).;;frappe/website/doctype/blogger/blogger.json;;
+Worflow States Don't Exist;Os estados do workflow não existem;;frappe/workflow/doctype/workflow/workflow.js:140;;
+Workflows allow you to define custom rules for the approval process of a particular document in ERPNext. You can also set complex Workflow Rules and set approval conditions.;Workflows permitem definir regras personalizadas para o processo de aprovação de um documento específico no ERPNext. Você também pode definir regras de workflow complexas e condições de aprovação.;;frappe/custom/onboarding_step/workflows/workflows.json;;
+Workspace not found;Espaço de trabalho não encontrado;;frappe/desk/doctype/workspace/workspace.py:305;;
+Workspace {0} Created Successfully;Espaço de trabalho {0} criado com sucesso;;frappe/public/js/frappe/views/workspace/workspace.js:1310;;
+Workspace {0} Deleted Successfully;Espaço de trabalho {0} excluído com sucesso;;frappe/public/js/frappe/views/workspace/workspace.js:939;;
+Workspace {0} Edited Successfully;Espaço de trabalho {0} editado com sucesso;;frappe/public/js/frappe/views/workspace/workspace.js:717;;
+XLSX;XLSX;;frappe/email/doctype/auto_email_report/auto_email_report.json;;
+Yahoo Mail;Yahoo Mail;;frappe/email/doctype/email_account/email_account.json;;
+Yandex.Mail;Yandex.Mail;;frappe/email/doctype/email_account/email_account.json;;
+You are impersonating as another user.;Você está acessando como outro usuário.;;frappe/public/js/frappe/ui/toolbar/navbar.html:20;;
+You are not allowed to update attendance for another user.;Você não tem permissão para atualizar a participação de outro usuário.;;frappe/desk/doctype/event/event.py:243;;
+You can add dynamic properties from the document by using Jinja templating.;Você pode adicionar propriedades dinâmicas do documento usando templates Jinja.;;frappe/printing/page/print_format_builder/print_format_builder.js:743;;
+You can also copy-paste this ;Você também pode copiar e colar este ;;frappe/templates/emails/download_data.html:9;;
+You can only edit your own replies.;Você só pode editar suas próprias respostas.;;frappe/website/doctype/discussion_topic/discussion_topic.py:36;;
+You can only follow documents for yourself.;Você só pode seguir documentos em seu próprio nome.;;frappe/desk/form/document_follow.py:51;;
+You can only unfollow documents for yourself.;Você só pode deixar de seguir documentos em seu próprio nome.;;frappe/desk/form/document_follow.py:72;;
+You can set a high value here if multiple users will be logging in from the same network.;Você pode definir um valor alto aqui se vários usuários fizerem login a partir da mesma rede.;;frappe/core/doctype/system_settings/system_settings.json;;
+You do not have Read or Select Permissions for {};Você não tem permissão de leitura ou seleção para {};;frappe/client.py:470;;
+You do not have permission to create or restore documents of type {0}.;Você não tem permissão para criar ou restaurar documentos do tipo {0}.;;frappe/core/doctype/deleted_document/deleted_document.py:52;;
+You do not have permission to restore this document.;Você não tem permissão para restaurar este documento.;;frappe/core/doctype/deleted_document/deleted_document.py:57;;
+You don't have permission to create Report records.;Você não tem permissão para criar registros de relatórios.;;frappe/desk/reportview.py:310;;
+You don't have permission to create report for {0};Você não tem permissão para criar relatórios para {0};;frappe/desk/reportview.py:313;;
+You don't have permission to print: {0};Você não tem permissão para imprimir: {0};;frappe/desk/query_report.py:88;;
+You don't have permission to read/attach the file {0}.;Você não tem permissão para ler ou anexar o arquivo {0}.;;frappe/utils/file_manager.py:414;;
+You have a new message from: ;Você tem uma nova mensagem de: ;;frappe/templates/emails/new_message.html:1;;
+You have received a ❤️ like on your blog post;Você recebeu uma curtida ❤️ na sua publicação do blog;;frappe/templates/includes/likes/likes.py:31;;
+You have unseen notifications;Você tem notificações não vistas;;frappe/public/js/frappe/ui/toolbar/navbar.html:50;;
+You haven't added any Dashboard Charts or Number Cards yet.;Você ainda não adicionou gráficos de dashboard nem cartões de indicadores.;;frappe/public/js/frappe/views/dashboard/dashboard_view.js:192;;
+You hit the rate limit because of too many requests. Please try after sometime.;Você atingiu o limite devido ao excesso de requisições. Tente novamente mais tarde.;;frappe/rate_limiter.py:164;;
+You last edited this document;Você fez a última edição deste documento;;frappe/desk/form/activity.py:176;;
+You must login to use this form;Você precisa fazer login para usar este formulário;;frappe/website/doctype/web_form/web_form.py:720;;
+You need to create these first: ;Você precisa criar estes itens primeiro: ;;frappe/public/js/frappe/widgets/links_widget.js:68;;
+You need write permissions to add attachments to this record.;Você precisa de permissão de escrita para adicionar anexos a este registro.;;frappe/utils/file_manager.py:405;;
+YouTube;YouTube;;frappe/public/js/frappe/ui/toolbar/about.js:54;;
+Your login attempt is invalid or has expired. Please try again.;Sua tentativa de login é inválida ou expirou. Tente novamente.;;frappe/utils/oauth.py:231;;
+Your site is undergoing maintenance or being updated.;Seu site está em manutenção ou sendo atualizado.;;frappe/public/js/frappe/ui/toolbar/navbar.html:15;;
+Your website is all set up!;Seu site está configurado!;;frappe/website/module_onboarding/website/website.json;;
+Zero;Zero;;frappe/utils/data.py:1389;;
+Zip file extracts to more than the maximum allowed size of {0} MB;O conteúdo extraído do arquivo ZIP excede o tamanho máximo permitido de {0} MB;;frappe/core/doctype/file/file.py:585 frappe/core/doctype/file/file.py:603;;
+_doctype;_doctype;;frappe/desk/doctype/desktop_icon/desktop_icon.json;;
+`doctype` and `fieldname` are required for deleting property setters.;`doctype` e `fieldname` são obrigatórios para excluir definidores de propriedade.;;frappe/custom/doctype/property_setter/property_setter.py:144;;
+added {0} row(s) to {1};adicionou {0} linha(s) a {1};;frappe/desk/form/activity.py:609;;
+after_insert;after_insert;;frappe/integrations/doctype/webhook/webhook.json;;
+align-center;align-center;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+align-justify;align-justify;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+align-left;align-left;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+align-right;align-right;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+barcode;barcode;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+changed {0};alterou {0};;frappe/desk/form/activity.py:580;;
+check;check;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+cleared {0};limpou {0};;frappe/desk/form/activity.py:573;;
+comment;comment;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+d;d;Days (Field: Duration);frappe/public/js/frappe/utils/utils.js:1127;;
+dd-mm-yyyy;dd-mm-yyyy;;frappe/core/doctype/system_settings/system_settings.json;;
+dd.mm.yyyy;dd.mm.yyyy;;frappe/core/doctype/system_settings/system_settings.json;;
+download;download;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+download-alt;download-alt;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+e.g. (55 + 434) / 4 or =Math.sin(Math.PI/2)...;ex.: (55 + 434) / 4 ou =Math.sin(Math.PI/2)...;;frappe/public/js/frappe/ui/toolbar/awesome_bar.js:189;;
+envelope;envelope;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+facebook;facebook;;frappe/website/doctype/social_link_settings/social_link_settings.json;;
+facetime-video;facetime-video;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+fairlogin;fairlogin;;frappe/integrations/doctype/social_login_key/social_login_key.json;;
+h;h;Hours (Field: Duration);frappe/public/js/frappe/utils/utils.js:1131;;
+hdd;hdd;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+hub;hub;;frappe/public/js/frappe/ui/toolbar/search_utils.js:296;;
+inbox;inbox;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+indent-left;indent-left;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+indent-right;indent-right;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+info-sign;info-sign;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+jane@example.com;jane@example.com;;frappe/templates/signup.html:11 frappe/www/login.html:10;;
+link;link;;frappe/desk/doctype/desktop_icon/desktop_icon.json;;
+linkedin;linkedin;;frappe/website/doctype/social_link_settings/social_link_settings.json;;
+list;list;;frappe/desk/doctype/desktop_icon/desktop_icon.json;;
+list-alt;list-alt;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+m;min;Minutes (Field: Duration);frappe/public/js/frappe/utils/utils.js:1135;;
+min read;min de leitura;;frappe/website/doctype/blog_post/templates/blog_post.html:25;;
+mm-dd-yyyy;mm-dd-yyyy;;frappe/core/doctype/system_settings/system_settings.json;;
+module name...;nome do módulo...;;frappe/public/js/frappe/ui/toolbar/awesome_bar.js:184;;
+new type of document;novo tipo de documento;;frappe/public/js/frappe/ui/toolbar/awesome_bar.js:164;;
+nonce;nonce;;frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json;;
+ok;ok;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+on_cancel;on_cancel;;frappe/integrations/doctype/webhook/webhook.json;;
+on_submit;on_submit;;frappe/integrations/doctype/webhook/webhook.json;;
+on_trash;on_trash;;frappe/integrations/doctype/webhook/webhook.json;;
+on_update;on_update;;frappe/integrations/doctype/webhook/webhook.json;;
+on_update_after_submit;on_update_after_submit;;frappe/integrations/doctype/webhook/webhook.json;;
+plain;plain;;frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json;;
+qrcode;qrcode;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+removed {0} row(s) from {1};removeu {0} linha(s) de {1};;frappe/desk/form/activity.py:610;;
+retweet;retweet;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+s;s;Seconds (Field: Duration);frappe/public/js/frappe/utils/utils.js:1139;;
+s256;s256;;frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json;;
+set {0} to;definiu {0} como;;frappe/desk/form/activity.py:587;;
+set {0} to {1} in row #{2};definiu {0} como {1} na linha nº {2};;frappe/desk/form/activity.py:644;;
+share-alt;share-alt;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+stop;stop;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+tag;tag;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+tags;tags;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+twitter;twitter;;frappe/website/doctype/social_link_settings/social_link_settings.json;;
+updated {0};atualizou {0};;frappe/desk/form/activity.py:571;;
+upload;upload;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+version_table;version_table;;frappe/core/doctype/audit_trail/audit_trail.json;;
+via Google Meet;via Google Meet;;frappe/desk/doctype/event/event.json;;
+via {0};via {0};;frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:17;;
+visible_types entries must be strings or {type: [fields]} maps;As entradas de visible_types devem ser strings ou mapas {type: [fields]};;frappe/desk/form/activity.py:96;;
+visible_types fields for {0} must be a list;Os campos de visible_types para {0} devem ser uma lista;;frappe/desk/form/activity.py:91;;
+visible_types is not valid JSON: {0};visible_types não é um JSON válido: {0};;frappe/desk/form/activity.py:77;;
+visible_types must be a list;visible_types deve ser uma lista;;frappe/desk/form/activity.py:81;;
+wkhtmltopdf;wkhtmltopdf;;frappe/printing/doctype/print_format/print_format.json;;
+wrench;wrench;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+zoom-in;zoom-in;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+zoom-out;zoom-out;;frappe/workflow/doctype/workflow_state/workflow_state.json;;
+{0};{0};;frappe/desk/doctype/event/event.js:87;;
+"{0} ${skip_list ? """" : type}";"{0} ${skip_list ? """" : type}";;frappe/public/js/frappe/ui/toolbar/search_utils.js:193;;
+{0} ${type};{0} ${type};;frappe/public/js/frappe/ui/toolbar/search_utils.js:198;;
+{0} ({1});{0} ({1});;frappe/public/js/frappe/data_import/data_exporter.js:80;;
+{0} ({1}) - {2}%;{0} ({1}) - {2}%;;frappe/public/js/frappe/views/gantt/gantt_view.js:53;;
+{0} = {1};{0} = {1};;frappe/public/js/frappe/ui/toolbar/awesome_bar.js:372;;
+{0} Workspace;Espaço de trabalho {0};;frappe/public/js/frappe/ui/toolbar/search_utils.js:91;;
+{0} appreciation point for {1};{0} ponto de reconhecimento para {1};;frappe/public/js/frappe/form/sidebar/review.js:148;;
+{0} appreciation points for {1};{0} pontos de reconhecimento para {1};;frappe/public/js/frappe/form/sidebar/review.js:150;;
+{0} contains invalid field(s): {1};{0} contém campos inválidos: {1};;frappe/website/doctype/web_form_request/web_form_request.py:110;;
+{0} criticism point for {1};{0} ponto de crítica para {1};;frappe/public/js/frappe/form/sidebar/review.js:154;;
+{0} criticism points for {1};{0} pontos de crítica para {1};;frappe/public/js/frappe/form/sidebar/review.js:156;;
+{0} d;{0} d;;frappe/public/js/frappe/utils/pretty_date.js:35;;
+{0} does not exist;{0} não existe;;frappe/desk/doctype/notification_type/notification_type.py:90;;
+{0} gained {1} points;{0} ganhou {1} pontos;;frappe/templates/emails/energy_points_summary.html:8;;
+{0} gave {1} points;{0} deu {1} pontos;;frappe/templates/emails/energy_points_summary.html:23;;
+{0} h;{0} h;;frappe/public/js/frappe/utils/pretty_date.js:31;;
+{0} has been successfully added to the Email Group.;{0} foi adicionado ao grupo de e-mails com sucesso.;;frappe/email/doctype/newsletter/newsletter.py:383;;
+{0} is a built-in Notification Type and cannot be deleted. Disable it instead.;{0} é um tipo de notificação nativo e não pode ser excluído. Desabilite-o.;;frappe/desk/doctype/notification_type/notification_type.py:41;;
+{0} is not an enabled Print Format for a Report;{0} não é um formato de impressão habilitado para um relatório;;frappe/desk/query_report.py:79;;
+{0} last edited this document;{0} fez a última edição deste documento;;frappe/desk/form/activity.py:177;;
+{0} m;{0} min;;frappe/public/js/frappe/utils/pretty_date.js:29;SAN;"Contexto de tempo relativo indica minutos; o catálogo local do CRM contém a tradução conflitante 'mi'."
+{0} must be beginning with '{1}';{0} deve começar com '{1}';;frappe/model/document.py:1411;;
+{0} must be equal to '{1}';{0} deve ser igual a '{1}';;frappe/model/document.py:1413;;
+{0} must be none of {1};{0} não pode ser nenhum dos valores {1};;frappe/model/document.py:1409;;
+{0} must be {1} {2};{0} deve ser {1} {2};;frappe/model/document.py:1415;;
+"{0} must begin and end with a letter and can only contain letters,
+				hyphen or underscore.";"{0} deve começar e terminar com uma letra e pode conter apenas letras,
+				hífen ou sublinhado.";;frappe/core/doctype/language/language.py:43;;
+{0} never sends email, so it cannot be enabled for users.;{0} nunca envia e-mails, portanto não pode ser habilitado para usuários.;;frappe/desk/doctype/notification_type/notification_type.py:96;;
+{0} of {1} sent;{0} de {1} enviados;;frappe/email/doctype/newsletter/newsletter.js:205;;
+{0} row #{1}: ;{0} linha nº {1}: ;;frappe/model/document.py:1646;;
+{0}: Cannot set Amend without Cancel;{0}: não é possível habilitar Retificar sem Cancelar;;frappe/core/doctype/doctype/doctype.py:1820;;
+{0}: Cannot set Assign Amend if not Submittable;{0}: não é possível habilitar Atribuir retificação se o documento não permitir confirmação;;frappe/core/doctype/doctype/doctype.py:1838;;
+{0}: Cannot set Assign Submit if not Submittable;{0}: não é possível habilitar Atribuir confirmação se o documento não permitir confirmação;;frappe/core/doctype/doctype/doctype.py:1836;;
+{0}: Cannot set Cancel without Submit;{0}: não é possível habilitar Cancelar sem Confirmar;;frappe/core/doctype/doctype/doctype.py:1815;;
+{0}: Cannot set Import without Create;{0}: não é possível habilitar Importar sem Criar;;frappe/core/doctype/doctype/doctype.py:1822;;
+{0}: Cannot set Submit, Cancel, Amend without Write;{0}: não é possível habilitar Confirmar, Cancelar ou Retificar sem Escrita;;frappe/core/doctype/doctype/doctype.py:1818;;
+{0}: Cannot set import as {1} is not importable;{0}: não é possível habilitar a importação porque {1} não permite importação;;frappe/core/doctype/doctype/doctype.py:1842;;
+{0}: Link field cannot reference DocType {1} without Guest read permission;{0}: o campo Link não pode referenciar o DocType {1} sem permissão de leitura para Guest;;frappe/website/doctype/web_form/web_form.py:118;;
+{0}: {1};{0}: {1};;frappe/contacts/doctype/address/address.js:35;;
+{0}: {1} vs {2};{0}: {1} versus {2};;frappe/public/js/frappe/views/reports/query_report.js:1240;;
+{} Active;{} ativos;;frappe/website/workspace/website/website.json;;
+{} Published;{} publicados;;frappe/website/workspace/website/website.json;;
